@@ -24,6 +24,7 @@ These may be helpful for future in the design of a case
 
 ![photo of layout](./pcb.png)
 ![photo of layout](./3d_1.png)
+![photo of layout](./3d_2.png)
 
 ## references
 
