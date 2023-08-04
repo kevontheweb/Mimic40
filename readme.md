@@ -1,4 +1,4 @@
-# not so fullsize ortho
+# ProKey 40+
 
 A tiny ortho board that is pretending to be a fullsize.
 This was mostly an excuse for me to learn KiCad, i have not ordered any pcbs yet so consider these files *under development* until i can order some to test if they work.
