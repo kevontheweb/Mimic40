@@ -1,7 +1,6 @@
 # ProKey 40+
 
-A tiny ortho board that is pretending to be a fullsize.
-This was mostly an excuse for me to learn KiCad, i have not ordered any pcbs yet so consider these files *under development* until i can order some to test if they work.
+A tiny ortho board that is pretending to be a fullsize. I have not ordered any pcbs yet so consider these files *under development* until i can order some to test if they work.
 ![photo of the layout](./layout.png)
 
 <!-- ![image](https://preview.redd.it/kx884bndy0a61.jpg?width=960&crop=smart&auto=webp&s=1fa6bec5f84a0ee9537d982a2f033d2a1d11c4e5) -->
@@ -32,7 +31,11 @@ These may be helpful for future in the design of a case
 
 # to do
 
-- [ ] define outer geometry
+- [x] define outer geometry
+- [x] per key rgb
+- [ ] route rows and columns
+- [ ] make plate cutout file (remember to add a 2u plate mount stabiliser)
+- [x] switch to rp2040 based design (no dev board)
 - [ ] design a case (acrlic laser cut or possible 3d printed)
 - [ ] order pcbs to test
 - [ ] take it from there

@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "8b5abc56-1874-49e8-b0f3-f5f51f608f6a")
-	(paper "A3")
+	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
