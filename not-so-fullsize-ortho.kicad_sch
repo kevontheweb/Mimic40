@@ -684,6 +684,10 @@
 		(uuid "2e5d1793-ca91-4c98-b946-984ff1e61c59")
 	)
 	(no_connect
+		(at 172.72 151.13)
+		(uuid "57ebf332-13e1-4167-bb01-ec388ea1f3ce")
+	)
+	(no_connect
 		(at 203.2 166.37)
 		(uuid "7974da64-6b3f-4eae-9942-e2ebcb7e19f6")
 	)
@@ -712,9 +716,19 @@
 		)
 		(uuid "3640d65e-69a3-40dc-9919-0fbe9156d6bf")
 	)
+	(text "currently no space for it, but the i2c is exposed"
+		(exclude_from_sim no)
+		(at 151.13 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e6759dc-291b-44c6-8cb0-f54cf5536854")
+	)
 	(text "OLED"
 		(exclude_from_sim no)
-		(at 191.77 203.2 0)
+		(at 146.05 200.66 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1078,7 +1092,7 @@
 		(uuid "9c72a969-9641-4360-91cf-ee94d62f4ae5")
 	)
 	(label "SCL"
-		(at 200.66 215.9 0)
+		(at 154.94 213.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1287,7 +1301,7 @@
 		(uuid "eb873c4e-156f-468a-88fd-09de6eae45ec")
 	)
 	(label "SDA"
-		(at 200.66 213.36 0)
+		(at 154.94 210.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1721,7 +1735,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 220.98 90)
+		(at 154.94 218.44 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1730,7 +1744,7 @@
 		(dnp no)
 		(uuid "7d5de77c-b05d-4f6e-a8f5-b6b9160875d0")
 		(property "Reference" "#PWR034"
-			(at 207.01 220.98 0)
+			(at 161.29 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +1753,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.9112 221.107 90)
+			(at 158.1912 218.567 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +1762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 220.98 0)
+			(at 154.94 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 220.98 0)
+			(at 154.94 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1766,7 +1780,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 220.98 0)
+			(at 154.94 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +1802,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 200.66 218.44 270)
+		(at 154.94 215.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1796,7 +1810,7 @@
 		(dnp no)
 		(uuid "85bc13da-5f91-4824-95d6-a25965428cb2")
 		(property "Reference" "#PWR035"
-			(at 196.85 218.44 0)
+			(at 151.13 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +1819,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 205.74 218.44 90)
+			(at 160.02 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +1827,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 218.44 0)
+			(at 154.94 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,7 +1836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 218.44 0)
+			(at 154.94 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,7 +1845,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 218.44 0)
+			(at 154.94 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,16 +2132,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 195.58 218.44 180)
+		(at 149.86 215.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fc834aae-800d-45be-b8e5-36c113b9ff4f")
 		(property "Reference" "J4"
-			(at 195.58 207.01 0)
+			(at 149.86 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2149,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 195.58 209.55 0)
+			(at 149.86 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,7 +2157,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 195.58 218.44 0)
+			(at 149.86 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,7 +2166,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 218.44 0)
+			(at 149.86 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2161,7 +2175,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 195.58 218.44 0)
+			(at 149.86 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,6 +2303,16 @@
 				(justify right)
 			)
 			(uuid "1cf75b2c-2c82-483d-893a-04994e277c65")
+		)
+		(pin "D_OUT" input
+			(at 172.72 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ce914929-ec6b-4cf1-900f-b11567d817ae")
 		)
 		(instances
 			(project "not-so-fullsize-ortho"

@@ -5,6 +5,203 @@
 	(uuid "1b3b88d9-a27e-484e-8fdb-4da29fc8865b")
 	(paper "A3" portrait)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Odd_Even"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LED:WS2812B"
 			(pin_names
 				(offset 0.254)
@@ -477,12 +674,6 @@
 		)
 	)
 	(junction
-		(at 66.04 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01e9b799-d141-4394-af30-975d7fc6776b")
-	)
-	(junction
 		(at 119.38 326.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -585,12 +776,6 @@
 		(uuid "23f6d9e9-9e7f-415a-8c79-c795c3d79043")
 	)
 	(junction
-		(at 147.32 280.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a0d15c1-f23d-4320-b0ff-9c6372d2910e")
-	)
-	(junction
 		(at 147.32 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -675,10 +860,10 @@
 		(uuid "3e727698-ee34-4afd-963c-8056d9687fa6")
 	)
 	(junction
-		(at 91.44 67.31)
+		(at 147.32 280.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4249616e-d895-427c-a4f1-3503e9a92c1a")
+		(uuid "404d4759-659f-420e-bbc6-a47efac4cab5")
 	)
 	(junction
 		(at 175.26 135.89)
@@ -699,10 +884,22 @@
 		(uuid "465c9422-57b9-48be-a6c9-dfab7191b218")
 	)
 	(junction
+		(at 175.26 295.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46a1f4c2-5f2c-474a-b020-87634d21933d")
+	)
+	(junction
 		(at 175.26 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bdb47de-5b90-4e56-b0fd-b076375b42e7")
+	)
+	(junction
+		(at 147.32 295.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ef4afa1-a5e3-4e2d-87b5-e51443485230")
 	)
 	(junction
 		(at 91.44 120.65)
@@ -795,12 +992,6 @@
 		(uuid "678fdd45-9646-41b5-8841-feffafb54a4d")
 	)
 	(junction
-		(at 91.44 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68756181-255d-47f4-9af7-81ca39dbf47a")
-	)
-	(junction
 		(at 119.38 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -819,10 +1010,10 @@
 		(uuid "71231963-31c5-4899-92b4-d0b5d660d72f")
 	)
 	(junction
-		(at 147.32 295.91)
+		(at 119.38 295.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7357f8aa-989d-4c35-af95-16231e659d8d")
+		(uuid "75f4a732-a1f6-4ea8-89f0-804f4c639d67")
 	)
 	(junction
 		(at 175.26 113.03)
@@ -861,12 +1052,6 @@
 		(uuid "8255eb90-b25f-464c-8dc1-bdb1aed3225d")
 	)
 	(junction
-		(at 175.26 295.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "867a8dc3-3e4c-48e7-a1f0-9547634ef58f")
-	)
-	(junction
 		(at 175.26 280.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -897,10 +1082,10 @@
 		(uuid "9331c638-8845-4a92-8fed-bdbf506a0ad4")
 	)
 	(junction
-		(at 110.49 59.69)
+		(at 119.38 280.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9c30d3f1-ebeb-4b2d-bbcc-fc9ef14f9301")
+		(uuid "942cb274-43ff-4130-9025-7476e3b2ffe0")
 	)
 	(junction
 		(at 66.04 234.95)
@@ -991,12 +1176,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2e6719b-ee82-4235-8b6f-1ab150afc710")
-	)
-	(junction
-		(at 119.38 280.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c90b5745-0e02-4212-88c3-da7b1c0ca81e")
 	)
 	(junction
 		(at 91.44 273.05)
@@ -1113,12 +1292,6 @@
 		(uuid "ee6e993c-611c-4aae-81b8-a032ef11d01f")
 	)
 	(junction
-		(at 119.38 295.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eed9aee1-3bd7-45ed-850a-d810499ea176")
-	)
-	(junction
 		(at 119.38 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1153,6 +1326,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb13c3d5-7897-491c-816d-b9a876e14f1e")
+	)
+	(no_connect
+		(at 210.82 82.55)
+		(uuid "3a005e02-ea09-460f-90a4-36a015bf4225")
 	)
 	(wire
 		(pts
@@ -1213,16 +1390,6 @@
 			(type default)
 		)
 		(uuid "089b08ca-62be-4d92-93c1-d520fec24ffc")
-	)
-	(wire
-		(pts
-			(xy 81.28 72.39) (xy 81.28 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0975d723-1591-4c50-b1fd-fbcc32fb90bd")
 	)
 	(wire
 		(pts
@@ -1333,16 +1500,6 @@
 			(type default)
 		)
 		(uuid "182aabd3-61fd-4c7d-aeab-6eae90a8e98f")
-	)
-	(wire
-		(pts
-			(xy 147.32 280.67) (xy 175.26 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "186d2140-0d3f-4fd5-acc9-390e3da11cb8")
 	)
 	(wire
 		(pts
@@ -1466,16 +1623,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 52.07) (xy 66.04 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25acea2e-cb86-42f9-800d-e0005b47ef49")
-	)
-	(wire
-		(pts
 			(xy 175.26 74.93) (xy 147.32 74.93)
 		)
 		(stroke
@@ -1576,16 +1723,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 72.39) (xy 81.28 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "306e9935-7edb-4a7d-9db9-7e58d6ed68ec")
-	)
-	(wire
-		(pts
 			(xy 203.2 257.81) (xy 175.26 257.81)
 		)
 		(stroke
@@ -1593,16 +1730,6 @@
 			(type default)
 		)
 		(uuid "316b94d3-a26f-4e6c-9e00-fe88172169aa")
-	)
-	(wire
-		(pts
-			(xy 147.32 295.91) (xy 175.26 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31faa81c-0e50-4c60-b7ea-a89ac62c21d0")
 	)
 	(wire
 		(pts
@@ -1633,6 +1760,16 @@
 			(type default)
 		)
 		(uuid "35561993-59d1-488d-b6cf-ec114815be10")
+	)
+	(wire
+		(pts
+			(xy 209.55 288.29) (xy 223.52 288.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381dac64-5107-4eef-aa7c-c0150963edd1")
 	)
 	(wire
 		(pts
@@ -1836,6 +1973,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 280.67) (xy 147.32 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4813fbbb-cc25-4641-b3eb-8f1f6d740b5f")
+	)
+	(wire
+		(pts
 			(xy 119.38 204.47) (xy 147.32 204.47)
 		)
 		(stroke
@@ -1853,16 +2000,6 @@
 			(type default)
 		)
 		(uuid "4c8f40f4-b8d1-4a4e-933c-2c65fd4df048")
-	)
-	(wire
-		(pts
-			(xy 210.82 288.29) (xy 223.52 288.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cc3fb50-3b56-49a2-8b3d-eba6c323cf29")
 	)
 	(wire
 		(pts
@@ -1923,26 +2060,6 @@
 			(type default)
 		)
 		(uuid "535c3947-0543-4ecd-b80a-1f87f13d5ef0")
-	)
-	(wire
-		(pts
-			(xy 223.52 72.39) (xy 223.52 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5454faff-db04-4cb2-b028-be3bb3766e25")
-	)
-	(wire
-		(pts
-			(xy 91.44 67.31) (xy 118.11 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54c82dc0-3617-4ff9-86c4-a57bd1abf12f")
 	)
 	(wire
 		(pts
@@ -2016,17 +2133,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 59.69) (xy 111.76 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59dfea30-132b-4628-89ef-040ad8d22e4b")
-	)
-	(wire
-		(pts
-			(xy 175.26 280.67) (xy 203.2 280.67)
+			(xy 175.26 280.67) (xy 201.93 280.67)
 		)
 		(stroke
 			(width 0)
@@ -2166,7 +2273,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 288.29) (xy 195.58 288.29)
+			(xy 182.88 288.29) (xy 194.31 288.29)
 		)
 		(stroke
 			(width 0)
@@ -2246,16 +2353,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 52.07) (xy 118.11 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7315bab0-a48a-4907-8a86-501150566682")
-	)
-	(wire
-		(pts
 			(xy 223.52 196.85) (xy 223.52 186.69)
 		)
 		(stroke
@@ -2303,26 +2400,6 @@
 			(type default)
 		)
 		(uuid "75b785e9-4510-4211-a69f-9a6d0ef3497d")
-	)
-	(wire
-		(pts
-			(xy 119.38 280.67) (xy 147.32 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "790bd0b5-7fc5-43f1-b81b-e33923823c04")
-	)
-	(wire
-		(pts
-			(xy 99.06 59.69) (xy 110.49 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79878bce-a136-4d83-83c4-2d55590968fe")
 	)
 	(wire
 		(pts
@@ -2696,16 +2773,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 59.69) (xy 83.82 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dad861b-fc5a-4943-8441-f8edfa6df711")
-	)
-	(wire
-		(pts
 			(xy 99.06 311.15) (xy 111.76 311.15)
 		)
 		(stroke
@@ -2826,6 +2893,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 295.91) (xy 175.26 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e2d700-c109-426e-a567-84b4e37f46cf")
+	)
+	(wire
+		(pts
 			(xy 147.32 234.95) (xy 175.26 234.95)
 		)
 		(stroke
@@ -2863,6 +2940,16 @@
 			(type default)
 		)
 		(uuid "b97db4b7-ce9f-436b-a972-8f05aa5b3ce9")
+	)
+	(wire
+		(pts
+			(xy 119.38 295.91) (xy 147.32 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5322c8-37bb-43d0-9b41-c48545b86dbb")
 	)
 	(wire
 		(pts
@@ -2933,6 +3020,16 @@
 			(type default)
 		)
 		(uuid "c0cbe015-ebd3-4665-a1e7-47a3bb44d34f")
+	)
+	(wire
+		(pts
+			(xy 175.26 295.91) (xy 201.93 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0fe4a10-0b4a-4fa0-914c-f5a555b17aef")
 	)
 	(wire
 		(pts
@@ -3136,16 +3233,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 52.07) (xy 91.44 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d651acb3-cee0-459a-8902-e340d4760536")
-	)
-	(wire
-		(pts
 			(xy 91.44 189.23) (xy 119.38 189.23)
 		)
 		(stroke
@@ -3163,16 +3250,6 @@
 			(type default)
 		)
 		(uuid "da9f8c5a-f621-48b3-8c0e-8f9178046c86")
-	)
-	(wire
-		(pts
-			(xy 175.26 295.91) (xy 203.2 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dac20375-1496-4bd3-8e70-0e2eef132eb1")
 	)
 	(wire
 		(pts
@@ -3253,16 +3330,6 @@
 			(type default)
 		)
 		(uuid "e1cc7750-53c2-4f68-aa5e-dbe59afb4b33")
-	)
-	(wire
-		(pts
-			(xy 210.82 82.55) (xy 223.52 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e26a0d4d-1e25-4823-87ef-8db72ad2a83b")
 	)
 	(wire
 		(pts
@@ -3456,16 +3523,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 295.91) (xy 147.32 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f903e058-c714-461b-88e6-b2fc996d35f7")
-	)
-	(wire
-		(pts
 			(xy 119.38 120.65) (xy 91.44 120.65)
 		)
 		(stroke
@@ -3496,6 +3553,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 280.67) (xy 175.26 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec6b6a1-294d-4d24-95ab-5c1a1da23233")
+	)
+	(wire
+		(pts
 			(xy 81.28 323.85) (xy 81.28 311.15)
 		)
 		(stroke
@@ -3519,7 +3586,7 @@
 	)
 	(text "Use V_bus to power leds"
 		(exclude_from_sim no)
-		(at 53.34 44.45 0)
+		(at 54.61 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3527,6 +3594,18 @@
 			(justify left bottom)
 		)
 		(uuid "b77264a1-13ff-4ac5-b6d3-c4de9b08da96")
+	)
+	(hierarchical_label "D_IN"
+		(shape input)
+		(at 25.4 335.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27cc45cf-39a9-43f4-8ae4-6b04ef381af1")
 	)
 	(hierarchical_label "D_IN"
 		(shape input)
@@ -3540,6 +3619,30 @@
 		)
 		(uuid "2dd760ff-6675-4754-8db1-e424d2d4a750")
 	)
+	(hierarchical_label "D_OUT"
+		(shape input)
+		(at 210.82 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38e83ef6-9ec1-40a9-8c5c-325854c8ca48")
+	)
+	(hierarchical_label "D_OUT"
+		(shape input)
+		(at 38.1 337.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a91102af-5536-4854-9e5a-11782076f549")
+	)
 	(symbol
 		(lib_id "LED:WS2812B")
 		(at 91.44 128.27 0)
@@ -3550,7 +3653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "006678ca-1956-4017-8ea8-24b9ca3070dc")
-		(property "Reference" "D_RGB13"
+		(property "Reference" "D_RGB11"
 			(at 102.87 123.9393 0)
 			(effects
 				(font
@@ -3610,7 +3713,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB13")
+					(reference "D_RGB11")
 					(unit 1)
 				)
 			)
@@ -3626,7 +3729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "045eafb8-ae99-4695-ad61-a9f99961349f")
-		(property "Reference" "D_RGB61"
+		(property "Reference" "D_RGB59"
 			(at 158.75 329.6793 0)
 			(effects
 				(font
@@ -3686,7 +3789,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB61")
+					(reference "D_RGB59")
 					(unit 1)
 				)
 			)
@@ -3702,7 +3805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0517132e-3417-4f66-b835-4de09c8df554")
-		(property "Reference" "D_RGB60"
+		(property "Reference" "D_RGB58"
 			(at 130.81 329.6793 0)
 			(effects
 				(font
@@ -3762,7 +3865,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB60")
+					(reference "D_RGB58")
 					(unit 1)
 				)
 			)
@@ -3778,7 +3881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06fff284-bd08-4994-ad63-2ab71382e577")
-		(property "Reference" "D_RGB54"
+		(property "Reference" "D_RGB52"
 			(at 130.81 306.8193 0)
 			(effects
 				(font
@@ -3838,7 +3941,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB54")
+					(reference "D_RGB52")
 					(unit 1)
 				)
 			)
@@ -3854,7 +3957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c30eaa2-f95b-4ce0-b3f1-5f383d909ef9")
-		(property "Reference" "D_RGB59"
+		(property "Reference" "D_RGB57"
 			(at 102.87 329.6793 0)
 			(effects
 				(font
@@ -3914,7 +4017,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB59")
+					(reference "D_RGB57")
 					(unit 1)
 				)
 			)
@@ -3930,7 +4033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c790afc-668d-4b12-8801-8d4b98abd928")
-		(property "Reference" "D_RGB18"
+		(property "Reference" "D_RGB16"
 			(at 102.87 146.7993 0)
 			(effects
 				(font
@@ -3990,7 +4093,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB18")
+					(reference "D_RGB16")
 					(unit 1)
 				)
 			)
@@ -4006,7 +4109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f3edd23-953c-477f-b99e-888450513692")
-		(property "Reference" "D_RGB51"
+		(property "Reference" "D_RGB62"
 			(at 186.69 283.9593 0)
 			(effects
 				(font
@@ -4066,7 +4169,74 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB51")
+					(reference "D_RGB62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 337.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10b2b065-d6cf-4b6b-9c3b-d956b8d58551")
+		(property "Reference" "#PWR030"
+			(at 19.05 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 337.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b3bd61c-e705-47d7-910c-c57cd8b38a03")
+		)
+		(instances
+			(project "not-so-fullsize-ortho"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4082,7 +4252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11b0a88e-5395-46d0-9e92-b1469a3c690b")
-		(property "Reference" "D_RGB62"
+		(property "Reference" "D_RGB60"
 			(at 186.69 329.6793 0)
 			(effects
 				(font
@@ -4142,7 +4312,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB62")
+					(reference "D_RGB60")
 					(unit 1)
 				)
 			)
@@ -4292,7 +4462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1881d394-f696-41bf-841e-319511018c99")
-		(property "Reference" "D_RGB44"
+		(property "Reference" "D_RGB42"
 			(at 130.81 261.0993 0)
 			(effects
 				(font
@@ -4352,7 +4522,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB44")
+					(reference "D_RGB42")
 					(unit 1)
 				)
 			)
@@ -4368,7 +4538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b944c39-c22c-4853-9ed8-2f28333b6b3e")
-		(property "Reference" "D_RGB41"
+		(property "Reference" "D_RGB39"
 			(at 186.69 238.2393 0)
 			(effects
 				(font
@@ -4428,7 +4598,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB41")
+					(reference "D_RGB39")
 					(unit 1)
 				)
 			)
@@ -4511,7 +4681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "244ce2d4-8d39-4215-b475-ee9a3691ba53")
-		(property "Reference" "D_RGB28"
+		(property "Reference" "D_RGB26"
 			(at 102.87 192.5193 0)
 			(effects
 				(font
@@ -4571,7 +4741,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB28")
+					(reference "D_RGB26")
 					(unit 1)
 				)
 			)
@@ -4587,7 +4757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "273f6702-86e1-42d4-83ee-4df35fd0a4e8")
-		(property "Reference" "D_RGB14"
+		(property "Reference" "D_RGB12"
 			(at 130.81 123.9393 0)
 			(effects
 				(font
@@ -4647,7 +4817,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB14")
+					(reference "D_RGB12")
 					(unit 1)
 				)
 			)
@@ -4663,7 +4833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "293cc180-4162-474b-a168-0640003409ff")
-		(property "Reference" "D_RGB33"
+		(property "Reference" "D_RGB31"
 			(at 102.87 215.3793 0)
 			(effects
 				(font
@@ -4723,7 +4893,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB33")
+					(reference "D_RGB31")
 					(unit 1)
 				)
 			)
@@ -4731,7 +4901,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 66.04 52.07 0)
+		(at 66.04 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4740,7 +4910,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e56cffa-565a-4b36-9605-595eeffd84f8")
 		(property "Reference" "#PWR029"
-			(at 66.04 55.88 0)
+			(at 66.04 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,7 +4919,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 66.421 47.6758 0)
+			(at 66.421 70.5358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,7 +4927,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 52.07 0)
+			(at 66.04 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,7 +4936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 52.07 0)
+			(at 66.04 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4775,7 +4945,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 52.07 0)
+			(at 66.04 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4805,7 +4975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "361d33ce-b8e9-4f81-98c6-f6c28aa6be96")
-		(property "Reference" "D_RGB4"
+		(property "Reference" "D_RGB2"
 			(at 130.81 78.2193 0)
 			(effects
 				(font
@@ -4865,82 +5035,6 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 118.11 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3919bf8b-1be6-47f8-88da-25a0521bbc6f")
-		(property "Reference" "D_RGB2"
-			(at 129.54 55.3593 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 129.54 57.8993 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:LED_SK6812MINI_E_3.5x3.5mm_P1.75mm"
-			(at 119.38 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 120.65 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54847e16-ed5b-466e-a02b-324d2b02c883")
-		)
-		(pin "2"
-			(uuid "bbea4da5-6644-4896-ac1a-ff9b9b1cfc1a")
-		)
-		(pin "3"
-			(uuid "3c3b4994-9bd9-438b-8f00-335bae83d61f")
-		)
-		(pin "4"
-			(uuid "5dd7b2af-e4cf-4d12-9ba2-a430daf807a7")
-		)
-		(instances
-			(project "not-so-fullsize-ortho"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB2")
 					(unit 1)
 				)
@@ -4957,7 +5051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39b61a76-6eaa-420f-a12a-058ea57f7f91")
-		(property "Reference" "D_RGB58"
+		(property "Reference" "D_RGB56"
 			(at 77.47 329.6793 0)
 			(effects
 				(font
@@ -5017,7 +5111,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB58")
+					(reference "D_RGB56")
 					(unit 1)
 				)
 			)
@@ -5033,7 +5127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aab4338-ca5f-4fd7-8873-002a0f2dbc0a")
-		(property "Reference" "D_RGB31"
+		(property "Reference" "D_RGB29"
 			(at 186.69 192.5193 0)
 			(effects
 				(font
@@ -5093,7 +5187,74 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB31")
+					(reference "D_RGB29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 38.1 335.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f30d07e-e349-4e0a-b31e-5683b38ffb76")
+		(property "Reference" "#PWR046"
+			(at 34.29 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 41.91 335.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b6f120d-bb60-498a-929a-d06c4e2ef6c3")
+		)
+		(instances
+			(project "not-so-fullsize-ortho"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5176,7 +5337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4393fbc3-b448-4966-b961-1c63c9421751")
-		(property "Reference" "D_RGB16"
+		(property "Reference" "D_RGB14"
 			(at 186.69 123.9393 0)
 			(effects
 				(font
@@ -5236,7 +5397,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB16")
+					(reference "D_RGB14")
 					(unit 1)
 				)
 			)
@@ -5252,7 +5413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44d0487b-8270-40ea-8c07-0857dc7867de")
-		(property "Reference" "D_RGB10"
+		(property "Reference" "D_RGB8"
 			(at 158.75 101.0793 0)
 			(effects
 				(font
@@ -5312,7 +5473,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB10")
+					(reference "D_RGB8")
 					(unit 1)
 				)
 			)
@@ -5328,7 +5489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "471096a9-5873-426e-b2e2-88890a91a520")
-		(property "Reference" "D_RGB11"
+		(property "Reference" "D_RGB9"
 			(at 186.69 101.0793 0)
 			(effects
 				(font
@@ -5388,7 +5549,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB11")
+					(reference "D_RGB9")
 					(unit 1)
 				)
 			)
@@ -5404,7 +5565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49f6f702-2bae-4602-897e-438285f1ad83")
-		(property "Reference" "D_RGB45"
+		(property "Reference" "D_RGB43"
 			(at 158.75 261.0993 0)
 			(effects
 				(font
@@ -5464,7 +5625,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB45")
+					(reference "D_RGB43")
 					(unit 1)
 				)
 			)
@@ -5480,7 +5641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ce0d565-76c9-4854-b966-70a343b22478")
-		(property "Reference" "D_RGB37"
+		(property "Reference" "D_RGB35"
 			(at 214.63 215.3793 0)
 			(effects
 				(font
@@ -5540,7 +5701,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB37")
+					(reference "D_RGB35")
 					(unit 1)
 				)
 			)
@@ -5556,7 +5717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "516dabae-f818-4f9e-978d-a6eda3c48840")
-		(property "Reference" "D_RGB46"
+		(property "Reference" "D_RGB44"
 			(at 186.69 261.0993 0)
 			(effects
 				(font
@@ -5616,7 +5777,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB46")
+					(reference "D_RGB44")
 					(unit 1)
 				)
 			)
@@ -5632,7 +5793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54a19e8f-a10d-4f7b-a64d-a77aee434ee8")
-		(property "Reference" "D_RGB23"
+		(property "Reference" "D_RGB21"
 			(at 102.87 169.6593 0)
 			(effects
 				(font
@@ -5692,7 +5853,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB23")
+					(reference "D_RGB21")
 					(unit 1)
 				)
 			)
@@ -5708,7 +5869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59b1f027-d79f-4a59-a578-1127080cc2c1")
-		(property "Reference" "D_RGB8"
+		(property "Reference" "D_RGB6"
 			(at 102.87 101.0793 0)
 			(effects
 				(font
@@ -5768,7 +5929,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB8")
+					(reference "D_RGB6")
 					(unit 1)
 				)
 			)
@@ -5784,7 +5945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b35de72-b251-4c53-91da-9ae15c5e11d2")
-		(property "Reference" "D_RGB43"
+		(property "Reference" "D_RGB41"
 			(at 102.87 261.0993 0)
 			(effects
 				(font
@@ -5844,7 +6005,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB43")
+					(reference "D_RGB41")
 					(unit 1)
 				)
 			)
@@ -5927,7 +6088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6603cd5a-2a2f-46ae-9090-f8cded99f86d")
-		(property "Reference" "D_RGB38"
+		(property "Reference" "D_RGB36"
 			(at 102.87 238.2393 0)
 			(effects
 				(font
@@ -5987,7 +6148,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB38")
+					(reference "D_RGB36")
 					(unit 1)
 				)
 			)
@@ -6003,7 +6164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69e4dcd0-23e7-4544-a391-e9c045602256")
-		(property "Reference" "D_RGB40"
+		(property "Reference" "D_RGB38"
 			(at 158.75 238.2393 0)
 			(effects
 				(font
@@ -6063,7 +6224,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB40")
+					(reference "D_RGB38")
 					(unit 1)
 				)
 			)
@@ -6079,7 +6240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bdc19b2-54e8-471d-ae79-18128643ba63")
-		(property "Reference" "D_RGB48"
+		(property "Reference" "D_RGB46"
 			(at 102.87 283.9593 0)
 			(effects
 				(font
@@ -6139,7 +6300,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB48")
+					(reference "D_RGB46")
 					(unit 1)
 				)
 			)
@@ -6155,7 +6316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e31c6b6-dd69-4986-aba8-d85cc718fee0")
-		(property "Reference" "D_RGB24"
+		(property "Reference" "D_RGB22"
 			(at 130.81 169.6593 0)
 			(effects
 				(font
@@ -6215,7 +6376,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB24")
+					(reference "D_RGB22")
 					(unit 1)
 				)
 			)
@@ -6231,7 +6392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71e02f7a-26aa-4ebb-bc9d-79251dae0c71")
-		(property "Reference" "D_RGB26"
+		(property "Reference" "D_RGB24"
 			(at 186.69 169.6593 0)
 			(effects
 				(font
@@ -6291,83 +6452,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 203.2 288.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72e94cf7-6cce-43b1-84ea-4b927a2ce82e")
-		(property "Reference" "D_RGB52"
-			(at 214.63 283.9593 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 214.63 286.4993 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:LED_SK6812MINI_E_3.5x3.5mm_P1.75mm"
-			(at 204.47 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 205.74 297.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4fa2f6a1-2427-4304-a6b2-42631ab40a29")
-		)
-		(pin "2"
-			(uuid "b266e26e-e33e-435c-a53c-150c59da161d")
-		)
-		(pin "3"
-			(uuid "d55911fd-8e33-4acc-a152-808e5f21d71c")
-		)
-		(pin "4"
-			(uuid "0dad674b-b5f9-4fc5-a856-1c61bcc3f257")
-		)
-		(instances
-			(project "not-so-fullsize-ortho"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB52")
+					(reference "D_RGB24")
 					(unit 1)
 				)
 			)
@@ -6450,7 +6535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "781506e2-bfad-4277-bade-48a79499bd5a")
-		(property "Reference" "D_RGB55"
+		(property "Reference" "D_RGB53"
 			(at 158.75 306.8193 0)
 			(effects
 				(font
@@ -6510,7 +6595,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB55")
+					(reference "D_RGB53")
 					(unit 1)
 				)
 			)
@@ -6526,7 +6611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "798008d3-edc1-4e43-80e0-04643e8f891f")
-		(property "Reference" "D_RGB32"
+		(property "Reference" "D_RGB30"
 			(at 214.63 192.5193 0)
 			(effects
 				(font
@@ -6586,7 +6671,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB32")
+					(reference "D_RGB30")
 					(unit 1)
 				)
 			)
@@ -6602,7 +6687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b0147a5-5a41-407c-98d3-981224b52310")
-		(property "Reference" "D_RGB36"
+		(property "Reference" "D_RGB34"
 			(at 186.69 215.3793 0)
 			(effects
 				(font
@@ -6662,7 +6747,83 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB36")
+					(reference "D_RGB34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 147.32 288.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8303b85c-61db-468f-9a81-7f2943ccfcb4")
+		(property "Reference" "D_RGB48"
+			(at 158.75 283.9593 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 158.75 286.4993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbd:LED_SK6812MINI_E_3.5x3.5mm_P1.75mm"
+			(at 148.59 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 149.86 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b53140b-501a-41ca-a341-0857af65cc04")
+		)
+		(pin "2"
+			(uuid "34256c13-b346-4bc4-b83d-46564e420062")
+		)
+		(pin "3"
+			(uuid "0aa55b9d-36c8-43d9-ba08-b162d8f83b4c")
+		)
+		(pin "4"
+			(uuid "3fdc3884-4804-4219-a571-05345fcf8c49")
+		)
+		(instances
+			(project "not-so-fullsize-ortho"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "D_RGB48")
 					(unit 1)
 				)
 			)
@@ -6678,7 +6839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "847e2dd8-c52d-4b13-a795-bc711c0bf2c4")
-		(property "Reference" "D_RGB15"
+		(property "Reference" "D_RGB13"
 			(at 158.75 123.9393 0)
 			(effects
 				(font
@@ -6738,7 +6899,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB15")
+					(reference "D_RGB13")
 					(unit 1)
 				)
 			)
@@ -6955,7 +7116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d829c71-7b67-459f-a180-d850bd5fa8cd")
-		(property "Reference" "D_RGB12"
+		(property "Reference" "D_RGB10"
 			(at 214.63 101.0793 0)
 			(effects
 				(font
@@ -7015,7 +7176,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB12")
+					(reference "D_RGB10")
 					(unit 1)
 				)
 			)
@@ -7031,7 +7192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91bd68d7-9743-402b-be52-4fa4eff045b5")
-		(property "Reference" "D_RGB53"
+		(property "Reference" "D_RGB51"
 			(at 102.87 306.8193 0)
 			(effects
 				(font
@@ -7091,7 +7252,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB53")
+					(reference "D_RGB51")
 					(unit 1)
 				)
 			)
@@ -7107,7 +7268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94cbef94-72f8-4df1-858c-3495cca059b0")
-		(property "Reference" "D_RGB56"
+		(property "Reference" "D_RGB54"
 			(at 186.69 306.8193 0)
 			(effects
 				(font
@@ -7167,83 +7328,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 91.44 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b27514b-5a67-497d-b4aa-12bd8fe46ec0")
-		(property "Reference" "D_RGB1"
-			(at 102.87 55.3593 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 102.87 57.8993 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:LED_SK6812MINI_E_3.5x3.5mm_P1.75mm"
-			(at 92.71 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 93.98 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "627c5fc3-050c-4cbe-a179-dc740309f332")
-		)
-		(pin "2"
-			(uuid "0f26b96d-5145-4564-a60d-fde92c18b46c")
-		)
-		(pin "3"
-			(uuid "62d47fb7-f189-4da0-a537-efe10f827770")
-		)
-		(pin "4"
-			(uuid "b1608eec-b18c-4425-bacb-f377751651c2")
-		)
-		(instances
-			(project "not-so-fullsize-ortho"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB1")
+					(reference "D_RGB54")
 					(unit 1)
 				)
 			)
@@ -7259,7 +7344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c6f1be5-64ca-4534-8a91-8d6b3e83bab7")
-		(property "Reference" "D_RGB47"
+		(property "Reference" "D_RGB45"
 			(at 214.63 261.0993 0)
 			(effects
 				(font
@@ -7319,7 +7404,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB47")
+					(reference "D_RGB45")
 					(unit 1)
 				)
 			)
@@ -7335,7 +7420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c9b8186-eca6-4f62-bb8c-0c992617cbcb")
-		(property "Reference" "D_RGB35"
+		(property "Reference" "D_RGB33"
 			(at 158.75 215.3793 0)
 			(effects
 				(font
@@ -7395,7 +7480,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB35")
+					(reference "D_RGB33")
 					(unit 1)
 				)
 			)
@@ -7411,7 +7496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9db5be49-ae7f-4abf-9eec-0a7215614853")
-		(property "Reference" "D_RGB63"
+		(property "Reference" "D_RGB61"
 			(at 214.63 329.6793 0)
 			(effects
 				(font
@@ -7471,7 +7556,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB63")
+					(reference "D_RGB61")
 					(unit 1)
 				)
 			)
@@ -7487,7 +7572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9decbcc8-d14d-4484-b58e-8e8b3024f0cb")
-		(property "Reference" "D_RGB6"
+		(property "Reference" "D_RGB4"
 			(at 186.69 78.2193 0)
 			(effects
 				(font
@@ -7547,7 +7632,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB6")
+					(reference "D_RGB4")
 					(unit 1)
 				)
 			)
@@ -7563,7 +7648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a22241aa-457a-4de6-a826-90b92efd603b")
-		(property "Reference" "D_RGB30"
+		(property "Reference" "D_RGB28"
 			(at 158.75 192.5193 0)
 			(effects
 				(font
@@ -7623,7 +7708,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB30")
+					(reference "D_RGB28")
 					(unit 1)
 				)
 			)
@@ -7639,7 +7724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a37f8bfc-77c2-4091-9244-d251899e8bfd")
-		(property "Reference" "D_RGB57"
+		(property "Reference" "D_RGB55"
 			(at 214.63 306.8193 0)
 			(effects
 				(font
@@ -7699,7 +7784,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB57")
+					(reference "D_RGB55")
 					(unit 1)
 				)
 			)
@@ -7715,7 +7800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b85eb92f-6a10-45c7-b861-57cd0c2c3f2f")
-		(property "Reference" "D_RGB19"
+		(property "Reference" "D_RGB17"
 			(at 130.81 146.7993 0)
 			(effects
 				(font
@@ -7775,7 +7860,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB19")
+					(reference "D_RGB17")
 					(unit 1)
 				)
 			)
@@ -7791,7 +7876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb06fa51-d2ea-4503-8d2d-077b6a536f37")
-		(property "Reference" "D_RGB20"
+		(property "Reference" "D_RGB18"
 			(at 158.75 146.7993 0)
 			(effects
 				(font
@@ -7851,74 +7936,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd38f95f-0ca2-4258-b19b-2b46847e753b")
-		(property "Reference" "#PWR030"
-			(at 91.44 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a6447ac-2a0f-4276-9398-538771baa5d5")
-		)
-		(instances
-			(project "not-so-fullsize-ortho"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "#PWR030")
+					(reference "D_RGB18")
 					(unit 1)
 				)
 			)
@@ -7934,7 +7952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3fe2282-7d6a-4f28-9d71-b898751fbe46")
-		(property "Reference" "D_RGB29"
+		(property "Reference" "D_RGB27"
 			(at 130.81 192.5193 0)
 			(effects
 				(font
@@ -7994,7 +8012,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB29")
+					(reference "D_RGB27")
 					(unit 1)
 				)
 			)
@@ -8010,7 +8028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cec5b851-61cf-4fb4-bb91-da078df72f91")
-		(property "Reference" "D_RGB9"
+		(property "Reference" "D_RGB7"
 			(at 130.81 101.0793 0)
 			(effects
 				(font
@@ -8070,7 +8088,83 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB9")
+					(reference "D_RGB7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(at 30.48 337.82 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d006b3b6-1b66-48e4-aae5-64c341287b8b")
+		(property "Reference" "J5"
+			(at 30.48 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Case Lighting"
+			(at 25.4 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+			(at 30.48 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6ff5e7ff-1bf7-4dd6-9c8e-b9cbd403ed8c")
+		)
+		(pin "4"
+			(uuid "a9141804-919b-4d48-a8b9-bc7c4770e663")
+		)
+		(pin "2"
+			(uuid "54802288-8993-4bc0-8ace-e60219d9132d")
+		)
+		(pin "1"
+			(uuid "0c7428c2-c9cf-43ec-954e-36430ed94138")
+		)
+		(instances
+			(project "not-so-fullsize-ortho"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8086,7 +8180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d00715e9-6afc-4b5c-9aa4-3273f3be2eae")
-		(property "Reference" "D_RGB27"
+		(property "Reference" "D_RGB25"
 			(at 214.63 169.6593 0)
 			(effects
 				(font
@@ -8146,7 +8240,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB27")
+					(reference "D_RGB25")
 					(unit 1)
 				)
 			)
@@ -8162,7 +8256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d070a34e-6f48-4517-80ae-7c9efd2a2df3")
-		(property "Reference" "D_RGB5"
+		(property "Reference" "D_RGB3"
 			(at 158.75 78.2193 0)
 			(effects
 				(font
@@ -8222,7 +8316,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB5")
+					(reference "D_RGB3")
 					(unit 1)
 				)
 			)
@@ -8238,7 +8332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d11dcc28-7d81-4ef8-b005-13868f43234b")
-		(property "Reference" "D_RGB21"
+		(property "Reference" "D_RGB19"
 			(at 186.69 146.7993 0)
 			(effects
 				(font
@@ -8298,7 +8392,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB21")
+					(reference "D_RGB19")
 					(unit 1)
 				)
 			)
@@ -8314,7 +8408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5019eaa-92d0-4c84-b792-f1e970528ba3")
-		(property "Reference" "D_RGB22"
+		(property "Reference" "D_RGB20"
 			(at 214.63 146.7993 0)
 			(effects
 				(font
@@ -8374,7 +8468,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB22")
+					(reference "D_RGB20")
 					(unit 1)
 				)
 			)
@@ -8390,7 +8484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da8455c6-1022-4e05-8414-bfc6c137e892")
-		(property "Reference" "D_RGB7"
+		(property "Reference" "D_RGB5"
 			(at 214.63 78.2193 0)
 			(effects
 				(font
@@ -8450,83 +8544,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 147.32 288.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de00c0d6-f0b2-418d-9a27-aa1a11e17a4b")
-		(property "Reference" "D_RGB50"
-			(at 158.75 283.9593 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 158.75 286.4993 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:LED_SK6812MINI_E_3.5x3.5mm_P1.75mm"
-			(at 148.59 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 149.86 297.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bb9cf7b-d0a6-4118-8704-60e8275eb71b")
-		)
-		(pin "2"
-			(uuid "3d355392-6173-4ad0-91e1-9021e2ed8eb3")
-		)
-		(pin "3"
-			(uuid "0fd39657-0e29-447c-836a-b2869845b155")
-		)
-		(pin "4"
-			(uuid "dbf07e25-7663-4aac-888a-c0dc0374c436")
-		)
-		(instances
-			(project "not-so-fullsize-ortho"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB50")
+					(reference "D_RGB5")
 					(unit 1)
 				)
 			)
@@ -8594,6 +8612,82 @@
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 119.38 288.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e10c26e1-9d70-4657-9033-d6d5b3e1a76a")
+		(property "Reference" "D_RGB47"
+			(at 130.81 283.9593 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 130.81 286.4993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbd:LED_SK6812MINI_E_3.5x3.5mm_P1.75mm"
+			(at 120.65 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 121.92 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaf979f6-37cb-41d9-bb90-8ab6539fa0c5")
+		)
+		(pin "2"
+			(uuid "2890d220-9606-431f-a77b-ede4e7342ecd")
+		)
+		(pin "3"
+			(uuid "b94ec2f5-de81-4775-b28a-b50456a03ff6")
+		)
+		(pin "4"
+			(uuid "bef668d5-08e1-4764-bc76-3d9da290645b")
+		)
+		(instances
+			(project "not-so-fullsize-ortho"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "D_RGB47")
 					(unit 1)
 				)
 			)
@@ -8676,7 +8770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e722cbae-89d2-4cb7-8d58-8c5b9ad4d595")
-		(property "Reference" "D_RGB3"
+		(property "Reference" "D_RGB1"
 			(at 102.87 78.2193 0)
 			(effects
 				(font
@@ -8736,7 +8830,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB3")
+					(reference "D_RGB1")
 					(unit 1)
 				)
 			)
@@ -8752,7 +8846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e73f2104-e328-4897-aae6-836b662a94ed")
-		(property "Reference" "D_RGB42"
+		(property "Reference" "D_RGB40"
 			(at 214.63 238.2393 0)
 			(effects
 				(font
@@ -8812,83 +8906,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 119.38 288.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eea19cd3-8ccf-4afc-81e1-e8e384b063c0")
-		(property "Reference" "D_RGB49"
-			(at 130.81 283.9593 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 130.81 286.4993 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kbd:LED_SK6812MINI_E_3.5x3.5mm_P1.75mm"
-			(at 120.65 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 121.92 297.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54d149a9-0750-4a4a-b6c3-553a64322f91")
-		)
-		(pin "2"
-			(uuid "ec016cbf-0cc1-44a0-999e-fe972c21a160")
-		)
-		(pin "3"
-			(uuid "2cd72567-0834-46f4-8127-d36e055c4260")
-		)
-		(pin "4"
-			(uuid "d7d531c8-84b9-4813-99f8-0b685cd8d2dc")
-		)
-		(instances
-			(project "not-so-fullsize-ortho"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB49")
+					(reference "D_RGB40")
 					(unit 1)
 				)
 			)
@@ -8904,7 +8922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f17191fb-295a-46bb-ab94-61832fe27a75")
-		(property "Reference" "D_RGB25"
+		(property "Reference" "D_RGB23"
 			(at 158.75 169.6593 0)
 			(effects
 				(font
@@ -8964,7 +8982,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB25")
+					(reference "D_RGB23")
 					(unit 1)
 				)
 			)
@@ -9047,7 +9065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3f7eca8-971c-4fce-87f0-2d5dd31e8ac6")
-		(property "Reference" "D_RGB17"
+		(property "Reference" "D_RGB15"
 			(at 214.63 123.9393 0)
 			(effects
 				(font
@@ -9107,7 +9125,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB17")
+					(reference "D_RGB15")
 					(unit 1)
 				)
 			)
@@ -9123,7 +9141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8d328c1-c075-4f84-a34b-2504bd02c56e")
-		(property "Reference" "D_RGB34"
+		(property "Reference" "D_RGB32"
 			(at 130.81 215.3793 0)
 			(effects
 				(font
@@ -9183,7 +9201,82 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB34")
+					(reference "D_RGB32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 201.93 288.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f913d7f9-b414-4315-a6df-6e66541fbed3")
+		(property "Reference" "D_RGB63"
+			(at 213.36 283.9593 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 213.36 286.4993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbd:LED_SK6812MINI_E_3.5x3.5mm_P1.75mm"
+			(at 203.2 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 204.47 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cb04745-1a02-45ce-8eba-ecbe069e3b1e")
+		)
+		(pin "2"
+			(uuid "38668da2-4a24-43a2-bedd-c0c66e9b47ec")
+		)
+		(pin "3"
+			(uuid "0262a9f1-8253-4be8-9b77-cb428f1a45f5")
+		)
+		(pin "4"
+			(uuid "4a07f1f0-9bf4-47f1-8ed0-9fee4e26f59a")
+		)
+		(instances
+			(project "not-so-fullsize-ortho"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "D_RGB63")
 					(unit 1)
 				)
 			)
@@ -9199,7 +9292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fda74b6b-bf0e-48fb-9696-bcea30de912b")
-		(property "Reference" "D_RGB39"
+		(property "Reference" "D_RGB37"
 			(at 130.81 238.2393 0)
 			(effects
 				(font
@@ -9259,7 +9352,7 @@
 		(instances
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "D_RGB39")
+					(reference "D_RGB37")
 					(unit 1)
 				)
 			)
