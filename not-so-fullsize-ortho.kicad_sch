@@ -458,11 +458,98 @@
 				)
 			)
 		)
+		(symbol "PCM_4ms_Power-symbol:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -560,8 +647,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -580,9 +667,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -630,7 +717,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -656,8 +743,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -694,6 +781,10 @@
 	(no_connect
 		(at 203.2 143.51)
 		(uuid "8209d163-01f4-4e06-a312-015ecca1885d")
+	)
+	(no_connect
+		(at 203.2 168.91)
+		(uuid "82a60e49-3f4e-4fbb-a688-c7b38bd1adef")
 	)
 	(no_connect
 		(at 203.2 135.89)
@@ -740,7 +831,7 @@
 		(uuid "f6fb979f-df91-4840-8c73-a60b4da31f42")
 	)
 	(label "Col_7"
-		(at 279.4 147.32 180)
+		(at 279.4 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -749,17 +840,6 @@
 			(justify right bottom)
 		)
 		(uuid "0071c9e6-566b-470a-85d4-2173788ef974")
-	)
-	(label "Col_16"
-		(at 279.4 170.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "040d4995-38c2-4d7f-83fc-b2f9a8d43733")
 	)
 	(label "Row_2"
 		(at 306.07 149.86 0)
@@ -839,7 +919,7 @@
 		(uuid "1a06c4ff-0962-42ff-8c0d-90602fc180f4")
 	)
 	(label "Col_6"
-		(at 279.4 144.78 180)
+		(at 279.4 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -893,17 +973,6 @@
 		)
 		(uuid "37b18a38-1f40-4d4c-b467-0bb147406721")
 	)
-	(label "Col_16"
-		(at 203.2 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3a6225b4-46c2-4a8f-8372-280619f2e288")
-	)
 	(label "Col_2"
 		(at 250.19 135.89 0)
 		(fields_autoplaced yes)
@@ -927,7 +996,7 @@
 		(uuid "3ca52cb6-2d79-4380-8133-0e336baccc5c")
 	)
 	(label "Col_5"
-		(at 279.4 142.24 180)
+		(at 279.4 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -960,7 +1029,7 @@
 		(uuid "4a605880-e278-4f36-80bc-3a231705bd66")
 	)
 	(label "Col_0"
-		(at 279.4 129.54 180)
+		(at 279.4 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -971,7 +1040,7 @@
 		(uuid "66afa62f-1c59-492d-b194-dde621b7c8fd")
 	)
 	(label "Col_4"
-		(at 279.4 139.7 180)
+		(at 279.4 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -982,7 +1051,7 @@
 		(uuid "6a337a04-ee9a-4e61-a158-cb04be829d41")
 	)
 	(label "Col_1"
-		(at 279.4 132.08 180)
+		(at 279.4 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1004,7 +1073,7 @@
 		(uuid "7374b6b1-8092-4ad3-a65d-7b7107d8d2c4")
 	)
 	(label "Col_13"
-		(at 279.4 162.56 180)
+		(at 279.4 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1081,7 +1150,7 @@
 		(uuid "9722633c-e853-474a-94c4-f9e5f18eb54a")
 	)
 	(label "Col_15"
-		(at 279.4 167.64 180)
+		(at 279.4 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1103,7 +1172,7 @@
 		(uuid "9c7e75f2-d626-4105-b89f-3229fda4c1c2")
 	)
 	(label "Col_3"
-		(at 279.4 137.16 180)
+		(at 279.4 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1125,7 +1194,7 @@
 		(uuid "9d8ad0de-4e4d-4a9a-948b-68e4b9e999eb")
 	)
 	(label "Col_14"
-		(at 279.4 165.1 180)
+		(at 279.4 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1147,7 +1216,7 @@
 		(uuid "9e7c9d75-fef3-46e2-ad22-2c449b0dfa04")
 	)
 	(label "Col_9"
-		(at 279.4 152.4 180)
+		(at 279.4 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1158,7 +1227,7 @@
 		(uuid "9ea7fa77-8925-4113-86aa-6fff5931f710")
 	)
 	(label "Col_10"
-		(at 279.4 154.94 180)
+		(at 279.4 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1169,7 +1238,7 @@
 		(uuid "a0957532-77aa-46d6-89c8-4567f2f09ef9")
 	)
 	(label "Col_11"
-		(at 279.4 157.48 180)
+		(at 279.4 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1191,7 +1260,7 @@
 		(uuid "ac90fbcd-49dc-4648-81ba-8b698df6680c")
 	)
 	(label "Col_8"
-		(at 279.4 149.86 180)
+		(at 279.4 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1290,7 +1359,7 @@
 		(uuid "e7a3be40-c376-4840-a81c-e1ebd758e7bc")
 	)
 	(label "Col_12"
-		(at 279.4 160.02 180)
+		(at 279.4 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1323,7 +1392,7 @@
 		(uuid "f25e6403-261d-452b-9bdd-879fe739c7dd")
 	)
 	(label "Col_2"
-		(at 279.4 134.62 180)
+		(at 279.4 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1671,6 +1740,72 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_4ms_Power-symbol:PWR_FLAG")
+		(at 200.66 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f881f1c-4ffd-4a60-b90a-f0662e7f2470")
+		(property "Reference" "#FLG02"
+			(at 200.66 243.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 200.66 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df2e91b5-2fc1-429a-b608-eab3fd55cfa7")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 81.28 267.97 0)
 		(unit 1)
@@ -1779,7 +1914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 154.94 218.44 0)
 			(effects
 				(font
@@ -1844,7 +1979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 154.94 215.9 0)
 			(effects
 				(font
@@ -1974,7 +2109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 229.87 218.44 0)
 			(effects
 				(font
@@ -2053,6 +2188,73 @@
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 245.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5c6e5b6-c599-4bfc-8de9-0b8783e18b74")
+		(property "Reference" "#PWR047"
+			(at 200.66 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.628 249.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6f947ea-8228-42e4-8957-06fedb800a94")
+		)
+		(instances
+			(project "not-so-fullsize-ortho"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2354,7 +2556,7 @@
 			)
 		)
 		(pin "Col_13" input
-			(at 279.4 162.56 180)
+			(at 279.4 163.83 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +2566,7 @@
 			(uuid "12b332f3-70a5-4169-ab62-90f4642fb7a2")
 		)
 		(pin "Col_9" input
-			(at 279.4 152.4 180)
+			(at 279.4 153.67 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +2576,7 @@
 			(uuid "20369839-2750-4142-8e2d-83ae25db801a")
 		)
 		(pin "Col_11" input
-			(at 279.4 157.48 180)
+			(at 279.4 158.75 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,7 +2586,7 @@
 			(uuid "f63cfde0-556c-4f3e-b3ad-e7be063d3991")
 		)
 		(pin "Col_8" input
-			(at 279.4 149.86 180)
+			(at 279.4 151.13 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +2596,7 @@
 			(uuid "31d89e12-6ef2-4820-8b78-7088dda5a827")
 		)
 		(pin "Col_12" input
-			(at 279.4 160.02 180)
+			(at 279.4 161.29 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,7 +2606,7 @@
 			(uuid "7162c85b-d543-44a5-acce-612c04f30d8c")
 		)
 		(pin "Col_10" input
-			(at 279.4 154.94 180)
+			(at 279.4 156.21 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +2616,7 @@
 			(uuid "dc772c42-4baf-4bf4-9eea-c7645091b7f6")
 		)
 		(pin "Col_14" input
-			(at 279.4 165.1 180)
+			(at 279.4 166.37 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +2626,7 @@
 			(uuid "890c219d-5536-4b65-9072-66cc496430ef")
 		)
 		(pin "Col_6" input
-			(at 279.4 144.78 180)
+			(at 279.4 146.05 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2636,7 @@
 			(uuid "a824ce2d-5002-4fc4-a084-bddd13a8fd1d")
 		)
 		(pin "Col_5" input
-			(at 279.4 142.24 180)
+			(at 279.4 143.51 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2646,7 @@
 			(uuid "0e941961-1ddc-4cf4-bf76-458b38904ad8")
 		)
 		(pin "Col_7" input
-			(at 279.4 147.32 180)
+			(at 279.4 148.59 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2454,7 +2656,7 @@
 			(uuid "537d5c91-550b-4509-92f4-df287548fc58")
 		)
 		(pin "Col_3" input
-			(at 279.4 137.16 180)
+			(at 279.4 138.43 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,7 +2666,7 @@
 			(uuid "11c04b0e-a2cf-4ab1-a0cd-da7798fc62d2")
 		)
 		(pin "Col_0" input
-			(at 279.4 129.54 180)
+			(at 279.4 130.81 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,7 +2676,7 @@
 			(uuid "39abe5e4-0275-4cf2-9a3a-11efc735438d")
 		)
 		(pin "Col_2" input
-			(at 279.4 134.62 180)
+			(at 279.4 135.89 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +2686,7 @@
 			(uuid "7279af1f-28ba-44d3-8cc3-94c32aca68e8")
 		)
 		(pin "Col_1" input
-			(at 279.4 132.08 180)
+			(at 279.4 133.35 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2736,7 @@
 			(uuid "bd4e0780-fa7a-4b8d-9129-7afa02357bfb")
 		)
 		(pin "Col_15" input
-			(at 279.4 167.64 180)
+			(at 279.4 168.91 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,18 +2745,8 @@
 			)
 			(uuid "487102de-1791-4384-902d-bd1391ccddbc")
 		)
-		(pin "Col_16" input
-			(at 279.4 170.18 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "04715c22-be6c-43e1-ba6c-77a859cfc6b0")
-		)
 		(pin "Col_4" input
-			(at 279.4 139.7 180)
+			(at 279.4 140.97 180)
 			(effects
 				(font
 					(size 1.27 1.27)

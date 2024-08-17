@@ -952,6 +952,93 @@
 				)
 			)
 		)
+		(symbol "PCM_4ms_Power-symbol:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1534,9 +1621,9 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1634,8 +1721,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1654,9 +1741,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1704,7 +1791,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1730,8 +1817,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1750,9 +1837,9 @@
 		)
 		(symbol "power:VBUS"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1766,7 +1853,7 @@
 				)
 			)
 			(property "Value" "VBUS"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1850,8 +1937,8 @@
 			(symbol "VBUS_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VBUS"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1870,7 +1957,13 @@
 		)
 	)
 	(junction
-		(at 128.27 87.63)
+		(at 115.57 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "093f179f-966e-43b5-b2cd-622d47678860")
+	)
+	(junction
+		(at 137.16 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76d2ad14-4488-42c9-832a-690036255350")
@@ -1903,6 +1996,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 82.55) (xy 111.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ef8fad-5860-4b74-aa49-dcd6931676c1")
+	)
+	(wire
+		(pts
 			(xy 160.02 81.28) (xy 160.02 82.55)
 		)
 		(stroke
@@ -1913,7 +2016,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 87.63) (xy 128.27 90.17)
+			(xy 137.16 87.63) (xy 137.16 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1953,13 +2056,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 87.63) (xy 120.65 87.63)
+			(xy 111.76 87.63) (xy 129.54 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f007f29-5683-479d-adf7-7f1936a69d94")
+		(uuid "271ed872-2dd8-4586-a7a0-18107346bbff")
 	)
 	(wire
 		(pts
@@ -1983,7 +2086,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 87.63) (xy 133.35 87.63)
+			(xy 137.16 87.63) (xy 142.24 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2053,16 +2156,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 90.17) (xy 120.65 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab6454c9-376e-401c-98f4-3cbdb0f6e448")
-	)
-	(wire
-		(pts
 			(xy 195.58 82.55) (xy 205.74 82.55)
 		)
 		(stroke
@@ -2090,6 +2183,26 @@
 			(type default)
 		)
 		(uuid "e8e36f3c-ba21-4198-a4af-1a49b2f6399b")
+	)
+	(wire
+		(pts
+			(xy 111.76 90.17) (xy 129.54 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25f48df-b0d2-4c2e-9944-aca312edbe7f")
+	)
+	(wire
+		(pts
+			(xy 115.57 82.55) (xy 128.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3d6203-6404-4d01-aa8b-d528b9d3220d")
 	)
 	(text "USB C"
 		(exclude_from_sim no)
@@ -2239,7 +2352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 205.74 81.28 0)
 			(effects
 				(font
@@ -2262,7 +2375,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 87.63 90)
+		(at 133.35 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2270,7 +2383,7 @@
 		(dnp no)
 		(uuid "20b44de2-5e11-4e83-a57d-5a02d13c86ff")
 		(property "Reference" "R6"
-			(at 124.46 81.28 90)
+			(at 133.35 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,7 +2391,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 124.46 83.82 90)
+			(at 133.35 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,7 +2399,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 124.46 89.408 90)
+			(at 133.35 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,7 +2408,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 87.63 0)
+			(at 133.35 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2304,7 +2417,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 87.63 0)
+			(at 133.35 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,6 +2435,72 @@
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:PWR_FLAG")
+		(at 115.57 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20f9f99a-afae-4b65-af3c-aaf32f324665")
+		(property "Reference" "#FLG01"
+			(at 115.57 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 115.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6483fdb2-b35a-402b-921d-f17397e8dc71")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -2371,7 +2550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 146.05 102.87 0)
 			(effects
 				(font
@@ -2772,7 +2951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 170.18 92.71 0)
 			(effects
 				(font
@@ -2795,7 +2974,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 87.63 90)
+		(at 142.24 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2803,7 +2982,7 @@
 		(dnp no)
 		(uuid "b797456e-24ce-469d-85c2-81df8b37047d")
 		(property "Reference" "#PWR06"
-			(at 139.7 87.63 0)
+			(at 148.59 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +2991,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 87.63 90)
+			(at 147.32 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 87.63 0)
+			(at 142.24 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +3008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 87.63 0)
+			(at 142.24 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2837,8 +3016,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 133.35 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2902,7 +3081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 160.02 81.28 0)
 			(effects
 				(font
@@ -2925,7 +3104,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 111.76 82.55 0)
+		(at 128.27 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2933,7 +3112,7 @@
 		(dnp no)
 		(uuid "d58e7be6-0c40-4918-92f6-02df7f9bfba6")
 		(property "Reference" "#PWR05"
-			(at 111.76 86.36 0)
+			(at 128.27 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2942,7 +3121,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 111.76 78.232 0)
+			(at 128.27 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +3129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 82.55 0)
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +3138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 82.55 0)
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,8 +3146,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 111.76 82.55 0)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +3280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 187.96 91.44 0)
 			(effects
 				(font
@@ -3166,7 +3345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 205.74 92.71 0)
 			(effects
 				(font
@@ -3189,7 +3368,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 90.17 90)
+		(at 133.35 90.17 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3198,7 +3377,7 @@
 		(dnp no)
 		(uuid "f355e016-649d-4d9f-bc84-e7367acab688")
 		(property "Reference" "R7"
-			(at 124.46 96.52 90)
+			(at 133.35 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +3385,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 124.46 93.98 90)
+			(at 133.35 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +3393,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 124.46 88.392 90)
+			(at 133.35 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +3402,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 90.17 0)
+			(at 133.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +3411,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 90.17 0)
+			(at 133.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 146.05 115.57 0)
 			(effects
 				(font
@@ -3364,7 +3543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 93.98 121.92 0)
 			(effects
 				(font

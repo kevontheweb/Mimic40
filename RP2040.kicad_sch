@@ -1988,9 +1988,9 @@
 		)
 		(symbol "power:+1V1"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2088,8 +2088,8 @@
 			(symbol "+1V1_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+1V1"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2108,9 +2108,9 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2208,8 +2208,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2228,9 +2228,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2304,8 +2304,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2476,6 +2476,10 @@
 	(no_connect
 		(at 215.9 194.31)
 		(uuid "72ea1e59-6b26-472d-94e3-57f0ec6338b1")
+	)
+	(no_connect
+		(at 215.9 118.11)
+		(uuid "cb70aef6-da12-4efc-971f-bd92385eb324")
 	)
 	(wire
 		(pts
@@ -2649,7 +2653,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 159.385) (xy 121.92 158.75)
+			(xy 121.92 160.02) (xy 121.92 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3335,7 +3339,7 @@
 	)
 	(text "Crystal"
 		(exclude_from_sim no)
-		(at 107.315 185.42 0)
+		(at 107.95 185.42 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4042,7 +4046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 57.15 142.24 0)
 			(effects
 				(font
@@ -4107,7 +4111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 389.89 57.15 0)
 			(effects
 				(font
@@ -4396,7 +4400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 304.8 39.37 0)
 			(effects
 				(font
@@ -4600,7 +4604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
 			(at 332.74 29.21 0)
 			(effects
 				(font
@@ -4874,7 +4878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 332.74 40.64 0)
 			(effects
 				(font
@@ -5286,7 +5290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 251.46 110.49 0)
 			(effects
 				(font
@@ -5351,7 +5355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 121.92 113.03 0)
 			(effects
 				(font
@@ -5553,7 +5557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 107.95 199.39 0)
 			(effects
 				(font
@@ -5618,7 +5622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 389.89 71.12 0)
 			(effects
 				(font
@@ -5683,7 +5687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 304.8 68.58 0)
 			(effects
 				(font
@@ -5840,7 +5844,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 159.385 0)
+		(at 121.92 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5848,7 +5852,7 @@
 		(dnp no)
 		(uuid "b9d01dc3-5293-4ac7-9b09-b1b11dcbcd70")
 		(property "Reference" "#PWR013"
-			(at 121.92 165.735 0)
+			(at 121.92 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +5861,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 160.655 0)
+			(at 118.11 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5865,7 +5869,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 159.385 0)
+			(at 121.92 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5874,7 +5878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 159.385 0)
+			(at 121.92 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,8 +5886,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 121.92 159.385 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6182,7 +6186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 389.89 102.87 0)
 			(effects
 				(font
@@ -6247,7 +6251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 92.71 207.01 0)
 			(effects
 				(font
@@ -6381,7 +6385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 389.89 91.44 0)
 			(effects
 				(font
@@ -6446,7 +6450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 128.27 0)
 			(effects
 				(font
@@ -6580,7 +6584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 120.65 199.39 0)
 			(effects
 				(font
@@ -6713,7 +6717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 241.3 201.93 0)
 			(effects
 				(font
@@ -6922,7 +6926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
 			(at 238.76 110.49 0)
 			(effects
 				(font

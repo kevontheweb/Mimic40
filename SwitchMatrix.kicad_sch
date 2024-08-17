@@ -55,6 +55,24 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "diode"
 				(at 0 0 0)
 				(effects
@@ -308,7 +326,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 163.195) (xy 175.26 162.56)
+			(xy 175.26 163.83) (xy 175.26 162.56)
 		)
 		(stroke
 			(width 0)
@@ -560,7 +578,7 @@
 		(uuid "251f1299-58ff-4257-9abd-a3a882dd2185")
 	)
 	(label "Col_6"
-		(at 165.1 163.195 180)
+		(at 165.1 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -877,17 +895,6 @@
 			(justify right bottom)
 		)
 		(uuid "59252d09-c2ef-4a96-ae98-ecc9ac8ea37a")
-	)
-	(label "Col_16"
-		(at 52.07 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5a41d20d-91db-4e6d-97da-af33aa155fe2")
 	)
 	(label "Col_14"
 		(at 341.63 149.86 180)
@@ -2134,18 +2141,6 @@
 		)
 		(uuid "a22341ce-94b2-4bd9-932d-ac60478c16bd")
 	)
-	(hierarchical_label "Col_16"
-		(shape input)
-		(at 52.07 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a8fe4702-81f3-41eb-be11-76c405da182c")
-	)
 	(hierarchical_label "Col_1"
 		(shape input)
 		(at 33.02 74.93 0)
@@ -2267,7 +2262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 38.1 163.83 0)
 			(effects
 				(font
@@ -2275,7 +2270,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 38.1 153.67 0)
 			(effects
 				(font
@@ -2336,7 +2349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 372.11 138.43 0)
 			(effects
 				(font
@@ -2344,7 +2357,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 372.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 372.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 372.11 128.27 0)
 			(effects
 				(font
@@ -2807,7 +2838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 372.11 176.53 0)
 			(effects
 				(font
@@ -2815,7 +2846,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 372.11 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 372.11 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 372.11 166.37 0)
 			(effects
 				(font
@@ -2876,7 +2925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 233.68 176.53 0)
 			(effects
 				(font
@@ -2884,7 +2933,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 233.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 233.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 233.68 166.37 0)
 			(effects
 				(font
@@ -3213,7 +3280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 104.14 163.83 0)
 			(effects
 				(font
@@ -3221,7 +3288,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 104.14 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 104.14 153.67 0)
 			(effects
 				(font
@@ -3282,7 +3367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 303.53 170.18 0)
 			(effects
 				(font
@@ -3290,7 +3375,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 303.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 303.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 303.53 160.02 0)
 			(effects
 				(font
@@ -3351,7 +3454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 63.5 163.83 0)
 			(effects
 				(font
@@ -3359,7 +3462,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 63.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 63.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 63.5 153.67 0)
 			(effects
 				(font
@@ -3420,7 +3541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 104.14 151.13 0)
 			(effects
 				(font
@@ -3428,7 +3549,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 104.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 104.14 140.97 0)
 			(effects
 				(font
@@ -3489,7 +3628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 226.06 163.83 0)
 			(effects
 				(font
@@ -3497,7 +3636,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 226.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 226.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 226.06 153.67 0)
 			(effects
 				(font
@@ -3558,7 +3715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 205.74 163.83 0)
 			(effects
 				(font
@@ -3566,7 +3723,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 205.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 205.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 205.74 153.67 0)
 			(effects
 				(font
@@ -3627,7 +3802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 351.79 151.13 0)
 			(effects
 				(font
@@ -3635,7 +3810,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 351.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 351.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 351.79 140.97 0)
 			(effects
 				(font
@@ -3763,7 +3956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 124.46 151.13 0)
 			(effects
 				(font
@@ -3771,7 +3964,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 124.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 124.46 140.97 0)
 			(effects
 				(font
@@ -3899,7 +4110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 382.27 251.46 0)
 			(effects
 				(font
@@ -3907,7 +4118,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 382.27 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 382.27 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 382.27 241.3 0)
 			(effects
 				(font
@@ -4169,7 +4398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 246.38 138.43 0)
 			(effects
 				(font
@@ -4177,7 +4406,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 246.38 128.27 0)
 			(effects
 				(font
@@ -4238,7 +4485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 335.28 251.46 0)
 			(effects
 				(font
@@ -4246,7 +4493,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 335.28 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 335.28 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 335.28 241.3 0)
 			(effects
 				(font
@@ -4307,7 +4572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 63.5 138.43 0)
 			(effects
 				(font
@@ -4315,7 +4580,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 63.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 63.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 63.5 128.27 0)
 			(effects
 				(font
@@ -4376,7 +4659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 144.78 138.43 0)
 			(effects
 				(font
@@ -4384,7 +4667,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 144.78 128.27 0)
 			(effects
 				(font
@@ -4445,7 +4746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 83.82 151.13 0)
 			(effects
 				(font
@@ -4453,7 +4754,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 83.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 83.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 83.82 140.97 0)
 			(effects
 				(font
@@ -4648,7 +4967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 205.74 151.13 0)
 			(effects
 				(font
@@ -4656,7 +4975,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 205.74 140.97 0)
 			(effects
 				(font
@@ -4851,7 +5188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 38.1 151.13 0)
 			(effects
 				(font
@@ -4859,7 +5196,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 38.1 140.97 0)
 			(effects
 				(font
@@ -4987,7 +5342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 246.38 151.13 0)
 			(effects
 				(font
@@ -4995,7 +5350,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 246.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 246.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 246.38 140.97 0)
 			(effects
 				(font
@@ -5056,7 +5429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 124.46 138.43 0)
 			(effects
 				(font
@@ -5064,7 +5437,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 124.46 128.27 0)
 			(effects
 				(font
@@ -5125,7 +5516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 83.82 163.83 0)
 			(effects
 				(font
@@ -5133,7 +5524,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 83.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 83.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 83.82 153.67 0)
 			(effects
 				(font
@@ -5194,7 +5603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 287.02 138.43 0)
 			(effects
 				(font
@@ -5202,7 +5611,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 287.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 287.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 287.02 128.27 0)
 			(effects
 				(font
@@ -5263,7 +5690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 66.04 176.53 0)
 			(effects
 				(font
@@ -5271,7 +5698,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 66.04 166.37 0)
 			(effects
 				(font
@@ -5399,7 +5844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 185.42 138.43 0)
 			(effects
 				(font
@@ -5407,7 +5852,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 185.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 185.42 128.27 0)
 			(effects
 				(font
@@ -5468,7 +5931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 175.26 176.53 0)
 			(effects
 				(font
@@ -5476,7 +5939,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 175.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 175.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 175.26 166.37 0)
 			(effects
 				(font
@@ -5604,7 +6085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 116.84 176.53 0)
 			(effects
 				(font
@@ -5612,7 +6093,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 116.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 116.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 116.84 166.37 0)
 			(effects
 				(font
@@ -5740,7 +6239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 165.1 163.83 0)
 			(effects
 				(font
@@ -5748,7 +6247,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 165.1 153.67 0)
 			(effects
 				(font
@@ -5943,7 +6460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 226.06 151.13 0)
 			(effects
 				(font
@@ -5951,7 +6468,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 226.06 140.97 0)
 			(effects
 				(font
@@ -6079,7 +6614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 91.44 176.53 0)
 			(effects
 				(font
@@ -6087,7 +6622,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 91.44 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 91.44 166.37 0)
 			(effects
 				(font
@@ -6282,7 +6835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 372.11 163.83 0)
 			(effects
 				(font
@@ -6290,7 +6843,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 372.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 372.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 372.11 153.67 0)
 			(effects
 				(font
@@ -6418,7 +6989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 104.14 138.43 0)
 			(effects
 				(font
@@ -6426,7 +6997,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 104.14 128.27 0)
 			(effects
 				(font
@@ -6688,7 +7277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 351.79 163.83 0)
 			(effects
 				(font
@@ -6696,7 +7285,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 351.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 351.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 351.79 153.67 0)
 			(effects
 				(font
@@ -6757,7 +7364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 144.78 151.13 0)
 			(effects
 				(font
@@ -6765,7 +7372,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 144.78 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 144.78 140.97 0)
 			(effects
 				(font
@@ -6826,7 +7451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 165.1 138.43 0)
 			(effects
 				(font
@@ -6834,7 +7459,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 165.1 128.27 0)
 			(effects
 				(font
@@ -6962,7 +7605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 208.28 176.53 0)
 			(effects
 				(font
@@ -6970,7 +7613,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 208.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 208.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 208.28 166.37 0)
 			(effects
 				(font
@@ -7232,7 +7893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 246.38 163.83 0)
 			(effects
 				(font
@@ -7240,7 +7901,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 246.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 246.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 246.38 153.67 0)
 			(effects
 				(font
@@ -7368,7 +8047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 266.7 151.13 0)
 			(effects
 				(font
@@ -7376,7 +8055,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 266.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 266.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 266.7 140.97 0)
 			(effects
 				(font
@@ -7638,7 +8335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 330.2 138.43 0)
 			(effects
 				(font
@@ -7646,7 +8343,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 330.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 330.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 330.2 128.27 0)
 			(effects
 				(font
@@ -7774,7 +8489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 205.74 138.43 0)
 			(effects
 				(font
@@ -7782,7 +8497,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 205.74 128.27 0)
 			(effects
 				(font
@@ -7910,7 +8643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 287.02 151.13 0)
 			(effects
 				(font
@@ -7918,7 +8651,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 287.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 287.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 287.02 140.97 0)
 			(effects
 				(font
@@ -8180,7 +8931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 38.1 138.43 0)
 			(effects
 				(font
@@ -8188,7 +8939,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 38.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 38.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 38.1 128.27 0)
 			(effects
 				(font
@@ -8316,7 +9085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 283.21 182.88 0)
 			(effects
 				(font
@@ -8324,7 +9093,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 283.21 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 283.21 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 283.21 172.72 0)
 			(effects
 				(font
@@ -8452,7 +9239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 266.7 138.43 0)
 			(effects
 				(font
@@ -8460,7 +9247,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 266.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 266.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 266.7 128.27 0)
 			(effects
 				(font
@@ -8521,7 +9326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 303.53 182.88 0)
 			(effects
 				(font
@@ -8529,7 +9334,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 303.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 303.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 303.53 172.72 0)
 			(effects
 				(font
@@ -8590,7 +9413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 63.5 151.13 0)
 			(effects
 				(font
@@ -8598,7 +9421,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 63.5 140.97 0)
 			(effects
 				(font
@@ -8659,7 +9500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 226.06 138.43 0)
 			(effects
 				(font
@@ -8667,7 +9508,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 226.06 128.27 0)
 			(effects
 				(font
@@ -8728,7 +9587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 351.79 138.43 0)
 			(effects
 				(font
@@ -8736,7 +9595,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 351.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 351.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 351.79 128.27 0)
 			(effects
 				(font
@@ -8797,7 +9674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 360.68 251.46 0)
 			(effects
 				(font
@@ -8805,7 +9682,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 360.68 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 360.68 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 360.68 241.3 0)
 			(effects
 				(font
@@ -8933,7 +9828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 330.2 151.13 0)
 			(effects
 				(font
@@ -8941,7 +9836,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 330.2 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 330.2 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 330.2 140.97 0)
 			(effects
 				(font
@@ -9203,7 +10116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 330.2 163.83 0)
 			(effects
 				(font
@@ -9211,7 +10124,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 330.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 330.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 330.2 153.67 0)
 			(effects
 				(font
@@ -9272,7 +10203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 38.1 176.53 0)
 			(effects
 				(font
@@ -9280,7 +10211,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 38.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 38.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 38.1 166.37 0)
 			(effects
 				(font
@@ -9341,7 +10290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 144.78 163.83 0)
 			(effects
 				(font
@@ -9349,7 +10298,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 144.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 144.78 153.67 0)
 			(effects
 				(font
@@ -9410,7 +10377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 185.42 163.83 0)
 			(effects
 				(font
@@ -9418,7 +10385,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 185.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 185.42 153.67 0)
 			(effects
 				(font
@@ -9479,7 +10464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 372.11 151.13 0)
 			(effects
 				(font
@@ -9487,7 +10472,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 372.11 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 372.11 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 372.11 140.97 0)
 			(effects
 				(font
@@ -9548,7 +10551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 124.46 163.83 0)
 			(effects
 				(font
@@ -9556,7 +10559,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 124.46 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 124.46 153.67 0)
 			(effects
 				(font
@@ -9617,7 +10638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 266.7 163.83 0)
 			(effects
 				(font
@@ -9625,7 +10646,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 266.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 266.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 266.7 153.67 0)
 			(effects
 				(font
@@ -9686,7 +10725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 351.79 176.53 0)
 			(effects
 				(font
@@ -9694,7 +10733,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 351.79 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 351.79 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 351.79 166.37 0)
 			(effects
 				(font
@@ -9755,7 +10812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 142.24 176.53 0)
 			(effects
 				(font
@@ -9763,7 +10820,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 142.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 142.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 142.24 166.37 0)
 			(effects
 				(font
@@ -9891,7 +10966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 83.82 138.43 0)
 			(effects
 				(font
@@ -9899,7 +10974,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 83.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 83.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 83.82 128.27 0)
 			(effects
 				(font
@@ -10027,7 +11120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 185.42 151.13 0)
 			(effects
 				(font
@@ -10035,7 +11128,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 185.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 185.42 140.97 0)
 			(effects
 				(font
@@ -10262,7 +11373,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 170.18 163.195 0)
+		(at 170.18 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10270,7 +11381,7 @@
 		(dnp no)
 		(uuid "de9d2592-adb7-4e03-adb5-c0d853ade831")
 		(property "Reference" "K57"
-			(at 170.18 157.2768 0)
+			(at 170.18 157.9118 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10278,7 +11389,7 @@
 			)
 		)
 		(property "Value" "Blank"
-			(at 170.18 165.735 0)
+			(at 170.18 166.37 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10287,7 +11398,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u"
-			(at 170.18 163.195 0)
+			(at 170.18 163.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10296,7 +11407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 163.195 0)
+			(at 170.18 163.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10304,7 +11415,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 163.195 0)
+			(at 170.18 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10498,7 +11609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 165.1 151.13 0)
 			(effects
 				(font
@@ -10506,7 +11617,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 165.1 140.97 0)
 			(effects
 				(font
@@ -10567,7 +11696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 323.85 182.88 0)
 			(effects
 				(font
@@ -10575,7 +11704,25 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode"
+			(at 323.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 323.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 323.85 172.72 0)
 			(effects
 				(font
