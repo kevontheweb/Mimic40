@@ -202,6 +202,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start 1.524 0.254)
+					(mid 0 0.762)
+					(end -1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LED:WS2812B"
 			(pin_names
 				(offset 0.254)
@@ -1453,7 +1598,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 151.13) (xy 167.64 151.13)
+			(xy 154.94 151.13) (xy 156.21 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1570,6 +1715,16 @@
 			(type default)
 		)
 		(uuid "23d277ae-847a-46cc-b613-949ea4292351")
+	)
+	(wire
+		(pts
+			(xy 194.31 128.27) (xy 195.58 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "240a9e1c-3c1e-4b13-ba88-9b8dae65b830")
 	)
 	(wire
 		(pts
@@ -1693,7 +1848,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 288.29) (xy 223.52 288.29)
+			(xy 209.55 288.29) (xy 210.82 288.29)
 		)
 		(stroke
 			(width 0)
@@ -2220,6 +2375,16 @@
 			(type default)
 		)
 		(uuid "6fc5044f-d841-464d-84fe-41aecc8a2932")
+	)
+	(wire
+		(pts
+			(xy 166.37 151.13) (xy 167.64 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727f10ea-64b1-40e0-b377-8be9395465cb")
 	)
 	(wire
 		(pts
@@ -2943,7 +3108,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 128.27) (xy 195.58 128.27)
+			(xy 182.88 128.27) (xy 184.15 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2983,7 +3148,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 288.29) (xy 111.76 288.29)
+			(xy 99.06 288.29) (xy 100.33 288.29)
 		)
 		(stroke
 			(width 0)
@@ -3093,6 +3258,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 288.29) (xy 223.52 288.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f7fe72-bfbb-4197-b0e9-589f119eb409")
+	)
+	(wire
+		(pts
 			(xy 81.28 288.29) (xy 83.82 288.29)
 		)
 		(stroke
@@ -3180,6 +3355,16 @@
 			(type default)
 		)
 		(uuid "f6defc95-f7d2-4b76-b515-a092daa59b33")
+	)
+	(wire
+		(pts
+			(xy 110.49 288.29) (xy 111.76 288.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f822e1c9-96e2-4761-96b3-a732a3586cab")
 	)
 	(wire
 		(pts
@@ -4500,6 +4685,73 @@
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 215.9 288.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "230d6134-d0b8-40e5-b81d-5cd50be71f89")
+		(property "Reference" "JP8"
+			(at 215.9 289.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 215.9 292.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 215.9 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 215.9 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ee79a64-8110-48be-8c2f-abe7a9e7ee65")
+		)
+		(pin "1"
+			(uuid "231c8034-a778-472e-9886-81626d8ab8dc")
+		)
+		(instances
+			(project "not-so-fullsize-ortho"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -7360,6 +7612,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 161.29 151.13 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93dd9987-dcff-42c9-aa3f-6c6c7ec6d92b")
+		(property "Reference" "JP6"
+			(at 161.29 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 161.29 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 161.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 161.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1c6b8fa-7820-40b3-b3e4-aaf9db628e9c")
+		)
+		(pin "1"
+			(uuid "790dbc50-258e-40a4-a641-d44fa853fdf7")
+		)
+		(instances
+			(project "not-so-fullsize-ortho"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 175.26 311.15 0)
 		(unit 1)
@@ -8268,9 +8587,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d006b3b6-1b66-48e4-aae5-64c341287b8b")
 		(property "Reference" "J5"
 			(at 30.48 328.93 0)
@@ -8290,7 +8609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 30.48 337.82 0)
 			(effects
 				(font
@@ -9349,6 +9668,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 105.41 288.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f000779d-e185-43bf-bec9-2204f5549196")
+		(property "Reference" "JP7"
+			(at 105.41 289.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 105.41 292.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 105.41 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 105.41 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a69eb12e-f76b-428b-a3fc-bfb3d2a49a8d")
+		)
+		(pin "1"
+			(uuid "e6053db7-eab9-4a94-a293-9cac3d60ae28")
+		)
+		(instances
+			(project "not-so-fullsize-ortho"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 147.32 173.99 0)
 		(unit 1)
@@ -9562,6 +9948,73 @@
 			(project "not-so-fullsize-ortho"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 189.23 128.27 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f415e962-8d68-40cc-a1b6-94f0c0e82ada")
+		(property "Reference" "JP1"
+			(at 189.23 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 189.23 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 189.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 189.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "689106a4-0473-4e1a-b16d-478142317f1f")
+		)
+		(pin "1"
+			(uuid "ce69d544-e7bd-4320-9678-d9db8267f14f")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "JP1")
 					(unit 1)
 				)
 			)

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.82,
+          "width": 1.7
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -59,7 +59,25 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|104750000|82000000|5bb98c0c-de28-4aa6-bd24-ec573f8b2a03|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|211931250|140850000|925067ca-fe93-4465-b133-605d84ccd441|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|100050001|78750000|94491b96-a555-45fa-b5da-cefb77620ca8|3b0607a2-3001-4957-85ed-36385c1db2dd",
+        "silk_edge_clearance|109449999|78750000|94491b96-a555-45fa-b5da-cefb77620ca8|98a9750f-945b-45cb-8392-b2c05f6d22d7",
+        "silk_overlap|341000000|115900000|429e75be-d5d2-4e0b-bf7c-9bd81c8d5e1c|bbffa099-2169-4638-91b1-41036fb76828",
+        "silk_overlap|341000000|117800000|429e75be-d5d2-4e0b-bf7c-9bd81c8d5e1c|24c4da7a-8a0f-486c-8a4a-7793f7cc8de8",
+        "silk_overlap|341000000|118400000|429e75be-d5d2-4e0b-bf7c-9bd81c8d5e1c|6d5bfd7e-7f5f-4041-a8ea-744be274106b",
+        "silk_overlap|341000000|135125000|091d8d27-be82-4762-a598-a87557a48bd1|d5bb79cd-e1b2-4d7b-9284-426461e2c148",
+        "silk_overlap|341000000|137000000|091d8d27-be82-4762-a598-a87557a48bd1|0990274c-b634-4841-9d3e-4822f3d389ce",
+        "silk_overlap|341000000|137600000|091d8d27-be82-4762-a598-a87557a48bd1|c7f86fc4-43ee-40a7-8eff-198568aa3264",
+        "silk_overlap|341000000|82600000|8eef6583-6bb7-4f09-a540-1566d28ed890|55dba838-5b92-46e7-b9c8-f54d5e8cafdc",
+        "silk_overlap|341000000|83200000|8eef6583-6bb7-4f09-a540-1566d28ed890|64433ad1-d10a-4555-b349-213156212d06",
+        "silk_overlap|341000000|98400000|47546336-65ad-4aa6-8f0c-9e214ab70d0a|55546422-d05a-4426-94f3-d48558b0ef5c",
+        "silk_overlap|341000000|99000000|47546336-65ad-4aa6-8f0c-9e214ab70d0a|7c56d50e-3a7f-4b4d-ad7b-965a0983f9a2",
+        "unconnected_items|340350001|119400000|0e56ea88-7bc4-4afc-a6d7-2044942cb1b0|c6fe8bba-e683-44f5-aff9-892df3252db3",
+        "unconnected_items|341400000|83800000|9bc35dde-fcfc-4f98-89f1-0b52af9c6791|c8e8f7f5-396c-4c33-b553-a8df17943723",
+        "unconnected_items|341650000|100000000|d39f4efe-3514-4a4d-9240-4a9e57d1357f|ae8612ed-2ac8-4a89-817a-9e74bdaadf7a"
+      ],
       "meta": {
         "version": 2
       },
@@ -104,7 +122,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -120,21 +138,21 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.3,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.35,
-        "min_track_width": 0.15,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.6,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.15,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -185,6 +203,7 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.2,
         0.3,
         0.4,
@@ -226,6 +245,10 @@
         {
           "diameter": 0.6,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.35
         }
       ],
       "zones_allow_external_fillets": false,
@@ -550,8 +573,8 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
-      "plot": "",
+      "netlist": "../../../",
+      "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

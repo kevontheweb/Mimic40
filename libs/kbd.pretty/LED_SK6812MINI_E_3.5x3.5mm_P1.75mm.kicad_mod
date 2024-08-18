@@ -110,8 +110,8 @@
 		(uuid "98bd3c83-a515-4aab-9715-d870dd7d9bb2")
 	)
 	(fp_rect
-		(start -1.905 -1.905)
-		(end 1.905 1.905)
+		(start -1.75 -1.55)
+		(end 1.75 1.55)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -233,38 +233,50 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 2.8 -0.875)
-		(size 1.6 0.85)
+		(at 3 -0.8)
+		(size 1.8 0.82)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "bf51f97d-70b8-403d-b9e7-1c48bc155b9d")
 	)
 	(pad "2" smd rect
-		(at 2.8 0.875)
-		(size 1.6 0.85)
+		(at 3 0.7)
+		(size 1.8 0.82)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "80a855b4-41b1-40fc-89fa-5d46a84d59c1")
 	)
 	(pad "3" smd rect
-		(at -2.8 0.875)
-		(size 1.6 0.85)
+		(at -3 0.7)
+		(size 1.8 0.82)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "9a5b3312-e555-4b96-8d26-1be1020a0691")
 	)
 	(pad "4" smd rect
-		(at -2.8 -0.875)
-		(size 1.6 0.85)
+		(at -3 -0.8)
+		(size 1.8 0.82)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "3aa8cc5d-54e5-4038-aae5-88b9a0043bb9")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-Mini_PLCC4_3.5x3.5mm.step"
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm.wrl"
+		(hide yes)
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 0.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz 0 -180 0)
+		)
+	)
+	(model "${KIPRJMOD}/libs/kbd.pretty/LED_SK6812MINI-E.step"
+		(offset
+			(xyz 0 5.125 -1.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
 		)
 	)
 )
