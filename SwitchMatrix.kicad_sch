@@ -2520,7 +2520,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 39.37 160.02 90)
 			(effects
 				(font
@@ -2674,7 +2674,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 373.38 134.62 90)
 			(effects
 				(font
@@ -3028,7 +3028,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 119.38 139.7 0)
 			(effects
 				(font
@@ -3037,7 +3037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 119.38 137.16 0)
 			(effects
 				(font
@@ -3163,7 +3163,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 373.38 172.72 90)
 			(effects
 				(font
@@ -3250,7 +3250,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 234.95 172.72 90)
 			(effects
 				(font
@@ -3672,7 +3672,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 105.41 160.02 90)
 			(effects
 				(font
@@ -3759,7 +3759,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 304.8 166.37 90)
 			(effects
 				(font
@@ -3846,7 +3846,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 64.77 160.02 90)
 			(effects
 				(font
@@ -3933,7 +3933,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 105.41 147.32 90)
 			(effects
 				(font
@@ -4020,7 +4020,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 227.33 160.02 90)
 			(effects
 				(font
@@ -4107,7 +4107,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 207.01 160.02 90)
 			(effects
 				(font
@@ -4194,7 +4194,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 353.06 147.32 90)
 			(effects
 				(font
@@ -4348,7 +4348,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 125.73 147.32 90)
 			(effects
 				(font
@@ -4790,7 +4790,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 247.65 134.62 90)
 			(effects
 				(font
@@ -4964,7 +4964,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 64.77 134.62 90)
 			(effects
 				(font
@@ -5051,7 +5051,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 146.05 134.62 90)
 			(effects
 				(font
@@ -5138,7 +5138,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 85.09 147.32 90)
 			(effects
 				(font
@@ -5359,7 +5359,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 207.01 147.32 90)
 			(effects
 				(font
@@ -5580,7 +5580,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 39.37 147.32 90)
 			(effects
 				(font
@@ -5734,7 +5734,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 247.65 147.32 90)
 			(effects
 				(font
@@ -5821,7 +5821,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 125.73 134.62 90)
 			(effects
 				(font
@@ -5975,7 +5975,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 85.09 160.02 90)
 			(effects
 				(font
@@ -6062,7 +6062,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 288.29 134.62 90)
 			(effects
 				(font
@@ -6149,7 +6149,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 67.31 172.72 90)
 			(effects
 				(font
@@ -6303,7 +6303,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 186.69 134.62 90)
 			(effects
 				(font
@@ -6390,7 +6390,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 176.53 172.72 90)
 			(effects
 				(font
@@ -6544,7 +6544,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 118.11 172.72 90)
 			(effects
 				(font
@@ -6698,7 +6698,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 166.37 160.02 90)
 			(effects
 				(font
@@ -6919,7 +6919,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 227.33 147.32 90)
 			(effects
 				(font
@@ -7073,7 +7073,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 92.71 172.72 90)
 			(effects
 				(font
@@ -7294,7 +7294,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 373.38 160.02 90)
 			(effects
 				(font
@@ -7515,7 +7515,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 105.41 134.62 90)
 			(effects
 				(font
@@ -7803,7 +7803,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 353.06 160.02 90)
 			(effects
 				(font
@@ -7890,7 +7890,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 146.05 147.32 90)
 			(effects
 				(font
@@ -7977,7 +7977,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 166.37 134.62 90)
 			(effects
 				(font
@@ -8131,7 +8131,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 209.55 172.72 90)
 			(effects
 				(font
@@ -8419,7 +8419,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 247.65 160.02 90)
 			(effects
 				(font
@@ -8573,7 +8573,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 267.97 147.32 90)
 			(effects
 				(font
@@ -8861,7 +8861,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 331.47 134.62 90)
 			(effects
 				(font
@@ -9015,7 +9015,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 207.01 134.62 90)
 			(effects
 				(font
@@ -9169,7 +9169,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 288.29 147.32 90)
 			(effects
 				(font
@@ -9457,7 +9457,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 39.37 134.62 90)
 			(effects
 				(font
@@ -9611,7 +9611,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 284.48 179.07 90)
 			(effects
 				(font
@@ -9765,7 +9765,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 267.97 134.62 90)
 			(effects
 				(font
@@ -9852,7 +9852,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 304.8 179.07 90)
 			(effects
 				(font
@@ -9939,7 +9939,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 64.77 147.32 90)
 			(effects
 				(font
@@ -10026,7 +10026,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 227.33 134.62 90)
 			(effects
 				(font
@@ -10113,7 +10113,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 353.06 134.62 90)
 			(effects
 				(font
@@ -10354,7 +10354,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 331.47 147.32 90)
 			(effects
 				(font
@@ -10642,7 +10642,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 331.47 160.02 90)
 			(effects
 				(font
@@ -10729,7 +10729,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 39.37 172.72 90)
 			(effects
 				(font
@@ -10816,7 +10816,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 146.05 160.02 90)
 			(effects
 				(font
@@ -10903,7 +10903,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 186.69 160.02 90)
 			(effects
 				(font
@@ -10990,7 +10990,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 373.38 147.32 90)
 			(effects
 				(font
@@ -11077,7 +11077,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 125.73 160.02 90)
 			(effects
 				(font
@@ -11164,7 +11164,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 267.97 160.02 90)
 			(effects
 				(font
@@ -11251,7 +11251,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 353.06 172.72 90)
 			(effects
 				(font
@@ -11338,7 +11338,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 143.51 172.72 90)
 			(effects
 				(font
@@ -11559,7 +11559,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 85.09 134.62 90)
 			(effects
 				(font
@@ -11713,7 +11713,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 186.69 147.32 90)
 			(effects
 				(font
@@ -12202,7 +12202,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 166.37 147.32 90)
 			(effects
 				(font
@@ -12289,7 +12289,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148W"
 			(at 325.12 179.07 90)
 			(effects
 				(font
