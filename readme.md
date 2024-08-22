@@ -1,4 +1,4 @@
-# ProKey 40+
+# Mimic40
 
 A tiny ortho board that is pretending to be a fullsize. I have not ordered any pcbs yet so consider these files *under development* until i can order some to test if they work.
 ![photo of the layout](./layout.png)
@@ -21,9 +21,10 @@ These may be helpful for future in the design of a case
 
 ## screenshots
 
-![photo of layout](./pcb.png)
-![photo of layout](./3d_1.png)
 ![photo of layout](./3d_2.png)
+![photo of layout](./3d_1.png)
+![photo of layout](./pcb.png)
+![photo of layout for RP2040](./pcb_2.png)
 
 ## references
 
@@ -33,9 +34,10 @@ These may be helpful for future in the design of a case
 
 - [x] define outer geometry
 - [x] per key rgb
-- [ ] route rows and columns
-- [ ] make plate cutout file (remember to add a 2u plate mount stabiliser)
+- [x] route rows and columns
 - [x] switch to rp2040 based design (no dev board)
+- [ ] make plate cutout file (remember to add a 2u plate mount stabiliser)
 - [ ] design a case (acrlic laser cut or possible 3d printed)
 - [ ] order pcbs to test
+- [ ] firmware
 - [ ] take it from there
