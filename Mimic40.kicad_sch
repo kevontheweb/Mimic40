@@ -2521,7 +2521,7 @@
 			(uuid "8981458f-59a3-4073-b982-19b863221368")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "5")
 				)
@@ -2580,7 +2580,7 @@
 			(uuid "ce914929-ec6b-4cf1-900f-b11567d817ae")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "4")
 				)
@@ -2819,7 +2819,7 @@
 			(uuid "08d42c84-3ded-4cd9-8319-28553d45379e")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "3")
 				)
@@ -3198,7 +3198,7 @@
 			(uuid "7018041a-36a3-4eee-a071-f9433a4aa0d3")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "2")
 				)
