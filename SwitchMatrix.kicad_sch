@@ -2574,6 +2574,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f11db92-9594-4d5b-b82f-1c4d798e1d2d")
 		)
@@ -2581,7 +2635,7 @@
 			(uuid "01fc7797-7be1-4e84-98f8-02158f6d861c")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D35")
 					(unit 1)
@@ -2594,7 +2648,7 @@
 		(at 356.87 35.56 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00c4b0b0-b66b-41cb-ae0a-661baca189bc")
@@ -2641,6 +2695,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 356.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 356.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 356.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 356.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 356.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 356.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "673a7a8d-2907-4025-939b-3149ca500a43")
 		)
@@ -2648,7 +2756,7 @@
 			(uuid "94581786-3126-4a13-9d2a-c28b33c94b13")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "JP10")
 					(unit 1)
@@ -2728,6 +2836,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 372.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 372.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 372.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 372.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 372.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 372.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8c2a092-5cfd-41f6-a114-e8ccac79a9c6")
 		)
@@ -2735,7 +2897,7 @@
 			(uuid "9220587d-f15d-4326-b0d5-948fed010041")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D16")
 					(unit 1)
@@ -2760,7 +2922,7 @@
 				)
 			)
 		)
-		(property "Value" "Super"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 330.2 240.03 0)
 			(effects
 				(font
@@ -2795,6 +2957,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 330.2 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 330.2 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 330.2 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 330.2 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 330.2 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 330.2 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b003351-8f79-49ea-9667-5d7c0780d534")
 		)
@@ -2802,7 +3018,7 @@
 			(uuid "88b6f7b5-5ee4-46c5-9025-7c9af17ae9be")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K34")
 					(unit 1)
@@ -2817,7 +3033,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "073fbcbe-a23b-4c4a-8d3c-dfafa3d038eb")
 		(property "Reference" "K42"
 			(at 180.34 143.9418 0)
@@ -2827,7 +3043,7 @@
 				)
 			)
 		)
-		(property "Value" "N"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 180.34 152.4 0)
 			(effects
 				(font
@@ -2862,6 +3078,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 180.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b47d540e-0c8c-4c45-a83b-3043e74c2936")
 		)
@@ -2869,7 +3139,7 @@
 			(uuid "e70a2208-f1b5-46b8-9f6d-acae94478838")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K42")
 					(unit 1)
@@ -2884,7 +3154,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "09bcbf63-82fb-45a1-a240-f2988b45f42f")
 		(property "Reference" "K28"
 			(at 241.3 131.2418 0)
@@ -2894,7 +3164,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 241.3 139.7 0)
 			(effects
 				(font
@@ -2929,6 +3199,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 241.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 241.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 241.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 241.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 241.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 241.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0cbd96e-cc16-40bd-a1db-38610f2a6c02")
 		)
@@ -2936,7 +3260,7 @@
 			(uuid "087aa9a7-34a2-4f34-a677-f0142936f94d")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K28")
 					(unit 1)
@@ -2951,7 +3275,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0bd62eac-5efc-4972-b2df-93e9df285cee")
 		(property "Reference" "K49"
 			(at 367.03 143.9418 0)
@@ -2961,7 +3285,7 @@
 				)
 			)
 		)
-		(property "Value" "8"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 367.03 152.4 0)
 			(effects
 				(font
@@ -2996,6 +3320,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 367.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 367.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 367.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 367.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 367.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 367.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2701b1e6-7fad-4f1a-9f3b-df35a1c78901")
 		)
@@ -3003,7 +3381,7 @@
 			(uuid "1553ecae-1410-4737-8988-95ed073a7fde")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K49")
 					(unit 1)
@@ -3018,7 +3396,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0e8d3b9e-511f-4f53-b87c-15ee3d7bb001")
 		(property "Reference" "K22"
 			(at 119.38 131.2418 0)
@@ -3028,7 +3406,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 119.38 139.7 0)
 			(effects
 				(font
@@ -3063,6 +3441,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 119.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 119.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 119.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 119.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 119.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 119.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4c3d84d-a842-4fd8-8781-98884497f0ac")
 		)
@@ -3070,7 +3502,7 @@
 			(uuid "4a801087-08a5-4483-ae47-c416ee74552e")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K22")
 					(unit 1)
@@ -3085,7 +3517,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0ea915a4-a6c5-43c2-9f9c-42848622cc96")
 		(property "Reference" "K27"
 			(at 220.98 131.2418 0)
@@ -3095,7 +3527,7 @@
 				)
 			)
 		)
-		(property "Value" "K"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 220.98 139.7 0)
 			(effects
 				(font
@@ -3130,6 +3562,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 220.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 220.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 220.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 220.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 220.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 220.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "822ed811-6bfa-4cd6-a180-d58fc4c99a0d")
 		)
@@ -3137,7 +3623,7 @@
 			(uuid "6f56e846-e599-44c5-8b3f-3e768571b106")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K27")
 					(unit 1)
@@ -3217,6 +3703,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 372.11 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 372.11 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 372.11 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 372.11 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 372.11 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 372.11 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0400f832-dee5-41c4-80c1-6e9844132fce")
 		)
@@ -3224,7 +3764,7 @@
 			(uuid "26205fce-e978-46c6-ab28-0394e5407b6c")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D62")
 					(unit 1)
@@ -3304,6 +3844,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 233.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 233.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 233.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 233.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 233.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 233.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5cafd59-5cbb-42a1-9d69-482007d62164")
 		)
@@ -3311,7 +3905,7 @@
 			(uuid "ce2b10cc-b476-4cb9-83ba-a68cc0e2d8fd")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D59")
 					(unit 1)
@@ -3324,7 +3918,7 @@
 		(at 356.87 25.4 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "13e7149b-b70e-45fc-8824-200667d297eb")
@@ -3371,6 +3965,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 356.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 356.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 356.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 356.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 356.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 356.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f7adf73-3358-4ea1-8cbe-5835059918a3")
 		)
@@ -3378,7 +4026,7 @@
 			(uuid "a4a5b8fa-da1e-468f-bb09-8b6a7a9c283c")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "JP9")
 					(unit 1)
@@ -3393,7 +4041,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1583adaa-e644-442b-8c80-ba187e7c0236")
 		(property "Reference" "K14"
 			(at 325.12 118.5418 0)
@@ -3403,7 +4051,7 @@
 				)
 			)
 		)
-		(property "Value" "Delete"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 325.12 127 0)
 			(effects
 				(font
@@ -3438,6 +4086,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 325.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 325.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 325.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 325.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 325.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 325.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5aea43c0-486d-48d5-935b-2ee34a6c58ad")
 		)
@@ -3445,7 +4147,7 @@
 			(uuid "b780ee9e-3b73-4fc0-89f8-e3ee6eaa252a")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K14")
 					(unit 1)
@@ -3460,7 +4162,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "188ced77-41b7-4898-b568-9c87c4270a23")
 		(property "Reference" "K50"
 			(at 298.45 150.2918 0)
@@ -3470,7 +4172,7 @@
 				)
 			)
 		)
-		(property "Value" "9"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 298.45 158.75 0)
 			(effects
 				(font
@@ -3505,6 +4207,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 298.45 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 298.45 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 298.45 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 298.45 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 298.45 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 298.45 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b34433eb-9e35-4d59-87dc-0268dd11c445")
 		)
@@ -3512,7 +4268,7 @@
 			(uuid "9e49b46e-4872-4766-9fa6-8ce1ce5e19da")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K50")
 					(unit 1)
@@ -3527,7 +4283,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "19f9c498-4679-43f7-b1e4-84851920839b")
 		(property "Reference" "K31"
 			(at 325.12 131.2418 0)
@@ -3537,7 +4293,7 @@
 				)
 			)
 		)
-		(property "Value" "Return"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 325.12 139.7 0)
 			(effects
 				(font
@@ -3572,6 +4328,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 325.12 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 325.12 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 325.12 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 325.12 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 325.12 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 325.12 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c76b1e6a-958f-4c6c-8b09-b775278621a4")
 		)
@@ -3579,7 +4389,7 @@
 			(uuid "9b1a1493-3928-4523-8900-e5fcc7b583d6")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K31")
 					(unit 1)
@@ -3604,7 +4414,7 @@
 				)
 			)
 		)
-		(property "Value" "N"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 355.6 240.03 0)
 			(effects
 				(font
@@ -3639,6 +4449,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 355.6 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 355.6 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 355.6 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 355.6 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 355.6 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 355.6 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae14e4a8-c813-4124-87ff-8846b24aae96")
 		)
@@ -3646,7 +4510,7 @@
 			(uuid "8ec13da0-4068-4a70-b6e1-59d7e2753287")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K51")
 					(unit 1)
@@ -3726,6 +4590,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 104.14 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 104.14 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 104.14 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 104.14 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 104.14 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 104.14 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "878f8b52-d2ee-45d3-953c-212278cd4101")
 		)
@@ -3733,7 +4651,7 @@
 			(uuid "7f912c34-77d6-4919-abad-31504e8dfe5c")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D38")
 					(unit 1)
@@ -3813,6 +4731,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 303.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 303.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 303.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 303.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 303.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 303.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bdc9dd66-f7d4-4915-8682-8e419e1e4235")
 		)
@@ -3820,7 +4792,7 @@
 			(uuid "16709076-ca90-435b-9dcf-ceaabd230105")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D50")
 					(unit 1)
@@ -3900,6 +4872,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 63.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 63.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 63.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 63.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 63.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 63.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16777d4f-7abd-4e4d-a211-bb37a47916a3")
 		)
@@ -3907,7 +4933,7 @@
 			(uuid "a109a58c-594c-4daa-a8e5-b52274bc59db")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D36")
 					(unit 1)
@@ -3987,6 +5013,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 104.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 104.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 104.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 104.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 104.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 104.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "258d4694-3471-4b99-95b6-17ea0c50f1e7")
 		)
@@ -3994,7 +5074,7 @@
 			(uuid "df7555be-ff43-4b85-831e-7ec5c4237316")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D21")
 					(unit 1)
@@ -4074,6 +5154,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 226.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 226.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 226.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 226.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 226.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 226.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6424e241-50d4-435b-aa17-23e3836a0534")
 		)
@@ -4081,7 +5215,7 @@
 			(uuid "48e81b37-c6a6-4aff-ab56-f7ef912469f9")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D44")
 					(unit 1)
@@ -4161,6 +5295,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 205.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 205.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 205.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 205.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 205.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 205.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f2559367-25bb-45e8-93d5-3bb1e5d8fba5")
 		)
@@ -4168,7 +5356,7 @@
 			(uuid "c9817baf-6804-4ece-aa01-e9d72352b26d")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D43")
 					(unit 1)
@@ -4248,6 +5436,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 351.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 351.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 351.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 351.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 351.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 351.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "711ee595-1846-442a-a8c6-29fda5b8f369")
 		)
@@ -4255,7 +5497,7 @@
 			(uuid "8f441413-bffd-4552-ae5d-707dedd56686")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D32")
 					(unit 1)
@@ -4270,7 +5512,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2761bb10-36f2-4d9e-9f5a-f09b524c00ee")
 		(property "Reference" "K62"
 			(at 278.13 162.9918 0)
@@ -4280,7 +5522,7 @@
 				)
 			)
 		)
-		(property "Value" "Fn"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 278.13 171.45 0)
 			(effects
 				(font
@@ -4315,6 +5557,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 278.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 278.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 278.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 278.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 278.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 278.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "318e8814-9038-4f1b-b0d2-dc209cf96dd7")
 		)
@@ -4322,7 +5618,7 @@
 			(uuid "ea9642c3-188c-492d-9c83-4fc35e607169")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K62")
 					(unit 1)
@@ -4402,6 +5698,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 124.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 124.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 124.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 124.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 124.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 124.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "529937f8-f461-4283-8f45-9fee422d6a62")
 		)
@@ -4409,7 +5759,7 @@
 			(uuid "df987708-b0b8-4a6f-b640-00d0825ce43e")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D22")
 					(unit 1)
@@ -4424,7 +5774,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2b1950ac-ff70-4363-bf61-4eb3b3aa7612")
 		(property "Reference" "K37"
 			(at 78.74 143.9418 0)
@@ -4434,7 +5784,7 @@
 				)
 			)
 		)
-		(property "Value" "Z"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 78.74 152.4 0)
 			(effects
 				(font
@@ -4469,6 +5819,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a95dd1e6-1baf-4f5c-b3cc-70a24650257f")
 		)
@@ -4476,7 +5880,7 @@
 			(uuid "4bd00ecc-4c1c-4b24-a4d6-0487df3b8bb1")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K37")
 					(unit 1)
@@ -4556,6 +5960,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 382.27 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 382.27 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 382.27 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 382.27 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "DNS"
+			(at 382.27 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 382.27 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14cc6fe4-ed5c-49d8-851b-3a5eb2a3c661")
 		)
@@ -4563,7 +6021,7 @@
 			(uuid "c245dcf5-3f71-4312-83b8-af90bb2a5087")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D17")
 					(unit 1)
@@ -4578,7 +6036,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2c32e302-8f1b-491d-bab6-8f732fabcd1e")
 		(property "Reference" "K59"
 			(at 228.6 156.6418 0)
@@ -4588,7 +6046,7 @@
 				)
 			)
 		)
-		(property "Value" "Alt"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 228.6 165.1 0)
 			(effects
 				(font
@@ -4623,6 +6081,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 228.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 228.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 228.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 228.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 228.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 228.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b64f0262-68b8-4460-ace1-88e9f099f1a5")
 		)
@@ -4630,7 +6142,7 @@
 			(uuid "26b8cac9-8472-476d-861a-946da0f66c45")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K59")
 					(unit 1)
@@ -4645,7 +6157,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2f7ab59f-ce28-4053-b07f-b165e345f1fc")
 		(property "Reference" "K16"
 			(at 367.03 118.5418 0)
@@ -4655,7 +6167,7 @@
 				)
 			)
 		)
-		(property "Value" "2"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 367.03 127 0)
 			(effects
 				(font
@@ -4690,6 +6202,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 367.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 367.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 367.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 367.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 367.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 367.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18cbde85-95c4-42c9-ad96-55e4fbdf7654")
 		)
@@ -4697,7 +6263,7 @@
 			(uuid "7b8c5af5-0966-42b3-9fef-6153ca6e5125")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K16")
 					(unit 1)
@@ -4712,7 +6278,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "35189992-0c82-466d-9132-dd8c0cb36723")
 		(property "Reference" "K47"
 			(at 325.12 143.9418 0)
@@ -4722,7 +6288,7 @@
 				)
 			)
 		)
-		(property "Value" "Shift"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 325.12 152.4 0)
 			(effects
 				(font
@@ -4757,6 +6323,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 325.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 325.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 325.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 325.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 325.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 325.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "782a75d0-ab1b-44f0-8480-5f9291f5b899")
 		)
@@ -4764,7 +6384,7 @@
 			(uuid "11663429-5398-4334-8ef4-efbaa442c769")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K47")
 					(unit 1)
@@ -4844,6 +6464,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd828aeb-62d9-4cbb-a41e-d7ff8ba7bf1d")
 		)
@@ -4851,7 +6525,7 @@
 			(uuid "2d99dbab-0fcf-4a63-a703-05a6a44b0657")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D11")
 					(unit 1)
@@ -4931,6 +6605,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 335.28 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 335.28 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 335.28 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 335.28 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "DNS"
+			(at 335.28 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 335.28 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "320f8ca6-4d01-4c1a-aea3-b5406bf8846e")
 		)
@@ -4938,7 +6666,7 @@
 			(uuid "cbd5274d-f1a6-44ae-82e4-af78a7e0f404")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D34")
 					(unit 1)
@@ -5018,6 +6746,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 63.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 63.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 63.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 63.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 63.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 63.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77a3c77e-ec3a-423a-a416-7be0cea32385")
 		)
@@ -5025,7 +6807,7 @@
 			(uuid "48612e0e-3ace-4ec7-8163-ff28aeb71e01")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D2")
 					(unit 1)
@@ -5105,6 +6887,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d23c395-e38e-4685-82f4-9ca06c86a2fd")
 		)
@@ -5112,7 +6948,7 @@
 			(uuid "0912b870-04da-4c9c-807e-3bd6b85eb244")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D6")
 					(unit 1)
@@ -5192,6 +7028,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 83.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 83.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 83.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 83.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 83.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 83.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6601507d-da8b-49f8-b066-54f6863ce439")
 		)
@@ -5199,7 +7089,7 @@
 			(uuid "e6c2e641-bde6-4524-871f-5f640fe5d91b")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D20")
 					(unit 1)
@@ -5214,7 +7104,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "478a4549-f259-4e1f-a2c3-2c39412bf1bc")
 		(property "Reference" "K4"
 			(at 99.06 118.5418 0)
@@ -5224,7 +7114,7 @@
 				)
 			)
 		)
-		(property "Value" "W"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 99.06 127 0)
 			(effects
 				(font
@@ -5259,6 +7149,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 99.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 99.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 99.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 99.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 99.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 99.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e94f0b86-1df0-4b7b-92d9-bf5814489a26")
 		)
@@ -5266,7 +7210,7 @@
 			(uuid "9063a46f-150e-42cf-a3e0-4c88017b7c12")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K4")
 					(unit 1)
@@ -5281,7 +7225,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "49fcd4eb-b6ce-4fec-b24c-7d39228461fd")
 		(property "Reference" "K18"
 			(at 33.02 131.2418 0)
@@ -5291,7 +7235,7 @@
 				)
 			)
 		)
-		(property "Value" "End"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 33.02 139.7 0)
 			(effects
 				(font
@@ -5326,6 +7270,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 33.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 33.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 33.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 33.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 33.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 33.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4185707d-c820-432b-b0e0-d436448f98e4")
 		)
@@ -5333,7 +7331,7 @@
 			(uuid "063e355a-3a1f-44a9-8e74-7c4bfa2649d6")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K18")
 					(unit 1)
@@ -5413,6 +7411,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "418bda98-deb5-43dc-b63b-4404e288bf3c")
 		)
@@ -5420,7 +7472,7 @@
 			(uuid "506c0f4f-cfb4-4f90-914e-64da7149a0d5")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D26")
 					(unit 1)
@@ -5435,7 +7487,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4dfe118f-4906-412c-aa0e-fa3cc38c9aa5")
 		(property "Reference" "K1"
 			(at 33.02 118.5418 0)
@@ -5445,7 +7497,7 @@
 				)
 			)
 		)
-		(property "Value" "Home"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 33.02 127 0)
 			(effects
 				(font
@@ -5480,6 +7532,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 33.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 33.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 33.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 33.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 33.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 33.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0dcf974-8b66-4936-89f3-eecd655cf81b")
 		)
@@ -5487,7 +7593,7 @@
 			(uuid "ab69c044-ca3b-497b-b25a-af6b7c3d2197")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K1")
 					(unit 1)
@@ -5502,7 +7608,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5298ab32-b79e-453e-b56c-216917851aeb")
 		(property "Reference" "K26"
 			(at 200.66 131.2418 0)
@@ -5512,7 +7618,7 @@
 				)
 			)
 		)
-		(property "Value" "J"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 200.66 139.7 0)
 			(effects
 				(font
@@ -5547,6 +7653,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 200.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7c97574-1d11-4f39-af51-019d611ba557")
 		)
@@ -5554,7 +7714,7 @@
 			(uuid "820eb348-b8c0-41b2-9e13-a3b65c8ffa14")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K26")
 					(unit 1)
@@ -5634,6 +7794,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03370b84-4d15-47b2-9cbe-020490c50572")
 		)
@@ -5641,7 +7855,7 @@
 			(uuid "75d6176e-12fa-4d68-902d-e876e3c9a2fc")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D18")
 					(unit 1)
@@ -5656,7 +7870,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "53f457a2-caa7-437a-b6e2-1d9cfffc7150")
 		(property "Reference" "K19"
 			(at 58.42 131.2418 0)
@@ -5666,7 +7880,7 @@
 				)
 			)
 		)
-		(property "Value" "Esc"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 58.42 139.7 0)
 			(effects
 				(font
@@ -5701,6 +7915,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 58.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 58.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 58.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 58.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 58.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 58.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c54fa42b-97c9-4aaa-9102-6a52e9acfe5f")
 		)
@@ -5708,7 +7976,7 @@
 			(uuid "64453523-2941-43fd-904f-9ef6f467e359")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K19")
 					(unit 1)
@@ -5788,6 +8056,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 246.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 246.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 246.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 246.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 246.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 246.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35b38da0-da7e-4664-8166-d1735219b3e9")
 		)
@@ -5795,7 +8117,7 @@
 			(uuid "d0fda589-11a3-4616-bcfa-c702b1827ea8")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D28")
 					(unit 1)
@@ -5875,6 +8197,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ccc157d1-c195-4d98-8c05-31c6de531963")
 		)
@@ -5882,7 +8258,7 @@
 			(uuid "b8cd1d9b-78d7-4efa-ba40-f1659a518bde")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D5")
 					(unit 1)
@@ -5895,7 +8271,7 @@
 		(at 384.81 35.56 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "562efeb9-a54c-471d-89f1-ae8c2f71aba2")
@@ -5942,6 +8318,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 384.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 384.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 384.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 384.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 384.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 384.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ae8a426a-bcad-4099-9746-1a9312943ea9")
 		)
@@ -5949,7 +8379,7 @@
 			(uuid "1cbba0ad-33d0-40ce-bc94-5718a762eda2")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "JP3")
 					(unit 1)
@@ -6029,6 +8459,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 83.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 83.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 83.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 83.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 83.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 83.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16717045-2604-4949-a570-b7b03f64ba51")
 		)
@@ -6036,7 +8520,7 @@
 			(uuid "d083c1d1-22e2-48d2-92cc-29d88254560f")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D37")
 					(unit 1)
@@ -6116,6 +8600,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 287.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 287.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 287.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 287.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 287.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 287.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04dbccb1-b651-4ad2-8707-e40f32dafc0d")
 		)
@@ -6123,7 +8661,7 @@
 			(uuid "743d7cbf-6076-46d1-93ec-a6ac98d658f0")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D13")
 					(unit 1)
@@ -6203,6 +8741,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18cbf6d1-94df-45b2-b4aa-65963ab8ee34")
 		)
@@ -6210,7 +8802,7 @@
 			(uuid "d2c3da94-52f7-46de-9f6d-b00bd964e7df")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D53")
 					(unit 1)
@@ -6225,7 +8817,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5b2e8e4f-5d7a-437d-a151-436fc01c5cbb")
 		(property "Reference" "K5"
 			(at 119.38 118.5418 0)
@@ -6235,7 +8827,7 @@
 				)
 			)
 		)
-		(property "Value" "E"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 119.38 127 0)
 			(effects
 				(font
@@ -6270,6 +8862,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 119.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 119.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 119.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 119.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 119.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 119.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e0ed898-f96d-43ed-9a93-ea4c62e3d509")
 		)
@@ -6277,7 +8923,7 @@
 			(uuid "3127f06e-c9f7-4d51-bfa7-aa4771f37686")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K5")
 					(unit 1)
@@ -6357,6 +9003,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 185.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 185.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 185.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 185.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 185.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 185.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11fe3896-7b35-4cf5-8174-af27a7f75bec")
 		)
@@ -6364,7 +9064,7 @@
 			(uuid "be248307-603f-4f95-a8d2-9bb9d2267453")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D8")
 					(unit 1)
@@ -6444,6 +9144,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 175.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 175.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 175.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 175.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 175.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 175.26 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8505712-b730-420d-8072-43d658c41d42")
 		)
@@ -6451,7 +9205,7 @@
 			(uuid "e03ab59b-6989-48d1-bbd4-de27056e4d06")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D57")
 					(unit 1)
@@ -6466,7 +9220,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5d876a67-a05e-4da0-9064-cbdb7972933a")
 		(property "Reference" "K10"
 			(at 220.98 118.5418 0)
@@ -6476,7 +9230,7 @@
 				)
 			)
 		)
-		(property "Value" "I"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 220.98 127 0)
 			(effects
 				(font
@@ -6511,6 +9265,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 220.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 220.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 220.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 220.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 220.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 220.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70b15204-8c45-4fef-bbc8-66ec97898339")
 		)
@@ -6518,7 +9326,7 @@
 			(uuid "95d8cd3d-d1c5-4f5a-8590-fcfc30167cee")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K10")
 					(unit 1)
@@ -6598,6 +9406,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 116.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 116.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 116.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 116.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 116.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 116.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f3c1e2e-a96a-4ee1-b744-4d6c9acd823e")
 		)
@@ -6605,7 +9467,7 @@
 			(uuid "3b658513-a95d-4d5a-a0bb-657d79ee1518")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D55")
 					(unit 1)
@@ -6620,7 +9482,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5e098e33-239f-4876-a76f-74a0c4022d35")
 		(property "Reference" "K39"
 			(at 119.38 143.9418 0)
@@ -6630,7 +9492,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 119.38 152.4 0)
 			(effects
 				(font
@@ -6665,6 +9527,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 119.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 119.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 119.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 119.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 119.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 119.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87ab98f3-57c9-44d4-b821-da342d4f540b")
 		)
@@ -6672,7 +9588,7 @@
 			(uuid "d7f595ee-5a2d-4c94-8a40-e16717c6061f")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K39")
 					(unit 1)
@@ -6752,6 +9668,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd7e4ece-2146-4c29-8977-76c1b90dd1dc")
 		)
@@ -6759,7 +9729,7 @@
 			(uuid "ac0ad083-c41e-4503-8d8a-5c1a5ebdcee1")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D41")
 					(unit 1)
@@ -6774,7 +9744,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5efbefc6-177a-41c1-911a-f431d7d848f0")
 		(property "Reference" "K63"
 			(at 298.45 162.9918 0)
@@ -6784,7 +9754,7 @@
 				)
 			)
 		)
-		(property "Value" "&larr;"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 298.45 171.45 0)
 			(effects
 				(font
@@ -6819,6 +9789,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 298.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 298.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 298.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 298.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 298.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 298.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "baf98e36-ce13-4463-b7a7-ddda77ac25d6")
 		)
@@ -6826,7 +9850,7 @@
 			(uuid "9c5b78e1-4dc0-47cb-9243-582b0a86e231")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K63")
 					(unit 1)
@@ -6841,7 +9865,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5fb42778-5bb2-4aea-8c43-df14890dbcdf")
 		(property "Reference" "K9"
 			(at 200.66 118.5418 0)
@@ -6851,7 +9875,7 @@
 				)
 			)
 		)
-		(property "Value" "U"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 200.66 127 0)
 			(effects
 				(font
@@ -6886,6 +9910,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 200.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 200.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 200.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 200.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 200.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 200.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92d11d5e-df36-4743-bf71-46f6bbb5d1cb")
 		)
@@ -6893,7 +9971,7 @@
 			(uuid "b5254206-d54c-485f-ad8b-8e1b98d53f06")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K9")
 					(unit 1)
@@ -6973,6 +10051,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "66e20acd-facb-43cb-be2b-b267649536dc")
 		)
@@ -6980,7 +10112,7 @@
 			(uuid "6b766b3c-1924-4a0e-9c33-0d862280623f")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D27")
 					(unit 1)
@@ -6995,7 +10127,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "65426190-1252-4369-bf10-7d533ed57827")
 		(property "Reference" "K15"
 			(at 346.71 118.5418 0)
@@ -7005,7 +10137,7 @@
 				)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 346.71 127 0)
 			(effects
 				(font
@@ -7040,6 +10172,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 346.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 346.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 346.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 346.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 346.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 346.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16f3ba22-1ea7-4984-a408-553fc98fb4de")
 		)
@@ -7047,7 +10233,7 @@
 			(uuid "00bd08cb-2247-4827-8ed3-2e9c74c3ea81")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K15")
 					(unit 1)
@@ -7127,6 +10313,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 91.44 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 91.44 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 91.44 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 91.44 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 91.44 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 91.44 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c84afad5-208f-4091-8107-44c59f342a92")
 		)
@@ -7134,7 +10374,7 @@
 			(uuid "fc84ceb1-1109-4dae-8afc-396a6a339b1b")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D54")
 					(unit 1)
@@ -7149,7 +10389,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6ad89719-7326-4f4c-944b-34501ae659ad")
 		(property "Reference" "K11"
 			(at 241.3 118.5418 0)
@@ -7159,7 +10399,7 @@
 				)
 			)
 		)
-		(property "Value" "O"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 241.3 127 0)
 			(effects
 				(font
@@ -7194,6 +10434,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 241.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 241.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 241.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 241.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 241.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 241.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19c520b2-2178-4032-b3f4-25a58f5ba7d0")
 		)
@@ -7201,7 +10495,7 @@
 			(uuid "e410cd18-c687-46a8-a800-95310fc5a1c5")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K11")
 					(unit 1)
@@ -7216,7 +10510,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6b8984d5-bb41-4306-ac99-d3f79c660fc1")
 		(property "Reference" "K32"
 			(at 346.71 131.2418 0)
@@ -7226,7 +10520,7 @@
 				)
 			)
 		)
-		(property "Value" "4"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 346.71 139.7 0)
 			(effects
 				(font
@@ -7261,6 +10555,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 346.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 346.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 346.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 346.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 346.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 346.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f6715aa2-2b1e-4199-9a05-c9b8502a8945")
 		)
@@ -7268,7 +10616,7 @@
 			(uuid "632c9691-d151-4c21-950c-44a6a8bbe6d0")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K32")
 					(unit 1)
@@ -7348,6 +10696,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 372.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 372.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 372.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 372.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 372.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 372.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56039b42-b001-435f-939d-1f6dedc984d8")
 		)
@@ -7355,7 +10757,7 @@
 			(uuid "087283ef-8861-461d-a5cf-dd9f57334170")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D49")
 					(unit 1)
@@ -7370,7 +10772,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6d7fe5ac-c06c-4cdc-972b-b28eefc5b672")
 		(property "Reference" "K61"
 			(at 367.03 157.48 0)
@@ -7380,7 +10782,7 @@
 				)
 			)
 		)
-		(property "Value" "Enter"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 367.03 165.1 0)
 			(effects
 				(font
@@ -7415,6 +10817,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 367.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 367.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 367.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 367.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 367.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 367.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6cef54c-f0e6-42a6-b6a4-90d864b682d4")
 		)
@@ -7422,7 +10878,7 @@
 			(uuid "ca156ba5-7642-4ce8-9d3d-03edff1f98fa")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K61")
 					(unit 1)
@@ -7435,7 +10891,7 @@
 		(at 384.81 25.4 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6d91f232-1f84-4861-9470-0f06890473d0")
@@ -7482,6 +10938,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 384.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 384.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 384.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 384.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 384.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 384.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "84c0f7ea-ca9d-416a-8676-423899cac9b9")
 		)
@@ -7489,7 +10999,7 @@
 			(uuid "9ec65bde-b340-40d7-b7e0-960f0b90010a")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "JP2")
 					(unit 1)
@@ -7569,6 +11079,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8141da7e-e07e-4d99-a613-408d522b49d9")
 		)
@@ -7576,7 +11140,7 @@
 			(uuid "e205df91-43f9-4f46-94da-b87e5ac89343")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D4")
 					(unit 1)
@@ -7591,7 +11155,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "71dab44f-61e5-4a32-bb5d-e6912faf93f5")
 		(property "Reference" "K3"
 			(at 78.74 118.5418 0)
@@ -7601,7 +11165,7 @@
 				)
 			)
 		)
-		(property "Value" "Q"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 78.74 127 0)
 			(effects
 				(font
@@ -7636,6 +11200,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 78.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 78.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 78.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 78.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 78.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 78.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1d90379-e7c4-4ca8-8052-8cd40c28fcb0")
 		)
@@ -7643,7 +11261,7 @@
 			(uuid "cce60de4-c25e-44a3-bafa-13b6666855d2")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K3")
 					(unit 1)
@@ -7658,7 +11276,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "72c5103f-dfcb-46ec-9c32-2c94646844b6")
 		(property "Reference" "K43"
 			(at 200.66 143.9418 0)
@@ -7668,7 +11286,7 @@
 				)
 			)
 		)
-		(property "Value" "M"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 200.66 152.4 0)
 			(effects
 				(font
@@ -7703,6 +11321,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 200.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 200.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 200.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 200.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 200.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 200.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e39e69a-663f-416a-9261-556bd0ba79f5")
 		)
@@ -7710,7 +11382,7 @@
 			(uuid "67d9df76-0a8b-40e1-b0d0-5812cb90a9d2")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K43")
 					(unit 1)
@@ -7725,7 +11397,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7307be19-936a-41e2-bb5c-b52c056eab40")
 		(property "Reference" "K64"
 			(at 318.77 162.9918 0)
@@ -7735,7 +11407,7 @@
 				)
 			)
 		)
-		(property "Value" "&darr;"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 318.77 171.45 0)
 			(effects
 				(font
@@ -7770,6 +11442,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 318.77 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 318.77 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 318.77 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 318.77 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 318.77 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 318.77 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7add2aa-7639-4d23-9c9b-74f0dd1a5913")
 		)
@@ -7777,7 +11503,7 @@
 			(uuid "ed2e374a-708a-44ca-ba30-ec9aa992e7f2")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K64")
 					(unit 1)
@@ -7857,6 +11583,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 351.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 351.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 351.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 351.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 351.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 351.79 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fac3a8da-4cda-4f3d-a66c-2f96c02597a6")
 		)
@@ -7864,7 +11644,7 @@
 			(uuid "2a0737da-47e0-44fd-84dc-218ffb409c3a")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D48")
 					(unit 1)
@@ -7944,6 +11724,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 144.78 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 144.78 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 144.78 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 144.78 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 144.78 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 144.78 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2d0c216-98b2-449f-9445-d483c2fa278d")
 		)
@@ -7951,7 +11785,7 @@
 			(uuid "8818aaf6-8b9a-411d-a327-ad921979edac")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D23")
 					(unit 1)
@@ -8031,6 +11865,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ffeec880-3822-45ae-8cf9-1d607922499a")
 		)
@@ -8038,7 +11926,7 @@
 			(uuid "a13b5af5-6bfb-4899-8e1f-8c8900a80b0b")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D7")
 					(unit 1)
@@ -8053,7 +11941,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7557e7f6-ada9-41e9-8424-668624b80a8b")
 		(property "Reference" "K7"
 			(at 160.02 118.5418 0)
@@ -8063,7 +11951,7 @@
 				)
 			)
 		)
-		(property "Value" "T"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 160.02 127 0)
 			(effects
 				(font
@@ -8098,6 +11986,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 160.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 160.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 160.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 160.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 160.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 160.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9280fa2f-07c3-4225-a8a8-f280cb7d05c0")
 		)
@@ -8105,7 +12047,7 @@
 			(uuid "fbdb0f3b-7e32-435c-ab43-cb8a8068f7ad")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K7")
 					(unit 1)
@@ -8185,6 +12127,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 208.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 208.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 208.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 208.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 208.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 208.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f065d2a4-92e6-48dc-bf27-9a41054f1435")
 		)
@@ -8192,7 +12188,7 @@
 			(uuid "32d7992a-0d9d-4ea4-b178-2e5b86e6c149")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D58")
 					(unit 1)
@@ -8207,7 +12203,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7adcb09b-8fb8-4991-9dc1-9dc0eac5d6d6")
 		(property "Reference" "K36"
 			(at 58.42 143.9418 0)
@@ -8217,7 +12213,7 @@
 				)
 			)
 		)
-		(property "Value" "Shift"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 58.42 152.4 0)
 			(effects
 				(font
@@ -8252,6 +12248,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "197957c4-3b28-4d8f-ad75-2727ab835143")
 		)
@@ -8259,7 +12309,7 @@
 			(uuid "7265d529-b42e-4316-8603-30811ba78bc2")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K36")
 					(unit 1)
@@ -8274,7 +12324,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7f54d1a6-ac8a-481b-9723-d3cc6243529a")
 		(property "Reference" "K8"
 			(at 180.34 118.5418 0)
@@ -8284,7 +12334,7 @@
 				)
 			)
 		)
-		(property "Value" "Y"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 180.34 127 0)
 			(effects
 				(font
@@ -8319,6 +12369,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d59d5ef3-8ca6-4905-a88f-d9f01015ee1a")
 		)
@@ -8326,7 +12430,7 @@
 			(uuid "26d76a34-84ff-45ff-8b1f-0c1ee5ec3e2a")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K8")
 					(unit 1)
@@ -8341,7 +12445,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "81c7272c-3ff8-4ebd-9895-62624229c834")
 		(property "Reference" "K21"
 			(at 99.06 131.2418 0)
@@ -8351,7 +12455,7 @@
 				)
 			)
 		)
-		(property "Value" "S"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 99.06 139.7 0)
 			(effects
 				(font
@@ -8386,6 +12490,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 99.06 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 99.06 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 99.06 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 99.06 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 99.06 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 99.06 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "826072e4-eb3c-448d-9808-f7ff9724d94b")
 		)
@@ -8393,7 +12551,7 @@
 			(uuid "4b3812f7-758f-44a2-826e-f32ee6797b4c")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K21")
 					(unit 1)
@@ -8473,6 +12631,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 246.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 246.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 246.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 246.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 246.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 246.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6773e10-8385-4493-a27c-38659f53f7db")
 		)
@@ -8480,7 +12692,7 @@
 			(uuid "feaac71a-a5fa-4965-95eb-a3a0c90d74c7")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D45")
 					(unit 1)
@@ -8495,7 +12707,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8510995d-a3df-4d56-9787-3be6fd3be5e3")
 		(property "Reference" "K35"
 			(at 33.02 143.9418 0)
@@ -8505,7 +12717,7 @@
 				)
 			)
 		)
-		(property "Value" "Vol +"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 33.02 152.4 0)
 			(effects
 				(font
@@ -8540,6 +12752,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 33.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 33.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 33.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 33.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 33.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 33.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8dbc024-962d-4f55-8dd0-9a7b7545d49e")
 		)
@@ -8547,7 +12813,7 @@
 			(uuid "59804664-1027-4e7f-a587-a0907d68d33d")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K35")
 					(unit 1)
@@ -8627,6 +12893,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 266.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 266.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 266.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 266.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 266.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 266.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd5df2a3-5888-4ab5-b8e9-a618bce45be8")
 		)
@@ -8634,7 +12954,7 @@
 			(uuid "0e382f95-e9ce-4ef2-a505-8393af2f1492")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D29")
 					(unit 1)
@@ -8649,7 +12969,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8ce3c8bf-f41a-411f-87e1-09f4f06f5468")
 		(property "Reference" "K33"
 			(at 367.03 131.2418 0)
@@ -8659,7 +12979,7 @@
 				)
 			)
 		)
-		(property "Value" "5"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 367.03 139.7 0)
 			(effects
 				(font
@@ -8694,6 +13014,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 367.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 367.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 367.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 367.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 367.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 367.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71d7b426-1aac-49c6-8eb4-edaba445b7b9")
 		)
@@ -8701,7 +13075,7 @@
 			(uuid "baf74c15-0369-4c68-af52-e77c9758f8b3")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K33")
 					(unit 1)
@@ -8716,7 +13090,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "91571c08-add5-4d3e-b04a-6076d04c66ca")
 		(property "Reference" "K58"
 			(at 203.2 156.6418 0)
@@ -8726,7 +13100,7 @@
 				)
 			)
 		)
-		(property "Value" "&uArr;"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 203.2 165.1 0)
 			(effects
 				(font
@@ -8761,6 +13135,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 203.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 203.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 203.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 203.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 203.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 203.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "565738fb-beec-40a4-89ad-e1b1a7ec1755")
 		)
@@ -8768,7 +13196,7 @@
 			(uuid "dc79e30f-33dd-47ed-ae0e-7cb4d4810db9")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K58")
 					(unit 1)
@@ -8783,7 +13211,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9285cadf-8739-48a4-9607-dc8dd1db5ec9")
 		(property "Reference" "K20"
 			(at 78.74 131.2418 0)
@@ -8793,7 +13221,7 @@
 				)
 			)
 		)
-		(property "Value" "A"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 78.74 139.7 0)
 			(effects
 				(font
@@ -8828,6 +13256,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 78.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 78.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 78.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 78.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 78.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 78.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd48aba3-543f-43d4-8a9c-82b73d59b69a")
 		)
@@ -8835,7 +13317,7 @@
 			(uuid "205223a6-f80e-47e1-bd8b-66d40d25f15b")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K20")
 					(unit 1)
@@ -8915,6 +13397,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 330.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 330.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 330.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 330.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 330.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 330.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51902e66-d65c-4038-a62f-100d7ec8815e")
 		)
@@ -8922,7 +13458,7 @@
 			(uuid "923ea8c1-aae1-49d0-8c0c-a7f6ef464650")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D14")
 					(unit 1)
@@ -8937,7 +13473,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "957d5eb7-fd4e-491c-8ab0-88d03a905d0e")
 		(property "Reference" "K13"
 			(at 281.94 118.5418 0)
@@ -8947,7 +13483,7 @@
 				)
 			)
 		)
-		(property "Value" "Back Space"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 281.94 127 0)
 			(effects
 				(font
@@ -8982,6 +13518,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 281.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 281.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 281.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 281.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 281.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 281.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4bfa582-c248-4824-bcea-71600ab67535")
 		)
@@ -8989,7 +13579,7 @@
 			(uuid "2547294b-1be4-41c4-b663-35ed0a961647")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K13")
 					(unit 1)
@@ -9069,6 +13659,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42cd1ce1-2176-49b2-8bc4-bfa4935035d4")
 		)
@@ -9076,7 +13720,7 @@
 			(uuid "932c9365-0b1b-45fb-a863-a858a589a55f")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D9")
 					(unit 1)
@@ -9091,7 +13735,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "962f313a-46ad-4172-9c34-47feb999dfa0")
 		(property "Reference" "K60"
 			(at 346.71 157.48 0)
@@ -9101,7 +13745,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 346.71 165.1 0)
 			(effects
 				(font
@@ -9136,6 +13780,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 346.71 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 346.71 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 346.71 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 346.71 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 346.71 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 346.71 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d5d9c6c-55d0-4310-9968-6c27bd03370b")
 		)
@@ -9143,7 +13841,7 @@
 			(uuid "9a3004d9-7d75-4771-9e8e-8191d251e95f")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K60")
 					(unit 1)
@@ -9223,6 +13921,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 287.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 287.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 287.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 287.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 287.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 287.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc4241a6-099a-4c71-9a4d-e4489a2536d8")
 		)
@@ -9230,7 +13982,7 @@
 			(uuid "1a34e51b-e3d6-413d-9dbf-363b69be7e4e")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D30")
 					(unit 1)
@@ -9245,7 +13997,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "99d57232-4ed7-454a-8cf9-d2558aeba0fa")
 		(property "Reference" "K25"
 			(at 180.34 131.2418 0)
@@ -9255,7 +14007,7 @@
 				)
 			)
 		)
-		(property "Value" "H"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 180.34 139.7 0)
 			(effects
 				(font
@@ -9290,6 +14042,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63205d84-2241-47ad-b666-770b508f6ed1")
 		)
@@ -9297,7 +14103,7 @@
 			(uuid "5c45a422-3a8a-4753-8c71-5373fb5463d0")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K25")
 					(unit 1)
@@ -9312,7 +14118,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9b039122-4986-4339-ad62-2651e0b2f9d9")
 		(property "Reference" "K52"
 			(at 33.02 156.6418 0)
@@ -9322,7 +14128,7 @@
 				)
 			)
 		)
-		(property "Value" "Vol -"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 33.02 165.1 0)
 			(effects
 				(font
@@ -9357,6 +14163,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5acf3c8e-e2f2-4d7a-b705-c3e298d8fb12")
 		)
@@ -9364,7 +14224,7 @@
 			(uuid "7723d0c9-5878-490f-af88-a905e0654b65")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K52")
 					(unit 1)
@@ -9379,7 +14239,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9bc07083-a0c4-4a16-b2cc-257d56f953bf")
 		(property "Reference" "K54"
 			(at 86.36 156.6418 0)
@@ -9389,7 +14249,7 @@
 				)
 			)
 		)
-		(property "Value" "Alt"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 86.36 165.1 0)
 			(effects
 				(font
@@ -9424,6 +14284,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 86.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 86.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 86.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 86.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 86.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 86.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ccf755c-aa8f-4663-bbf9-4dc5ece79d14")
 		)
@@ -9431,7 +14345,7 @@
 			(uuid "49116dc9-aaf2-49f7-81a1-f39ac638823f")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K54")
 					(unit 1)
@@ -9511,6 +14425,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 38.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 38.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 38.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 38.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 38.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 38.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b818bc92-7d8a-4357-b7bc-f425d716be1d")
 		)
@@ -9518,7 +14486,7 @@
 			(uuid "59846edb-2cf1-4605-820b-ee348a74961d")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D1")
 					(unit 1)
@@ -9533,7 +14501,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a23d00eb-67b2-4253-875c-1f222151e253")
 		(property "Reference" "K56"
 			(at 137.16 156.6418 0)
@@ -9543,7 +14511,7 @@
 				)
 			)
 		)
-		(property "Value" "&dArr;"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 137.16 165.1 0)
 			(effects
 				(font
@@ -9578,6 +14546,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 137.16 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 137.16 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 137.16 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 137.16 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 137.16 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 137.16 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ce4d6e7-708c-4c80-95fc-b16115b00abf")
 		)
@@ -9585,7 +14607,7 @@
 			(uuid "c58b5d48-e84f-4985-8424-854833e8619e")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K56")
 					(unit 1)
@@ -9665,6 +14687,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 283.21 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 283.21 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 283.21 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 283.21 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 283.21 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 283.21 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b32c5b90-cdb8-4801-a45a-785dc66debf2")
 		)
@@ -9672,7 +14748,7 @@
 			(uuid "f0830649-29b5-4fd8-b97e-606ce23dd4ba")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D60")
 					(unit 1)
@@ -9687,7 +14763,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ad653a69-8081-46da-a2ac-c4e883af64df")
 		(property "Reference" "K6"
 			(at 139.7 118.5418 0)
@@ -9697,7 +14773,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 139.7 127 0)
 			(effects
 				(font
@@ -9732,6 +14808,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3584b03-89eb-48a8-be33-df22cdb764e4")
 		)
@@ -9739,7 +14869,7 @@
 			(uuid "d34ee8c4-ec44-4148-a409-d7bb7816f33f")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K6")
 					(unit 1)
@@ -9819,6 +14949,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 266.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 266.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 266.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 266.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 266.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 266.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1415ac1e-ff32-4a01-9a64-9bdf43b2e120")
 		)
@@ -9826,7 +15010,7 @@
 			(uuid "b5dc6fcd-deed-4a7a-993b-fc5a3e489c66")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D12")
 					(unit 1)
@@ -9906,6 +15090,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 303.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 303.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 303.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 303.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 303.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 303.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "427f5c86-86e7-4b24-8e30-be9ef3bd3da8")
 		)
@@ -9913,7 +15151,7 @@
 			(uuid "2f327b7f-ee44-4177-9a2b-00c9024b894d")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D63")
 					(unit 1)
@@ -9993,6 +15231,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4fb917da-a2d3-43b3-9c2a-10da7e76f81c")
 		)
@@ -10000,7 +15292,7 @@
 			(uuid "1c893e3c-9260-4d97-9ab8-17b5545de8f3")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D19")
 					(unit 1)
@@ -10080,6 +15372,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2866cbd0-61da-4e2b-aed2-4982893f86fd")
 		)
@@ -10087,7 +15433,7 @@
 			(uuid "91ea154f-ea58-4653-92d9-988014ce39d0")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D10")
 					(unit 1)
@@ -10167,6 +15513,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 351.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 351.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 351.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 351.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 351.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 351.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d628a3b7-0cca-4540-9866-f7af0ea22b42")
 		)
@@ -10174,7 +15574,7 @@
 			(uuid "4e9c7b6b-e244-4e1f-bd27-cf23f9e2ad74")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D15")
 					(unit 1)
@@ -10254,6 +15654,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 360.68 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 360.68 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 360.68 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 360.68 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "DNS"
+			(at 360.68 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 360.68 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18d52b05-98c9-4732-9f2c-0dee90aa1305")
 		)
@@ -10261,7 +15715,7 @@
 			(uuid "08dcb789-f214-4fc6-a775-afc3411b4f79")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D51")
 					(unit 1)
@@ -10276,7 +15730,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b5cab96f-0c38-45b9-8da0-f1a63da29fcf")
 		(property "Reference" "K45"
 			(at 241.3 143.9418 0)
@@ -10286,7 +15740,7 @@
 				)
 			)
 		)
-		(property "Value" "."
+		(property "Value" "Kailh Hotswap Socket"
 			(at 241.3 152.4 0)
 			(effects
 				(font
@@ -10321,6 +15775,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 241.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 241.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 241.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 241.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 241.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 241.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8066082a-d6ee-4993-b17f-dc120bfb4e96")
 		)
@@ -10328,7 +15836,7 @@
 			(uuid "04f3ae4d-b54c-4b2d-bcb6-baece3f2771d")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K45")
 					(unit 1)
@@ -10408,6 +15916,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 330.2 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 330.2 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 330.2 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 330.2 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 330.2 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 330.2 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe9207db-c378-40fc-8d6e-3e7d7d236c5d")
 		)
@@ -10415,7 +15977,7 @@
 			(uuid "4228bb55-335a-4e7b-b245-877d3703c06a")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D31")
 					(unit 1)
@@ -10430,7 +15992,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b8c07651-ed8b-43c1-9702-61c2aa1b7fde")
 		(property "Reference" "K53"
 			(at 60.96 156.6418 0)
@@ -10440,7 +16002,7 @@
 				)
 			)
 		)
-		(property "Value" "Ctrl"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 60.96 165.1 0)
 			(effects
 				(font
@@ -10475,6 +16037,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 60.96 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 60.96 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 60.96 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 60.96 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 60.96 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 60.96 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa0f4288-61c4-4906-85d3-8b85b9a8400f")
 		)
@@ -10482,7 +16098,7 @@
 			(uuid "e6be4c25-9c32-4fbb-8922-49c4c9f2f57c")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K53")
 					(unit 1)
@@ -10497,7 +16113,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bb8c890f-9791-4f45-a188-a4b07c344b59")
 		(property "Reference" "K48"
 			(at 346.71 143.9418 0)
@@ -10507,7 +16123,7 @@
 				)
 			)
 		)
-		(property "Value" "7"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 346.71 152.4 0)
 			(effects
 				(font
@@ -10542,6 +16158,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 346.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 346.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 346.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 346.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 346.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 346.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cecb1e26-ad0a-4e59-ad89-5d0062d6e51a")
 		)
@@ -10549,7 +16219,7 @@
 			(uuid "60594a02-848d-4182-adb9-ebbf5cf6ebdd")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K48")
 					(unit 1)
@@ -10564,7 +16234,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bbaff573-c765-456f-91b0-5e134b2c24e8")
 		(property "Reference" "K23"
 			(at 139.7 131.2418 0)
@@ -10574,7 +16244,7 @@
 				)
 			)
 		)
-		(property "Value" "F"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 139.7 139.7 0)
 			(effects
 				(font
@@ -10609,6 +16279,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e2c1b32-fb95-4a60-a432-7afa72b242ee")
 		)
@@ -10616,7 +16340,7 @@
 			(uuid "5b79e40e-ed97-4756-b00a-1768789c13e9")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K23")
 					(unit 1)
@@ -10696,6 +16420,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 330.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 330.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 330.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 330.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 330.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 330.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "582d09b6-afa1-41cc-bc31-0ee9bad6e576")
 		)
@@ -10703,7 +16481,7 @@
 			(uuid "cf6756dd-595e-4dc0-8611-d7a6d27f52e4")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D47")
 					(unit 1)
@@ -10783,6 +16561,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 38.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 38.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 38.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 38.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 38.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 38.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea34aecc-66ad-4d96-9bad-5fcbd57839b0")
 		)
@@ -10790,7 +16622,7 @@
 			(uuid "234e5e7b-7888-450e-a06d-bf648780fe4c")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D52")
 					(unit 1)
@@ -10870,6 +16702,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 144.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 144.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 144.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 144.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 144.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 144.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6562ca34-2a76-47c0-809f-e591ef3b521e")
 		)
@@ -10877,7 +16763,7 @@
 			(uuid "2f860efc-ea30-4fff-9017-0ff2a069074b")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D40")
 					(unit 1)
@@ -10957,6 +16843,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 185.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 185.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 185.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 185.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 185.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 185.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ed68b94-31e2-4c6b-bcea-3a421b502a13")
 		)
@@ -10964,7 +16904,7 @@
 			(uuid "59b5fc8f-d84c-44cb-95e5-68711e2e89c5")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D42")
 					(unit 1)
@@ -11044,6 +16984,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 372.11 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 372.11 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 372.11 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 372.11 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 372.11 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 372.11 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6f4cf1a-4267-4033-ab25-c5b88e984a9d")
 		)
@@ -11051,7 +17045,7 @@
 			(uuid "468d9fa9-3d6c-4b6a-8bd9-c316f9b14477")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D33")
 					(unit 1)
@@ -11131,6 +17125,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 124.46 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 124.46 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 124.46 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 124.46 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 124.46 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 124.46 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "daee9c03-aaa4-4ca2-9b4b-b7070b3bab12")
 		)
@@ -11138,7 +17186,7 @@
 			(uuid "271a9a20-6809-485a-b0a4-8c138bfd1e01")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D39")
 					(unit 1)
@@ -11218,6 +17266,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 266.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 266.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 266.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 266.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 266.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 266.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d34c2bc7-f210-4c6e-8d2c-7ff080c946a4")
 		)
@@ -11225,7 +17327,7 @@
 			(uuid "354e1b43-d124-4c97-8afe-a504c5ec00d7")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D46")
 					(unit 1)
@@ -11305,6 +17407,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 351.79 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 351.79 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 351.79 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 351.79 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 351.79 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 351.79 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9d5f9d9-0776-468c-bea7-433758ec407e")
 		)
@@ -11312,7 +17468,7 @@
 			(uuid "e4282e1e-b30e-4144-b7d9-9260b46ce489")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D61")
 					(unit 1)
@@ -11392,6 +17548,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 142.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 142.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 142.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 142.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 142.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 142.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ffabd37-c612-4c5b-84eb-4b16177c9a5e")
 		)
@@ -11399,7 +17609,7 @@
 			(uuid "ff8a80ef-3acd-46e8-a96f-20747edcc7dc")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D56")
 					(unit 1)
@@ -11424,7 +17634,7 @@
 				)
 			)
 		)
-		(property "Value" "Shift"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 377.19 240.03 0)
 			(effects
 				(font
@@ -11459,6 +17669,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 377.19 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 377.19 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 377.19 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 377.19 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 377.19 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 377.19 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c63ceda9-960c-4153-9f27-7eff387379c9")
 		)
@@ -11466,7 +17730,7 @@
 			(uuid "cc403665-b1c7-42c9-824f-c90cf0159227")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K17")
 					(unit 1)
@@ -11479,7 +17743,7 @@
 		(at 384.81 45.72 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d0bc0890-8800-40f9-be95-60ac236b8a98")
@@ -11526,6 +17790,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 384.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 384.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 384.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 384.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 384.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 384.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cd15ddac-7c6d-4111-970b-8eee9d4ad3e3")
 		)
@@ -11533,7 +17851,7 @@
 			(uuid "8972982e-b6ff-43d7-9dd2-22a3f10a2db5")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "JP4")
 					(unit 1)
@@ -11613,6 +17931,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 83.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 83.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 83.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 83.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 83.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 83.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0bb46367-ebce-40c7-a8e6-eb66ae611016")
 		)
@@ -11620,7 +17992,7 @@
 			(uuid "3b29cb83-1169-4aa3-8782-814db41a84f6")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D3")
 					(unit 1)
@@ -11635,7 +18007,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d6b67dd0-8bba-47ff-b090-4bb74a43a761")
 		(property "Reference" "K12"
 			(at 261.62 118.5418 0)
@@ -11645,7 +18017,7 @@
 				)
 			)
 		)
-		(property "Value" "P"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 261.62 127 0)
 			(effects
 				(font
@@ -11680,6 +18052,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 261.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 261.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 261.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 261.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 261.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 261.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e2e154af-a44e-4f7d-bc95-57e48c3cc436")
 		)
@@ -11687,7 +18113,7 @@
 			(uuid "e5e78b8e-62d4-4ba4-90c2-a74381832121")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K12")
 					(unit 1)
@@ -11767,6 +18193,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 185.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 185.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 185.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 185.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 185.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 185.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e073e8e4-4f70-4706-8aeb-e215b2f1951f")
 		)
@@ -11774,7 +18254,7 @@
 			(uuid "4e0c4752-b100-426e-ab80-5d997491dfec")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D25")
 					(unit 1)
@@ -11789,7 +18269,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d9ec3a4f-a508-4ecd-82d7-7d118c2fd385")
 		(property "Reference" "K29"
 			(at 261.62 131.2418 0)
@@ -11799,7 +18279,7 @@
 				)
 			)
 		)
-		(property "Value" ";"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 261.62 139.7 0)
 			(effects
 				(font
@@ -11834,6 +18314,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6add89dd-c318-4cbd-9127-97b27165f99e")
 		)
@@ -11841,7 +18375,7 @@
 			(uuid "763f775e-2136-4ce4-997b-1db9deef3e45")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K29")
 					(unit 1)
@@ -11856,7 +18390,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dc52b169-65d6-4084-9062-f43f11ed6432")
 		(property "Reference" "K38"
 			(at 99.06 143.9418 0)
@@ -11866,7 +18400,7 @@
 				)
 			)
 		)
-		(property "Value" "X"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 99.06 152.4 0)
 			(effects
 				(font
@@ -11901,6 +18435,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "611f5a4d-1282-47c9-9b16-4ca045ec54eb")
 		)
@@ -11908,7 +18496,7 @@
 			(uuid "5ec2be2a-c780-4c8e-8d00-c72dae26ac2c")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K38")
 					(unit 1)
@@ -11923,7 +18511,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "de50882e-570d-46af-86d0-b57750af9de6")
 		(property "Reference" "K44"
 			(at 220.98 143.9418 0)
@@ -11933,7 +18521,7 @@
 				)
 			)
 		)
-		(property "Value" ","
+		(property "Value" "Kailh Hotswap Socket"
 			(at 220.98 152.4 0)
 			(effects
 				(font
@@ -11968,6 +18556,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 220.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 220.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 220.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 220.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 220.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 220.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45602c26-ca4e-445a-986d-d2a096a78d08")
 		)
@@ -11975,7 +18617,7 @@
 			(uuid "1eeeac9d-0f46-4dd1-a263-8457b5f1b59a")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K44")
 					(unit 1)
@@ -11990,7 +18632,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "de9d2592-adb7-4e03-adb5-c0d853ade831")
 		(property "Reference" "K57"
 			(at 170.18 157.9118 0)
@@ -12000,7 +18642,7 @@
 				)
 			)
 		)
-		(property "Value" "Blank"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 170.18 166.37 0)
 			(effects
 				(font
@@ -12035,6 +18677,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 170.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 170.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 170.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 170.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 170.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 170.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f954245-a477-422c-ad00-1e1dc926b2f5")
 		)
@@ -12042,7 +18738,7 @@
 			(uuid "19a70bed-d971-4cdc-bc74-9b65a2f08f5a")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K57")
 					(unit 1)
@@ -12057,7 +18753,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e5b46068-5e20-4c19-b18e-22f8f568c292")
 		(property "Reference" "K2"
 			(at 58.42 118.5418 0)
@@ -12067,7 +18763,7 @@
 				)
 			)
 		)
-		(property "Value" "Tab"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 58.42 127 0)
 			(effects
 				(font
@@ -12102,6 +18798,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 58.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 58.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 58.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 58.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 58.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 58.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e91aee6b-9c51-4101-8f7a-74ee680177f8")
 		)
@@ -12109,7 +18859,7 @@
 			(uuid "c6e39981-48e4-4b05-a02c-c9c6db6e4398")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K2")
 					(unit 1)
@@ -12124,7 +18874,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e70debb7-5ddc-42a2-a9d6-e8b0e8572972")
 		(property "Reference" "K24"
 			(at 160.02 131.2418 0)
@@ -12134,7 +18884,7 @@
 				)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 160.02 139.7 0)
 			(effects
 				(font
@@ -12169,6 +18919,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85f9e72f-8bce-4d91-aeaa-5437c6575f6c")
 		)
@@ -12176,7 +18980,7 @@
 			(uuid "77392306-50a0-42d2-ae1c-6446c3d91a02")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K24")
 					(unit 1)
@@ -12256,6 +19060,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7b1d841-2994-4b73-9536-2fd412d03008")
 		)
@@ -12263,7 +19121,7 @@
 			(uuid "603031ba-3cdb-4210-a2c3-7b38c6fd9a05")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D24")
 					(unit 1)
@@ -12343,6 +19201,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 323.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2828417"
+			(at 323.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 323.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "1N4148W"
+			(at 323.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 323.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 323.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eba1ff0f-bd21-4023-9aac-8e9c41a9057d")
 		)
@@ -12350,7 +19262,7 @@
 			(uuid "5f8dd2fe-e437-4f4b-9447-f7d2a7c1ecc7")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "D64")
 					(unit 1)
@@ -12365,7 +19277,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f07b893e-8b44-4f8f-89d2-82a17ccccf09")
 		(property "Reference" "K40"
 			(at 139.7 143.9418 0)
@@ -12375,7 +19287,7 @@
 				)
 			)
 		)
-		(property "Value" "V"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 139.7 152.4 0)
 			(effects
 				(font
@@ -12410,6 +19322,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2fd0aea3-5221-4c2d-ba2d-e6f2d4c04fef")
 		)
@@ -12417,7 +19383,7 @@
 			(uuid "4f1a7aa1-b529-494f-bec5-516c1536258a")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K40")
 					(unit 1)
@@ -12432,7 +19398,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f1680169-69a0-4f13-afa1-feaa03b7227f")
 		(property "Reference" "K30"
 			(at 281.94 131.2418 0)
@@ -12442,7 +19408,7 @@
 				)
 			)
 		)
-		(property "Value" "'"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 281.94 139.7 0)
 			(effects
 				(font
@@ -12477,6 +19443,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 281.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 281.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 281.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 281.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 281.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 281.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab5bd8e3-9dc3-4006-ac93-183afa2d3b4c")
 		)
@@ -12484,7 +19504,7 @@
 			(uuid "8c2794d0-d45e-4c20-b80e-3b601d488359")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K30")
 					(unit 1)
@@ -12497,7 +19517,7 @@
 		(at 384.81 55.88 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f502c62a-9c80-4c20-af6b-a46f1123e307")
@@ -12544,6 +19564,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 384.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 384.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 384.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 384.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 384.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 384.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "585b9d89-ae00-4b98-a3de-3fb2af10b9b1")
 		)
@@ -12551,7 +19625,7 @@
 			(uuid "959e8d10-8136-44dc-b1a3-c2f807d0ea02")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "JP5")
 					(unit 1)
@@ -12566,7 +19640,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f8f0d08b-ad40-415b-bb03-c85e5c358a02")
 		(property "Reference" "K46"
 			(at 261.62 143.9418 0)
@@ -12576,7 +19650,7 @@
 				)
 			)
 		)
-		(property "Value" "/"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 261.62 152.4 0)
 			(effects
 				(font
@@ -12611,6 +19685,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "489ff1c5-358b-4f4b-84b6-327d840ba7fe")
 		)
@@ -12618,7 +19746,7 @@
 			(uuid "738f6f03-ffd6-43da-b1d2-5f41506439b6")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K46")
 					(unit 1)
@@ -12633,7 +19761,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f8fe8a3a-c551-43cc-b875-7d664771ec1f")
 		(property "Reference" "K41"
 			(at 160.02 143.9418 0)
@@ -12643,7 +19771,7 @@
 				)
 			)
 		)
-		(property "Value" "B"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 160.02 152.4 0)
 			(effects
 				(font
@@ -12678,6 +19806,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 160.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 160.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 160.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 160.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 160.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 160.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "259de597-8a14-43e4-abc1-f4fd3a30c685")
 		)
@@ -12685,7 +19867,7 @@
 			(uuid "a9514a34-1362-48e2-bc15-6c426d3cef6d")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K41")
 					(unit 1)
@@ -12700,7 +19882,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f98fc94c-127f-425e-bce0-ab225e007b55")
 		(property "Reference" "K55"
 			(at 111.76 156.6418 0)
@@ -12710,7 +19892,7 @@
 				)
 			)
 		)
-		(property "Value" "Super"
+		(property "Value" "Kailh Hotswap Socket"
 			(at 111.76 165.1 0)
 			(effects
 				(font
@@ -12745,6 +19927,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "1528-4958-ND"
+			(at 111.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 111.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  4958"
+			(at 111.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 111.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 111.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 111.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a5b8ee6-b45d-439d-99ee-442901e9f84f")
 		)
@@ -12752,7 +19988,7 @@
 			(uuid "e904501b-4a09-462f-9b99-9db6787a3a0f")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
 					(reference "K55")
 					(unit 1)

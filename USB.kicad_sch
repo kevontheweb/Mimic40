@@ -2365,7 +2365,7 @@
 			(uuid "41b9854d-e5ba-46bd-8551-9af1d615e7b6")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "#PWR025")
 					(unit 1)
@@ -2425,6 +2425,69 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " 0402WGF5101TCE"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C25905"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "29a8f420-753f-46ce-b03d-df624ce3670a")
 		)
@@ -2432,7 +2495,7 @@
 			(uuid "18465f94-fe6d-4506-b878-7ec6251ede10")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "R6")
 					(unit 1)
@@ -2498,7 +2561,7 @@
 			(uuid "6483fdb2-b35a-402b-921d-f17397e8dc71")
 		)
 		(instances
-			(project ""
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "#FLG01")
 					(unit 1)
@@ -2563,7 +2626,7 @@
 			(uuid "0dd55afa-1055-4a6b-856f-8a4a084aa230")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "#PWR09")
 					(unit 1)
@@ -2588,7 +2651,7 @@
 				)
 			)
 		)
-		(property "Value" "NCP1117-3.3_SOT223"
+		(property "Value" "NCP1117ST33T3G"
 			(at 187.96 78.7146 0)
 			(effects
 				(font
@@ -2614,7 +2677,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3.3V LDO voltage regulator"
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C26537"
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCP1117ST33T3G"
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
 			(at 187.96 82.55 0)
 			(effects
 				(font
@@ -2633,7 +2750,7 @@
 			(uuid "2025a4b4-31c6-49c0-9073-1f73b20924fb")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "U2")
 					(unit 1)
@@ -2685,6 +2802,60 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C165948"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TYPE-C-31-M-12"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Korean Hroparts Elec "
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "THRU-HOLE"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
 			(at 96.52 97.79 0)
 			(effects
 				(font
@@ -2745,7 +2916,7 @@
 			(uuid "75a93ea8-c43c-4bbd-9710-37d32e6ce968")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "J2")
 					(unit 1)
@@ -2807,6 +2978,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1fa2574e-ebc7-415c-8da3-9668aa7739a8")
 		)
@@ -2814,7 +3039,7 @@
 			(uuid "409f6f84-a759-46b8-aed6-dbaf109fdfb9")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "C2")
 					(unit 1)
@@ -2880,6 +3105,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7519"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MSKSEMI"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 146.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95dc8511-4a98-449b-b1b6-807f847db8c2")
 		)
@@ -2899,7 +3178,7 @@
 			(uuid "0ba194d4-8d25-4c9e-8f8e-ed98c014c269")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "U1")
 					(unit 1)
@@ -2964,7 +3243,7 @@
 			(uuid "7570c4d5-a23a-4a17-bfe6-caf4471630d4")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "#PWR023")
 					(unit 1)
@@ -3029,7 +3308,7 @@
 			(uuid "9c541bfa-cb4e-4065-b303-3ee2088014c0")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "#PWR06")
 					(unit 1)
@@ -3094,7 +3373,7 @@
 			(uuid "5216cc16-4759-49cd-b745-0b3d00969348")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "#PWR011")
 					(unit 1)
@@ -3159,7 +3438,7 @@
 			(uuid "4849adf5-6a8d-4a43-90bc-05fd2a430837")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "#PWR05")
 					(unit 1)
@@ -3221,6 +3500,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f612e89-c35a-4e2c-9c96-01ae8ffca789")
 		)
@@ -3228,7 +3561,7 @@
 			(uuid "7a65274f-9606-49ab-b89d-18b45c5febc1")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "C1")
 					(unit 1)
@@ -3293,7 +3626,7 @@
 			(uuid "24494ae5-00be-4f9d-b366-48c371a6ac4e")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "#PWR024")
 					(unit 1)
@@ -3358,7 +3691,7 @@
 			(uuid "d7a75d2f-0968-4940-8f35-44b4bcd24f3d")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "#PWR028")
 					(unit 1)
@@ -3419,6 +3752,69 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 133.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 133.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " 0402WGF5101TCE"
+			(at 133.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL"
+			(at 133.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C25905"
+			(at 133.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 133.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 133.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fffeec7f-9b2e-47d8-87a9-ca9a5a3dbb46")
 		)
@@ -3426,7 +3822,7 @@
 			(uuid "06d351c0-ab17-4843-a249-03527a54b81a")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "R7")
 					(unit 1)
@@ -3491,7 +3887,7 @@
 			(uuid "31eda8af-3a50-4f5a-a39d-92bbe8c9bbb8")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "#PWR010")
 					(unit 1)
@@ -3556,7 +3952,7 @@
 			(uuid "c7bc1aff-f586-4357-ac0e-6a3599036749")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "#PWR02")
 					(unit 1)

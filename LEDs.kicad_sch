@@ -3583,6 +3583,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 91.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 91.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 91.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 91.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 91.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 91.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "060e1a31-8dcd-4486-a279-3918e2996607")
 		)
@@ -3596,7 +3650,7 @@
 			(uuid "4a2b32d8-e4e7-4465-8704-c415fbf68e34")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB11")
 					(unit 1)
@@ -3659,6 +3713,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 147.32 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 147.32 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 147.32 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 147.32 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 147.32 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 147.32 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "622504ab-bad9-49c2-aff1-52d2c2a70a37")
 		)
@@ -3672,7 +3780,7 @@
 			(uuid "62a10b88-b738-4c48-b02a-7448465acb3a")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB59")
 					(unit 1)
@@ -3735,6 +3843,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 119.38 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 119.38 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 119.38 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 119.38 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 119.38 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 119.38 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "daf9ea23-3dd4-481b-b880-3c8d620b89f0")
 		)
@@ -3748,7 +3910,7 @@
 			(uuid "89e3b78b-d36c-4ab2-b4e8-285f61e6bb88")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB58")
 					(unit 1)
@@ -3811,6 +3973,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 119.38 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 119.38 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 119.38 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 119.38 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 119.38 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 119.38 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af71d2b4-e78d-4f86-a7f5-f37f2b67ea8d")
 		)
@@ -3824,7 +4040,7 @@
 			(uuid "39390329-8eb3-4be3-acb8-12a10848cf53")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB52")
 					(unit 1)
@@ -3887,6 +4103,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 91.44 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 91.44 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 91.44 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 91.44 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 91.44 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 91.44 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1ae1f1f-4c40-4cab-bceb-b9b83849b005")
 		)
@@ -3900,7 +4170,7 @@
 			(uuid "659d178e-05e0-4a76-adc5-f481a13d3da8")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB57")
 					(unit 1)
@@ -3963,6 +4233,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 91.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 91.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 91.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 91.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 91.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 91.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2819c16e-e711-43e6-b8f2-d6208bffcd31")
 		)
@@ -3976,7 +4300,7 @@
 			(uuid "a0ef0ae9-600c-407a-b12c-749f6e1de2d7")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB16")
 					(unit 1)
@@ -4043,7 +4367,7 @@
 			(uuid "1c1e2334-46cc-4cf7-bab5-e001f5a64b7c")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR056")
 					(unit 1)
@@ -4110,7 +4434,7 @@
 			(uuid "2db9337a-3e04-4c6b-9539-d38337f2d839")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR051")
 					(unit 1)
@@ -4173,6 +4497,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 175.26 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 175.26 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 175.26 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 175.26 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 175.26 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 175.26 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a394a9ea-517e-4685-90e6-a746d06958ee")
 		)
@@ -4186,7 +4564,7 @@
 			(uuid "c1bd1279-7c84-4c50-bdbf-567852878e7b")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB49")
 					(unit 1)
@@ -4253,7 +4631,7 @@
 			(uuid "4b3bd61c-e705-47d7-910c-c57cd8b38a03")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR030")
 					(unit 1)
@@ -4316,6 +4694,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 175.26 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 175.26 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 175.26 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 175.26 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 175.26 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 175.26 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0a15f90-0480-4fa1-86dd-f3a5bf0b5f2d")
 		)
@@ -4329,7 +4761,7 @@
 			(uuid "db0b4cb6-07b3-4dd4-902a-e5d99dbf11f0")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB60")
 					(unit 1)
@@ -4396,7 +4828,7 @@
 			(uuid "9e40bdeb-eedc-488a-aa4b-75229344c982")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR043")
 					(unit 1)
@@ -4463,7 +4895,7 @@
 			(uuid "da87ead7-4aef-4547-a8d0-e9eec8ca8757")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR031")
 					(unit 1)
@@ -4526,6 +4958,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 119.38 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 119.38 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 119.38 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 119.38 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 119.38 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 119.38 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e241cc4-cd77-495c-9850-371d04d7a70b")
 		)
@@ -4539,7 +5025,7 @@
 			(uuid "8ce8029a-632e-41fc-b09a-7dda29b9e2a4")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB42")
 					(unit 1)
@@ -4602,6 +5088,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 175.26 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 175.26 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 175.26 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 175.26 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 175.26 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 175.26 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe6b1e85-c7d1-4ea6-ae16-8d6380f997ec")
 		)
@@ -4615,7 +5155,7 @@
 			(uuid "43fd1580-6509-4af3-9267-2081ab31d5ec")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB39")
 					(unit 1)
@@ -4682,7 +5222,7 @@
 			(uuid "058771dd-cbe9-4a48-81a8-98dc3cc504e2")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR044")
 					(unit 1)
@@ -4695,7 +5235,7 @@
 		(at 215.9 288.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "230d6134-d0b8-40e5-b81d-5cd50be71f89")
@@ -4742,6 +5282,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 215.9 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 215.9 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 215.9 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 215.9 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 215.9 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 215.9 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ee79a64-8110-48be-8c2f-abe7a9e7ee65")
 		)
@@ -4749,7 +5343,7 @@
 			(uuid "231c8034-a778-472e-9886-81626d8ab8dc")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "JP8")
 					(unit 1)
@@ -4812,6 +5406,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 91.44 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 91.44 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 91.44 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 91.44 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 91.44 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 91.44 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1153b436-64fe-4d5b-ac16-50815f56b97e")
 		)
@@ -4825,7 +5473,7 @@
 			(uuid "6fd3d82d-b6e6-40f1-b7b4-df7d96393bf8")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB26")
 					(unit 1)
@@ -4888,6 +5536,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0dfac57d-1d63-49ec-8648-5e5fbdcdcf89")
 		)
@@ -4901,7 +5603,7 @@
 			(uuid "c074f4b3-af98-425f-b2b0-3db4a2bbaf88")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB12")
 					(unit 1)
@@ -4964,6 +5666,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 91.44 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 91.44 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 91.44 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 91.44 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 91.44 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 91.44 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7315df2-fc6b-476d-a934-1528657369c7")
 		)
@@ -4977,7 +5733,7 @@
 			(uuid "ef260b2e-57ef-40cb-9ae3-21fd00f76d3f")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB31")
 					(unit 1)
@@ -5043,7 +5799,7 @@
 			(uuid "65ee4300-6344-49f5-a18d-bb682118e385")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR029")
 					(unit 1)
@@ -5106,6 +5862,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 119.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 119.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 119.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 119.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 119.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 119.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "414c865e-e87c-4165-a285-c7359665540d")
 		)
@@ -5119,7 +5929,7 @@
 			(uuid "510aa82e-e282-42bd-85e7-67fd566d1c41")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB2")
 					(unit 1)
@@ -5182,6 +5992,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 66.04 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 66.04 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 66.04 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 66.04 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 66.04 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 66.04 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82a3459a-2e45-40e0-9ce0-4d1054a79d75")
 		)
@@ -5195,7 +6059,7 @@
 			(uuid "5728bb31-f3fa-4af4-a1e7-41b25aa1e079")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB56")
 					(unit 1)
@@ -5258,6 +6122,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 175.26 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 175.26 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 175.26 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 175.26 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 175.26 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 175.26 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d05fdf8-be10-459b-898d-dec8a63b0342")
 		)
@@ -5271,7 +6189,7 @@
 			(uuid "09ae181d-3334-4f2b-8edc-4d1c776fb3b9")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB29")
 					(unit 1)
@@ -5338,7 +6256,7 @@
 			(uuid "2c5df29f-24fc-45c1-a46d-cee639e1d949")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR058")
 					(unit 1)
@@ -5405,7 +6323,7 @@
 			(uuid "7b6f120d-bb60-498a-929a-d06c4e2ef6c3")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR046")
 					(unit 1)
@@ -5472,7 +6390,7 @@
 			(uuid "bb8a2661-fd73-4bd4-9818-441dea876f04")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR038")
 					(unit 1)
@@ -5539,7 +6457,7 @@
 			(uuid "2469601d-0261-4af8-ac7b-a171e32b5696")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR048")
 					(unit 1)
@@ -5602,6 +6520,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ccbb6ff-88d6-45d0-859a-ac437c674896")
 		)
@@ -5615,7 +6587,7 @@
 			(uuid "5f605ed8-0d08-404e-9a9e-e47b394bbc00")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB14")
 					(unit 1)
@@ -5678,6 +6650,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4fc4d15-1bbf-42dd-a1ea-9f93aebee1a2")
 		)
@@ -5691,7 +6717,7 @@
 			(uuid "5190a23b-ac7e-450e-9c8b-7fb50587ffbf")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB8")
 					(unit 1)
@@ -5754,6 +6780,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ac0a5ec-6b57-4c98-9a8f-bf6e36c78e5c")
 		)
@@ -5767,7 +6847,7 @@
 			(uuid "750ee7bc-0a06-4b4c-ba11-24c34844643e")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB9")
 					(unit 1)
@@ -5830,6 +6910,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 147.32 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 147.32 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 147.32 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 147.32 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 147.32 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 147.32 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62aebaee-734c-4501-af45-660934081d4b")
 		)
@@ -5843,7 +6977,7 @@
 			(uuid "a6a3d360-265d-4f3b-a036-83d87d5d853a")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB43")
 					(unit 1)
@@ -5906,6 +7040,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 203.2 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 203.2 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 203.2 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 203.2 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 203.2 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 203.2 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "395a2bba-fc42-41e3-8500-74c5ef160551")
 		)
@@ -5919,7 +7107,7 @@
 			(uuid "0974e1b3-7b26-46f9-aebe-1f51f259eaf3")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB35")
 					(unit 1)
@@ -5982,6 +7170,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 175.26 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 175.26 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 175.26 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 175.26 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 175.26 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 175.26 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10ad7bd7-f971-4b81-b897-0c1a6ab4fc65")
 		)
@@ -5995,7 +7237,7 @@
 			(uuid "9b389a07-8493-4b64-81fb-5ab2c093647d")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB44")
 					(unit 1)
@@ -6058,6 +7300,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 91.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 91.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 91.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 91.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 91.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 91.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d993bde1-89d6-4b77-b60e-bf523b44b37d")
 		)
@@ -6071,7 +7367,7 @@
 			(uuid "cd201b1b-6784-48c4-83e9-c62c53a68895")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB21")
 					(unit 1)
@@ -6133,6 +7429,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "275cec63-02dd-4fd4-8fbf-cab20eeb6a42")
 		)
@@ -6146,7 +7496,7 @@
 			(uuid "329d97e0-08cf-47d1-8c21-72bada1019d1")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB6")
 					(unit 1)
@@ -6209,6 +7559,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 91.44 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 91.44 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 91.44 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 91.44 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 91.44 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 91.44 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d97fe6e3-25df-4ba4-b98d-f2057d8332fd")
 		)
@@ -6222,7 +7626,7 @@
 			(uuid "3b9a2a9c-e76c-45c8-8c13-17dfd625bf69")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB41")
 					(unit 1)
@@ -6289,7 +7693,7 @@
 			(uuid "9295ec63-3b75-4f53-ac6e-324aeb5ec07d")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR039")
 					(unit 1)
@@ -6352,6 +7756,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 91.44 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 91.44 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 91.44 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 91.44 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 91.44 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 91.44 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70f6535e-7377-43e8-8601-b828d9fb7422")
 		)
@@ -6365,7 +7823,7 @@
 			(uuid "2908b672-dff5-41e5-b85d-672d1ef8a905")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB36")
 					(unit 1)
@@ -6428,6 +7886,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 147.32 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 147.32 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 147.32 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 147.32 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 147.32 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 147.32 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0cb33198-fc55-4990-9a64-2fd4f4c670cf")
 		)
@@ -6441,7 +7953,7 @@
 			(uuid "fb4b1ad8-04bb-41a3-8ec3-24807bfbe1ce")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB38")
 					(unit 1)
@@ -6504,6 +8016,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 91.44 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 91.44 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 91.44 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 91.44 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 91.44 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 91.44 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25c8ee68-7cb4-481f-abdc-62320f99f164")
 		)
@@ -6517,7 +8083,7 @@
 			(uuid "843e8126-ee83-4131-90e1-7bc3a3a51214")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB46")
 					(unit 1)
@@ -6584,7 +8150,7 @@
 			(uuid "934d17c4-be6c-4f91-aeda-e96af50dec55")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR054")
 					(unit 1)
@@ -6647,6 +8213,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 119.38 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 119.38 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 119.38 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 119.38 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 119.38 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 119.38 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4024892-a86e-45c8-83e0-10a2dd5e6e1d")
 		)
@@ -6660,7 +8280,7 @@
 			(uuid "2d26515c-fb0e-46c0-a33f-848c10e49421")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB22")
 					(unit 1)
@@ -6723,6 +8343,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 175.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 175.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 175.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 175.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 175.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 175.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6b2820e-4029-4b15-9749-a52b980241b8")
 		)
@@ -6736,7 +8410,7 @@
 			(uuid "4fb45708-5254-4f70-aa2a-e4c57f834fd1")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB24")
 					(unit 1)
@@ -6803,7 +8477,7 @@
 			(uuid "2f35879b-09cb-44c1-8dba-fd0761be5e8a")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR040")
 					(unit 1)
@@ -6866,6 +8540,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 147.32 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 147.32 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 147.32 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 147.32 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 147.32 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 147.32 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "859a213a-b351-4938-b8e6-2ee81affc8ea")
 		)
@@ -6879,7 +8607,7 @@
 			(uuid "ad3ad63c-fbd3-4c96-9bb0-61525740e80b")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB53")
 					(unit 1)
@@ -6942,6 +8670,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 203.2 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 203.2 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 203.2 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 203.2 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 203.2 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 203.2 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "320b6f2c-2e95-4936-8474-f7658c9520a2")
 		)
@@ -6955,7 +8737,7 @@
 			(uuid "b0ed6991-4818-4d06-987a-d508a9dacef6")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB30")
 					(unit 1)
@@ -7022,7 +8804,7 @@
 			(uuid "7d47bdae-f430-4853-8b0e-ae0767212da8")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR059")
 					(unit 1)
@@ -7085,6 +8867,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 175.26 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 175.26 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 175.26 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 175.26 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 175.26 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 175.26 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c56d5b0-07e3-4f7e-991a-ce3723403f62")
 		)
@@ -7098,7 +8934,7 @@
 			(uuid "198f620c-d355-4662-8b08-53f768e41ff3")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB34")
 					(unit 1)
@@ -7161,6 +8997,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 147.32 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 147.32 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 147.32 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 147.32 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 147.32 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 147.32 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b53140b-501a-41ca-a341-0857af65cc04")
 		)
@@ -7174,7 +9064,7 @@
 			(uuid "3fdc3884-4804-4219-a571-05345fcf8c49")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB48")
 					(unit 1)
@@ -7237,6 +9127,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 147.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 147.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 147.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 147.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 147.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 147.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a5e8431-3787-4862-9495-c5fb1a357583")
 		)
@@ -7250,7 +9194,7 @@
 			(uuid "4478fd2d-df7c-4cfe-82fd-5a5c1c84c975")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB13")
 					(unit 1)
@@ -7317,7 +9261,7 @@
 			(uuid "ebe65594-490d-45af-8a55-c4567d98205b")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR032")
 					(unit 1)
@@ -7384,7 +9328,7 @@
 			(uuid "1a8bd2cc-34f2-43ed-bb7e-8103db19764a")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR041")
 					(unit 1)
@@ -7451,7 +9395,7 @@
 			(uuid "99187e17-00bf-4a86-b6ad-76bcf06eaf16")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR045")
 					(unit 1)
@@ -7514,6 +9458,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d6143c0-e559-407f-9505-3f6080ba798b")
 		)
@@ -7527,7 +9525,7 @@
 			(uuid "081256b5-726a-4cd6-9033-877c3253b33b")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB10")
 					(unit 1)
@@ -7590,6 +9588,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 91.44 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 91.44 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 91.44 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 91.44 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 91.44 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 91.44 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67d38388-9131-4fd6-b532-f50840756857")
 		)
@@ -7603,7 +9655,7 @@
 			(uuid "4e5b79f4-8cfb-4802-acf3-1afdde285a8e")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB51")
 					(unit 1)
@@ -7616,7 +9668,7 @@
 		(at 161.29 151.13 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "93dd9987-dcff-42c9-aa3f-6c6c7ec6d92b")
@@ -7663,6 +9715,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 161.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 161.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 161.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 161.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 161.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 161.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d1c6b8fa-7820-40b3-b3e4-aaf9db628e9c")
 		)
@@ -7670,7 +9776,7 @@
 			(uuid "790dbc50-258e-40a4-a641-d44fa853fdf7")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "JP6")
 					(unit 1)
@@ -7733,6 +9839,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 175.26 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 175.26 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 175.26 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 175.26 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 175.26 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 175.26 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e4f7be4-85b9-4ce1-b4d7-38cb8596c852")
 		)
@@ -7746,7 +9906,7 @@
 			(uuid "6870e347-468d-43dd-b3a9-cbf9b5c05416")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB54")
 					(unit 1)
@@ -7809,6 +9969,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 203.2 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 203.2 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 203.2 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 203.2 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 203.2 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 203.2 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b436bcd3-2a50-4384-a6ce-e9f90e740698")
 		)
@@ -7822,7 +10036,7 @@
 			(uuid "33859316-c80a-4a18-8b4a-af8a5f48f792")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB45")
 					(unit 1)
@@ -7885,6 +10099,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 147.32 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 147.32 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 147.32 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 147.32 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 147.32 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 147.32 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7fdb3f12-7632-428c-bf2d-7180a85a27eb")
 		)
@@ -7898,7 +10166,7 @@
 			(uuid "d5f30999-8ffc-4a19-9021-3984197a5f39")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB33")
 					(unit 1)
@@ -7961,6 +10229,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 203.2 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 203.2 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 203.2 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 203.2 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 203.2 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 203.2 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7064d0e-ad36-408f-9a88-13af16a37e97")
 		)
@@ -7974,7 +10296,7 @@
 			(uuid "37158b3b-66e4-411d-9437-d201dac0921d")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB61")
 					(unit 1)
@@ -8037,6 +10359,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f4d9dc7-147d-48aa-8f94-b1146fc0fb78")
 		)
@@ -8050,7 +10426,7 @@
 			(uuid "464fcbbc-0694-4b53-aea3-3347c6648f51")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB4")
 					(unit 1)
@@ -8113,6 +10489,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 147.32 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 147.32 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 147.32 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 147.32 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 147.32 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 147.32 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6783919-1cb0-4d2a-b7ba-46a17da1134a")
 		)
@@ -8126,7 +10556,7 @@
 			(uuid "06d90646-1845-4131-b973-ab13e249728c")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB28")
 					(unit 1)
@@ -8189,6 +10619,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 203.2 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 203.2 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 203.2 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 203.2 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 203.2 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 203.2 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef89bf2e-2d10-4a08-b853-b84adbdf66ce")
 		)
@@ -8202,7 +10686,7 @@
 			(uuid "b06b6537-267f-4ba4-90cb-a38c31cda5dc")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB55")
 					(unit 1)
@@ -8265,6 +10749,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 119.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 119.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 119.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 119.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 119.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 119.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a06e744c-e09d-4c6f-9342-3230ec3ec205")
 		)
@@ -8278,7 +10816,7 @@
 			(uuid "761548fd-e3b7-42c0-b094-0de3f9278ffd")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB17")
 					(unit 1)
@@ -8341,6 +10879,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 147.32 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 147.32 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 147.32 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 147.32 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 147.32 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 147.32 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "039d79fd-32b1-4dd6-93f3-97af587d14fd")
 		)
@@ -8354,7 +10946,7 @@
 			(uuid "d78f5479-5552-47a7-8914-a38d590a018b")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB18")
 					(unit 1)
@@ -8417,6 +11009,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 119.38 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 119.38 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 119.38 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 119.38 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 119.38 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 119.38 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e55ab99a-7881-478d-9f5e-c31430f80c86")
 		)
@@ -8430,7 +11076,7 @@
 			(uuid "b63dc62f-09a5-47ae-a89c-3d5e93ebb00c")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB27")
 					(unit 1)
@@ -8497,7 +11143,7 @@
 			(uuid "da4f059b-b577-4ef1-b800-88ec7c6256d0")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR050")
 					(unit 1)
@@ -8560,6 +11206,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 119.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 119.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 119.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 119.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 119.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 119.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32b8d5dd-f3ba-4c82-a28e-f9e3eb8d966a")
 		)
@@ -8573,7 +11273,7 @@
 			(uuid "d0c80a8f-7729-4f9b-ac4f-b1bafdecd382")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB7")
 					(unit 1)
@@ -8636,6 +11336,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 30.48 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 30.48 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 30.48 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 30.48 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "DNS"
+			(at 30.48 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 30.48 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6ff5e7ff-1bf7-4dd6-9c8e-b9cbd403ed8c")
 		)
@@ -8649,7 +11403,7 @@
 			(uuid "0c7428c2-c9cf-43ec-954e-36430ed94138")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "J5")
 					(unit 1)
@@ -8712,6 +11466,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 203.2 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 203.2 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 203.2 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 203.2 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 203.2 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 203.2 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c495f672-479f-4ffa-894b-06f3e7458840")
 		)
@@ -8725,7 +11533,7 @@
 			(uuid "c1b236b5-ed7a-4b4f-8472-803ce65f94b2")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB25")
 					(unit 1)
@@ -8788,6 +11596,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6afd75ee-6ee7-471a-b7d7-b12ba588c4a1")
 		)
@@ -8801,7 +11663,7 @@
 			(uuid "acf5c347-187b-4993-98bc-9aaf500fea03")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB3")
 					(unit 1)
@@ -8864,6 +11726,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 175.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 175.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 175.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 175.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 175.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 175.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1106f55f-1ea0-4be6-8930-9e394d9d3a3d")
 		)
@@ -8877,7 +11793,7 @@
 			(uuid "eb8f9fcd-1356-49ba-8668-1450b9de80ad")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB19")
 					(unit 1)
@@ -8944,7 +11860,7 @@
 			(uuid "63b0fde7-6244-4682-acb6-6bb00e32e240")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR049")
 					(unit 1)
@@ -9007,6 +11923,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 203.2 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 203.2 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 203.2 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 203.2 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 203.2 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 203.2 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44fda55e-f8a1-4001-9686-ab916233930c")
 		)
@@ -9020,7 +11990,7 @@
 			(uuid "b96c3df7-d88f-452d-8d48-ffa737d40f44")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB20")
 					(unit 1)
@@ -9083,6 +12053,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eee60448-6fb2-45d3-a2a4-bda37859f413")
 		)
@@ -9096,7 +12120,7 @@
 			(uuid "eb4e43f8-b4f4-42a5-9eed-63a0b9f2480a")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB5")
 					(unit 1)
@@ -9163,7 +12187,7 @@
 			(uuid "4e93ebf1-b196-4efc-a52e-ca12cea0fb99")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR053")
 					(unit 1)
@@ -9230,7 +12254,7 @@
 			(uuid "79343b99-05ab-483f-a5b4-9b41e3910252")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR055")
 					(unit 1)
@@ -9297,7 +12321,7 @@
 			(uuid "3f006a68-a389-4d05-ad9a-ae2e9d1e0424")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR036")
 					(unit 1)
@@ -9360,6 +12384,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 119.38 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 119.38 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 119.38 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 119.38 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 119.38 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 119.38 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aaf979f6-37cb-41d9-bb90-8ab6539fa0c5")
 		)
@@ -9373,7 +12451,7 @@
 			(uuid "bef668d5-08e1-4764-bc76-3d9da290645b")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB47")
 					(unit 1)
@@ -9440,7 +12518,7 @@
 			(uuid "7ca18625-874a-4daf-8b8f-e9aca579dd15")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR042")
 					(unit 1)
@@ -9503,6 +12581,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7fdbad1-6c77-423d-afab-43dd859c739e")
 		)
@@ -9516,7 +12648,7 @@
 			(uuid "63d0a2e2-0de3-45d5-8d72-2daea8625d82")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB1")
 					(unit 1)
@@ -9579,6 +12711,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 203.2 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 203.2 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 203.2 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 203.2 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 203.2 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 203.2 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50b4295d-2f94-4ead-b3fa-78c94c0e32c0")
 		)
@@ -9592,7 +12778,7 @@
 			(uuid "d8471992-47c8-473b-a79e-41faa68edc28")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB40")
 					(unit 1)
@@ -9659,7 +12845,7 @@
 			(uuid "dcc32d1d-8561-43b8-811a-3548e198e6e0")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR057")
 					(unit 1)
@@ -9672,7 +12858,7 @@
 		(at 105.41 288.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f000779d-e185-43bf-bec9-2204f5549196")
@@ -9719,6 +12905,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 105.41 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 105.41 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 105.41 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 105.41 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 105.41 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 105.41 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a69eb12e-f76b-428b-a3fc-bfb3d2a49a8d")
 		)
@@ -9726,7 +12966,7 @@
 			(uuid "e6053db7-eab9-4a94-a293-9cac3d60ae28")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "JP7")
 					(unit 1)
@@ -9789,6 +13029,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 147.32 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 147.32 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 147.32 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 147.32 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 147.32 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 147.32 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b44f24fc-07b3-426c-bb69-444010e6f64c")
 		)
@@ -9802,7 +13096,7 @@
 			(uuid "4d58a70f-7670-400a-8294-a0d813a74c70")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB23")
 					(unit 1)
@@ -9869,7 +13163,7 @@
 			(uuid "4727835d-009f-4147-b5e2-f828c861e428")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR037")
 					(unit 1)
@@ -9932,6 +13226,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09121a9c-13ec-43c7-bf60-6746e968c9e4")
 		)
@@ -9945,7 +13293,7 @@
 			(uuid "2dedf344-3a66-429c-85d4-b396ebbb3688")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB15")
 					(unit 1)
@@ -9958,7 +13306,7 @@
 		(at 189.23 128.27 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f415e962-8d68-40cc-a1b6-94f0c0e82ada")
@@ -10005,6 +13353,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 189.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 189.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 189.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 189.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 189.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 189.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "689106a4-0473-4e1a-b16d-478142317f1f")
 		)
@@ -10012,7 +13414,7 @@
 			(uuid "ce69d544-e7bd-4320-9678-d9db8267f14f")
 		)
 		(instances
-			(project ""
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "JP1")
 					(unit 1)
@@ -10079,7 +13481,7 @@
 			(uuid "657173f8-fba4-411d-a5cb-b14bf2b642ac")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR052")
 					(unit 1)
@@ -10142,6 +13544,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 119.38 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 119.38 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 119.38 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 119.38 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 119.38 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 119.38 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c28a646-3947-4989-9359-57a9ca648f7e")
 		)
@@ -10155,7 +13611,7 @@
 			(uuid "fb1eebba-ba92-4d50-8295-b4a3685c1e22")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB32")
 					(unit 1)
@@ -10217,6 +13673,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 201.93 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 201.93 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 201.93 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 201.93 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 201.93 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 201.93 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2cb04745-1a02-45ce-8eba-ecbe069e3b1e")
 		)
@@ -10230,7 +13740,7 @@
 			(uuid "4a07f1f0-9bf4-47f1-8ed0-9fee4e26f59a")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB50")
 					(unit 1)
@@ -10293,6 +13803,60 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 119.38 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 119.38 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " SK6812MINI-E"
+			(at 119.38 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO Optoelectronics "
+			(at 119.38 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 119.38 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Do Not Substitute"
+			(at 119.38 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "112ae831-2a13-48aa-9103-c7f3028a83bd")
 		)
@@ -10306,7 +13870,7 @@
 			(uuid "c0d6df8b-bbc5-4bd6-8748-d7c3bd684a89")
 		)
 		(instances
-			(project "not-so-fullsize-ortho"
+			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB37")
 					(unit 1)
