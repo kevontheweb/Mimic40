@@ -21,9 +21,9 @@ These may be helpful for future in the design of a case
 
 ## screenshots
 
-![photo of layout](./3d_2.png)
+![photo of layout](./3D_2.png)
 
-![photo of layout](./3d_1.png)
+![photo of layout](./3D_1.png)
 
 ![photo of layout](./PCB.png)
 
