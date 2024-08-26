@@ -1,0 +1,231 @@
+(footprint "1u_plate"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Kailh keyswitch Hotswap Socket Keycap 1.25u")
+	(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.25u")
+	(property "Reference" "K59"
+		(at 0 -8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b727e2f9-7b5b-4cec-8856-78857d840b7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Alt"
+		(at 0 8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7adde233-8643-44f9-a65c-4de2277be061")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2efefaa9-b184-4ade-ab23-6ae467ea12c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc731191-b97d-43af-910d-c829b9c08570")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24ec2582-f3e0-45d6-88d6-c03ed9963438")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(arc
+				(start -8 7.7)
+				(mid -7.912132 7.912132)
+				(end -7.7 8)
+			)
+			(arc
+				(start 7.7 8)
+				(mid 7.912132 7.912132)
+				(end 8 7.7)
+			)
+			(arc
+				(start 8 -7.7)
+				(mid 7.912132 -7.912132)
+				(end 7.7 -8)
+			)
+			(arc
+				(start -7.7 -8)
+				(mid -7.912132 -7.912132)
+				(end -8 -7.7)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "34e60f20-6d16-4cf4-8482-5f999752ebc3")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start 7.7 8)
+				(mid 7.912132 7.912132)
+				(end 8 7.7)
+			)
+			(arc
+				(start 8 -7.7)
+				(mid 7.912132 -7.912132)
+				(end 7.7 -8)
+			)
+			(arc
+				(start -7.7 -8)
+				(mid -7.912132 -7.912132)
+				(end -8 -7.7)
+			)
+			(arc
+				(start -8 7.7)
+				(mid -7.912132 7.912132)
+				(end -7.7 8)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "36823e60-c878-4804-ab68-183231508880")
+	)
+	(fp_line
+		(start -7 6.7)
+		(end -7 -6.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "292428da-8053-48cb-ae05-cb80c4b6f8a0")
+	)
+	(fp_line
+		(start -6.7 -7)
+		(end 6.7 -7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "123adc7b-9b5f-41bc-ba29-f86ed9079567")
+	)
+	(fp_line
+		(start 6.7 7)
+		(end -6.7 7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0ea1ef36-197c-47a0-a9a1-1cd1cefcb591")
+	)
+	(fp_line
+		(start 7 -6.7)
+		(end 7 6.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "065ac85f-2b24-490b-b422-b2e27d907ef1")
+	)
+	(fp_arc
+		(start -7 -6.7)
+		(mid -6.912132 -6.912132)
+		(end -6.7 -7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bc18bc39-5f66-48b6-b29b-81bdbab23747")
+	)
+	(fp_arc
+		(start -6.7 7)
+		(mid -6.912132 6.912132)
+		(end -7 6.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9bacfbfe-4d00-4668-b7e5-e52ea1babdaf")
+	)
+	(fp_arc
+		(start 6.7 -7)
+		(mid 6.912132 -6.912132)
+		(end 7 -6.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "18b3ba50-decd-41aa-8f2b-ed4d96f54a65")
+	)
+	(fp_arc
+		(start 7 6.7)
+		(mid 6.912132 6.912132)
+		(end 6.7 7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e9c63fe4-2398-4a97-bb46-6d7e3757e19c")
+	)
+	(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,4 +1,4 @@
-942931218478537
+944655913732442
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100127,6 +100127,13 @@ Varistor VF
 0
 2
 2
+kbd
+1u_plate
+Kailh keyswitch Hotswap Socket Keycap 1.25u
+Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.25u
+0
+0
+0
 kbd
 LED_SK6812MINI_E_3.5x3.5mm_P1.75mm
 3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
