@@ -22,9 +22,12 @@ These may be helpful for future in the design of a case
 ## screenshots
 
 ![photo of layout](./3d_2.png)
+
 ![photo of layout](./3d_1.png)
-![photo of layout](./pcb.png)
-![photo of layout for RP2040](./pcb_2.png)
+
+![photo of layout](./PCB.png)
+
+![photo of layout for RP2040](./PCB_2.png)
 
 ## references
 
