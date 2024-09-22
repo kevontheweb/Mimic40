@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.0,
-          "height": 14.0,
-          "width": 14.0
+          "drill": 0.0,
+          "height": 1.45,
+          "width": 0.6
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.25
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -59,18 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|104750000|82000000|5bb98c0c-de28-4aa6-bd24-ec573f8b2a03|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|211931250|140850000|925067ca-fe93-4465-b133-605d84ccd441|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|100050001|78750000|94491b96-a555-45fa-b5da-cefb77620ca8|3b0607a2-3001-4957-85ed-36385c1db2dd",
-        "silk_edge_clearance|109449999|78750000|94491b96-a555-45fa-b5da-cefb77620ca8|98a9750f-945b-45cb-8392-b2c05f6d22d7",
-        "unconnected_items|340350000|100000000|1976f349-6b9a-423c-8918-f52bda93618f|d39f4efe-3514-4a4d-9240-4a9e57d1357f",
-        "unconnected_items|340350001|119400000|4710c2c5-dedc-4940-82e6-eae5f8e18986|c6fe8bba-e683-44f5-aff9-892df3252db3",
-        "unconnected_items|341649999|116800000|24319453-6b11-486b-a5ba-a9bc21978edc|e0555550-6160-4724-b0aa-272ac74d0424",
-        "unconnected_items|341649999|138600000|17b5dd5a-fc7c-4b64-bcab-55a74a7e1c53|c81477e3-e72e-4931-8dce-187aef6ddae8",
-        "unconnected_items|341649999|97400000|e01b3619-a564-4172-a2e3-6a8991f0e9c4|b99c6b81-61ab-49e8-8b28-8ac6003479e9",
-        "unconnected_items|341650000|119400000|985b305c-24cf-4246-8d04-e725f972b148|9f96e55c-4196-421c-8a78-a14c42e1fbf7"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -162,8 +151,8 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
-          "td_height_ratio": 0.75,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 0.6,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
@@ -173,8 +162,8 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
-          "td_height_ratio": 0.75,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 0.6,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
@@ -184,8 +173,8 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
-          "td_height_ratio": 0.75,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 0.6,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
@@ -496,7 +485,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.6,
-        "via_drill": 0.35,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -506,14 +495,14 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "POWER",
+        "microvia_diameter": 0.8,
+        "microvia_drill": 0.5,
+        "name": "2A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
-        "via_drill": 0.35,
+        "track_width": 0.35,
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
         "wire_width": 6
       },
       {
@@ -530,7 +519,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.6,
-        "via_drill": 0.35,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -538,7 +527,10 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(F1-Pad1)": "2A",
+      "VBUS": "2A"
+    },
     "netclass_patterns": [
       {
         "netclass": "Default",
@@ -557,8 +549,16 @@
         "pattern": "/USB_D-"
       },
       {
-        "netclass": "Default",
+        "netclass": "2A",
         "pattern": "VBUS"
+      },
+      {
+        "netclass": "USB_DIFF_90",
+        "pattern": "/USB/D+"
+      },
+      {
+        "netclass": "USB_DIFF_90",
+        "pattern": "/USB/D-"
       }
     ]
   },

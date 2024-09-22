@@ -5,10 +5,10 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A3")
 	(title_block
-		(title "\"not-so-fullsize\" ortho")
-		(date "2024-08-07")
-		(rev "2")
-		(comment 1 "Author: Kev")
+		(title "Mimic40")
+		(date "2024-09-22")
+		(rev "3")
+		(comment 1 "Author: kevontheweb")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
@@ -853,93 +853,6 @@
 				)
 			)
 		)
-		(symbol "PCM_4ms_Power-symbol:PWR_FLAG"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -1152,6 +1065,102 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -1828,7 +1837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e99ad30")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 21.59 278.2316 0)
 			(effects
 				(font
@@ -1930,7 +1939,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2062,7 +2071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e99cf54")
-		(property "Reference" "H4"
+		(property "Reference" "H5"
 			(at 43.18 266.8016 0)
 			(effects
 				(font
@@ -2164,7 +2173,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H4")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -2179,7 +2188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e99e1a5")
-		(property "Reference" "H3"
+		(property "Reference" "H6"
 			(at 43.18 278.2316 0)
 			(effects
 				(font
@@ -2281,7 +2290,73 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H3")
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 200.66 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0938a842-7350-46ab-9240-2f962b8c1f8d")
+		(property "Reference" "#FLG02"
+			(at 200.66 243.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 200.66 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 200.66 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee7db31b-314c-42fd-9382-1d8ac560984c")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -2296,7 +2371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2207d560-92f2-49be-8069-97e009006c6d")
-		(property "Reference" "H9"
+		(property "Reference" "H4"
 			(at 104.14 266.8016 0)
 			(effects
 				(font
@@ -2398,7 +2473,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H9")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -2413,7 +2488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ec03182-6f90-4155-8a4e-265fcbc33927")
-		(property "Reference" "H6"
+		(property "Reference" "H8"
 			(at 63.5 278.2316 0)
 			(effects
 				(font
@@ -2515,73 +2590,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Power-symbol:PWR_FLAG")
-		(at 200.66 245.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f881f1c-4ffd-4a60-b90a-f0662e7f2470")
-		(property "Reference" "#FLG02"
-			(at 200.66 243.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 200.66 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df2e91b5-2fc1-429a-b608-eab3fd55cfa7")
-		)
-		(instances
-			(project "Mimic40"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG02")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -2596,7 +2605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5563f61f-e26d-4d43-a1c3-20a08687c510")
-		(property "Reference" "H7"
+		(property "Reference" "H2"
 			(at 83.82 266.8016 0)
 			(effects
 				(font
@@ -2698,7 +2707,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H7")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -2845,7 +2854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c736054-cd85-4e2e-8a93-4e6ccbdab794")
-		(property "Reference" "H8"
+		(property "Reference" "H9"
 			(at 83.82 278.2316 0)
 			(effects
 				(font
@@ -2947,7 +2956,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H8")
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -3147,7 +3156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb820457-b078-402c-bb9e-501165fa05a6")
-		(property "Reference" "H5"
+		(property "Reference" "H7"
 			(at 63.5 266.8016 0)
 			(effects
 				(font
@@ -3249,7 +3258,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H5")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -3333,7 +3342,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e48f2c7c-6b1b-4287-a41f-1605ad17e09d")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 234.95 207.01 0)
 			(effects
 				(font
@@ -3442,7 +3451,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3458,7 +3467,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fc834aae-800d-45be-b8e5-36c113b9ff4f")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 149.86 204.47 0)
 			(effects
 				(font
@@ -3570,7 +3579,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)

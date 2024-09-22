@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "0d772e64-7a16-4911-b96f-f4c055ddcbcd")
 	(paper "A3")
+	(title_block
+		(date "2024-09-22")
+		(rev "3")
+		(comment 1 "Author: kevontheweb")
+	)
 	(lib_symbols
 		(symbol "Device:D"
 			(pin_numbers hide)
@@ -481,7 +486,7 @@
 	)
 	(text "Switch Matrix"
 		(exclude_from_sim no)
-		(at 180.34 86.36 0)
+		(at 179.07 107.95 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -492,7 +497,7 @@
 		)
 		(uuid "0079ca3b-4f1e-4dd4-9cb8-3b42c71b2325")
 	)
-	(text "dummy switch to make matrix symmetrical"
+	(text "dummy switches to make matrix symmetrical"
 		(exclude_from_sim no)
 		(at 355.6 226.06 0)
 		(effects
@@ -501,6 +506,16 @@
 			)
 		)
 		(uuid "c9da7e2f-99d5-4d9b-b9a7-701f958f9623")
+	)
+	(text "jumpers for snap off columns\n"
+		(exclude_from_sim no)
+		(at 372.11 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d7e126e2-b016-4ce2-aa11-eeda9f235336")
 	)
 	(label "Row_2"
 		(at 144.78 157.48 0)
@@ -2510,14 +2525,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0072a52a-a5ac-4b29-b427-09c8b44e5029")
-		(property "Reference" "D35"
-			(at 38.1 151.13 90)
+		(property "Reference" "D48"
+			(at 35.56 153.0349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -2540,11 +2556,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 163.83 0)
+			(at 35.56 154.94 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -2637,7 +2654,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D35")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -2651,9 +2668,10 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00c4b0b0-b66b-41cb-ae0a-661baca189bc")
-		(property "Reference" "JP10"
-			(at 356.87 37.084 0)
+		(property "Reference" "JP2"
+			(at 356.87 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,7 +2679,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 356.87 39.624 0)
+			(at 356.87 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,7 +2776,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "JP10")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -2772,14 +2790,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0196b1da-f6bf-4335-ab4f-1d2cf8feaffc")
-		(property "Reference" "D16"
-			(at 372.11 125.73 90)
+		(property "Reference" "D1"
+			(at 369.57 127.6349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -2802,11 +2821,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 372.11 138.43 0)
+			(at 369.57 129.54 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -2899,7 +2919,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D16")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2913,9 +2933,10 @@
 		(in_bom no)
 		(on_board no)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "06f45f90-2272-4c9f-a30b-23b03f42f6a8")
-		(property "Reference" "K34"
-			(at 330.2 231.5718 0)
+		(property "Reference" "K62"
+			(at 330.2 232.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3020,7 +3041,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K34")
+					(reference "K62")
 					(unit 1)
 				)
 			)
@@ -3034,9 +3055,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "073fbcbe-a23b-4c4a-8d3c-dfafa3d038eb")
-		(property "Reference" "K42"
-			(at 180.34 143.9418 0)
+		(property "Reference" "K40"
+			(at 180.34 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3141,7 +3163,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K42")
+					(reference "K40")
 					(unit 1)
 				)
 			)
@@ -3155,9 +3177,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "09bcbf63-82fb-45a1-a240-f2988b45f42f")
-		(property "Reference" "K28"
-			(at 241.3 131.2418 0)
+		(property "Reference" "K27"
+			(at 241.3 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3262,7 +3285,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K28")
+					(reference "K27")
 					(unit 1)
 				)
 			)
@@ -3276,9 +3299,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "0bd62eac-5efc-4972-b2df-93e9df285cee")
-		(property "Reference" "K49"
-			(at 367.03 143.9418 0)
+		(property "Reference" "K47"
+			(at 367.03 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3383,7 +3407,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K49")
+					(reference "K47")
 					(unit 1)
 				)
 			)
@@ -3397,9 +3421,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "0e8d3b9e-511f-4f53-b87c-15ee3d7bb001")
-		(property "Reference" "K22"
-			(at 119.38 131.2418 0)
+		(property "Reference" "K21"
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3504,7 +3529,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K22")
+					(reference "K21")
 					(unit 1)
 				)
 			)
@@ -3518,9 +3543,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "0ea915a4-a6c5-43c2-9f9c-42848622cc96")
-		(property "Reference" "K27"
-			(at 220.98 131.2418 0)
+		(property "Reference" "K26"
+			(at 220.98 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3625,7 +3651,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K27")
+					(reference "K26")
 					(unit 1)
 				)
 			)
@@ -3639,14 +3665,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0fcafe1e-f7fc-4004-9eff-59da0793f448")
-		(property "Reference" "D62"
-			(at 372.11 163.83 90)
+		(property "Reference" "D49"
+			(at 369.57 165.7349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -3669,11 +3696,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 372.11 176.53 0)
+			(at 369.57 167.64 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -3766,7 +3794,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D62")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -3780,9 +3808,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "107f3043-0300-44ac-be5a-882ce3e74b78")
-		(property "Reference" "D59"
-			(at 233.68 163.83 90)
+		(property "Reference" "D51"
+			(at 236.22 165.7349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3810,11 +3839,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 176.53 0)
+			(at 236.22 167.64 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify right)
 			)
 		)
 		(property "Description" "Diode"
@@ -3907,7 +3937,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D59")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -3921,9 +3951,10 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "13e7149b-b70e-45fc-8824-200667d297eb")
-		(property "Reference" "JP9"
-			(at 356.87 26.924 0)
+		(property "Reference" "JP3"
+			(at 356.87 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +3962,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 356.87 29.464 0)
+			(at 356.87 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4059,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "JP9")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -4042,9 +4073,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "1583adaa-e644-442b-8c80-ba187e7c0236")
 		(property "Reference" "K14"
-			(at 325.12 118.5418 0)
+			(at 325.12 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4163,9 +4195,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "188ced77-41b7-4898-b568-9c87c4270a23")
-		(property "Reference" "K50"
-			(at 298.45 150.2918 0)
+		(property "Reference" "K48"
+			(at 298.45 151.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4270,7 +4303,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K50")
+					(reference "K48")
 					(unit 1)
 				)
 			)
@@ -4284,9 +4317,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "19f9c498-4679-43f7-b1e4-84851920839b")
-		(property "Reference" "K31"
-			(at 325.12 131.2418 0)
+		(property "Reference" "K30"
+			(at 325.12 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4391,7 +4425,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K31")
+					(reference "K30")
 					(unit 1)
 				)
 			)
@@ -4405,9 +4439,10 @@
 		(in_bom no)
 		(on_board no)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "1a06186b-699d-411b-831d-841184f4892e")
-		(property "Reference" "K51"
-			(at 355.6 231.5718 0)
+		(property "Reference" "K63"
+			(at 355.6 232.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4512,7 +4547,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K51")
+					(reference "K63")
 					(unit 1)
 				)
 			)
@@ -4526,14 +4561,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1bbcdb0f-1b2a-414b-a23a-a053d46f8726")
-		(property "Reference" "D38"
-			(at 104.14 151.13 90)
+		(property "Reference" "D44"
+			(at 101.6 153.0349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -4556,11 +4592,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 163.83 0)
+			(at 101.6 154.94 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -4653,7 +4690,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D38")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -4667,14 +4704,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1cd26946-47b5-4c7f-8952-f5163bfec091")
-		(property "Reference" "D50"
-			(at 303.53 157.48 90)
+		(property "Reference" "D47"
+			(at 300.99 159.3849 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -4697,11 +4735,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 303.53 170.18 0)
+			(at 300.99 161.29 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -4794,7 +4833,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D50")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -4808,14 +4847,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1dbe3c06-ee96-49c9-99eb-72a7ef7d5c48")
-		(property "Reference" "D36"
-			(at 63.5 151.13 90)
+		(property "Reference" "D46"
+			(at 60.96 153.0349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -4838,11 +4878,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 163.83 0)
+			(at 60.96 154.94 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -4935,7 +4976,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D36")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -4949,14 +4990,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1decfb29-1e0c-4bb9-b0b2-1e0a0b20ac50")
-		(property "Reference" "D21"
-			(at 104.14 138.43 90)
+		(property "Reference" "D16"
+			(at 101.6 140.3349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -4979,11 +5021,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 151.13 0)
+			(at 101.6 142.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -5076,7 +5119,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D21")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -5090,14 +5133,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1ef951f1-9f1e-4a18-a103-5426ba47f4a8")
-		(property "Reference" "D44"
-			(at 226.06 151.13 90)
+		(property "Reference" "D40"
+			(at 223.52 153.0349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -5120,11 +5164,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 163.83 0)
+			(at 223.52 154.94 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -5217,7 +5262,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D44")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -5231,14 +5276,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1f6101f3-2632-4872-818b-17961f47b942")
-		(property "Reference" "D43"
-			(at 205.74 151.13 90)
+		(property "Reference" "D41"
+			(at 203.2 153.0349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -5261,11 +5307,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 163.83 0)
+			(at 203.2 154.94 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -5358,7 +5405,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D43")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -5372,14 +5419,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "24936353-b62b-46be-8b8b-d2026b55d500")
-		(property "Reference" "D32"
-			(at 351.79 138.43 90)
+		(property "Reference" "D19"
+			(at 349.25 140.3349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -5402,11 +5450,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 151.13 0)
+			(at 349.25 142.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -5499,7 +5548,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D32")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -5513,9 +5562,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "2761bb10-36f2-4d9e-9f5a-f09b524c00ee")
-		(property "Reference" "K62"
-			(at 278.13 162.9918 0)
+		(property "Reference" "K59"
+			(at 278.13 163.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5620,7 +5670,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K62")
+					(reference "K59")
 					(unit 1)
 				)
 			)
@@ -5634,14 +5684,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "28726ce0-8e15-4689-a622-bcff8f7ba50e")
-		(property "Reference" "D22"
-			(at 124.46 138.43 90)
+		(property "Reference" "D29"
+			(at 121.92 140.3349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -5664,11 +5715,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 151.13 0)
+			(at 121.92 142.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -5761,7 +5813,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D22")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -5775,9 +5827,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "2b1950ac-ff70-4363-bf61-4eb3b3aa7612")
-		(property "Reference" "K37"
-			(at 78.74 143.9418 0)
+		(property "Reference" "K35"
+			(at 78.74 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5882,7 +5935,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K37")
+					(reference "K35")
 					(unit 1)
 				)
 			)
@@ -5896,9 +5949,10 @@
 		(in_bom no)
 		(on_board no)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "2b7789fd-60a7-4a98-a713-74cf3c5ac37e")
-		(property "Reference" "D17"
-			(at 382.27 238.76 90)
+		(property "Reference" "D64"
+			(at 384.81 240.6649 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5926,11 +5980,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 382.27 251.46 0)
+			(at 384.81 242.57 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify right)
 			)
 		)
 		(property "Description" "Diode"
@@ -6023,7 +6078,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D17")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -6037,9 +6092,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "2c32e302-8f1b-491d-bab6-8f732fabcd1e")
-		(property "Reference" "K59"
-			(at 228.6 156.6418 0)
+		(property "Reference" "K56"
+			(at 228.6 165.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6144,7 +6200,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K59")
+					(reference "K56")
 					(unit 1)
 				)
 			)
@@ -6158,9 +6214,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "2f7ab59f-ce28-4053-b07f-b165e345f1fc")
 		(property "Reference" "K16"
-			(at 367.03 118.5418 0)
+			(at 367.03 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6279,9 +6336,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "35189992-0c82-466d-9132-dd8c0cb36723")
-		(property "Reference" "K47"
-			(at 325.12 143.9418 0)
+		(property "Reference" "K45"
+			(at 325.12 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6386,7 +6444,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K47")
+					(reference "K45")
 					(unit 1)
 				)
 			)
@@ -6400,14 +6458,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3bc3633c-0972-487c-bf6e-40358af27bc6")
-		(property "Reference" "D11"
-			(at 246.38 125.73 90)
+		(property "Reference" "D5"
+			(at 243.84 127.6349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -6430,11 +6489,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 138.43 0)
+			(at 243.84 129.54 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -6527,7 +6587,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D11")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6541,14 +6601,15 @@
 		(in_bom no)
 		(on_board no)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "3c683959-6ca5-484f-9cda-c870a92f9711")
-		(property "Reference" "D34"
-			(at 335.28 238.76 90)
+		(property "Reference" "D62"
+			(at 332.74 240.6649 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
@@ -6571,11 +6632,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 335.28 251.46 0)
+			(at 332.74 242.57 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -6668,7 +6730,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D34")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -6682,14 +6744,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3e08643c-d044-4751-9ad6-fc12fcd2c3ed")
-		(property "Reference" "D2"
-			(at 63.5 125.73 90)
+		(property "Reference" "D13"
+			(at 60.96 127.6349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -6712,11 +6775,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 138.43 0)
+			(at 60.96 129.54 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -6809,7 +6873,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D2")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -6823,14 +6887,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3e792278-5b93-4128-a0c8-7f5d2a270a62")
-		(property "Reference" "D6"
-			(at 144.78 125.73 90)
+		(property "Reference" "D10"
+			(at 142.24 127.6349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -6853,11 +6918,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 138.43 0)
+			(at 142.24 129.54 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -6950,7 +7016,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D6")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -6964,14 +7030,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "468b1815-cf29-44bc-a068-0e65cd940f63")
-		(property "Reference" "D20"
-			(at 83.82 138.43 90)
+		(property "Reference" "D30"
+			(at 81.28 140.3349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -6994,11 +7061,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 151.13 0)
+			(at 81.28 142.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -7091,7 +7159,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D20")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -7105,9 +7173,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "478a4549-f259-4e1f-a2c3-2c39412bf1bc")
 		(property "Reference" "K4"
-			(at 99.06 118.5418 0)
+			(at 99.06 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7226,9 +7295,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "49fcd4eb-b6ce-4fec-b24c-7d39228461fd")
-		(property "Reference" "K18"
-			(at 33.02 131.2418 0)
+		(property "Reference" "K17"
+			(at 33.02 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7333,7 +7403,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K18")
+					(reference "K17")
 					(unit 1)
 				)
 			)
@@ -7347,14 +7417,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4bc0f51c-baab-498e-84f8-05085e4b5be9")
-		(property "Reference" "D26"
-			(at 205.74 138.43 90)
+		(property "Reference" "D25"
+			(at 203.2 140.3349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -7377,11 +7448,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 151.13 0)
+			(at 203.2 142.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -7474,7 +7546,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D26")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -7488,9 +7560,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "4dfe118f-4906-412c-aa0e-fa3cc38c9aa5")
 		(property "Reference" "K1"
-			(at 33.02 118.5418 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7609,9 +7682,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "5298ab32-b79e-453e-b56c-216917851aeb")
-		(property "Reference" "K26"
-			(at 200.66 131.2418 0)
+		(property "Reference" "K25"
+			(at 200.66 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7716,7 +7790,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K26")
+					(reference "K25")
 					(unit 1)
 				)
 			)
@@ -7730,14 +7804,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "53749ebf-f74e-496a-8395-58c26a091534")
-		(property "Reference" "D18"
-			(at 38.1 138.43 90)
+		(property "Reference" "D32"
+			(at 35.56 140.3349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -7760,11 +7835,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 151.13 0)
+			(at 35.56 142.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -7857,7 +7933,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D18")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -7871,9 +7947,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "53f457a2-caa7-437a-b6e2-1d9cfffc7150")
-		(property "Reference" "K19"
-			(at 58.42 131.2418 0)
+		(property "Reference" "K18"
+			(at 58.42 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7978,7 +8055,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K19")
+					(reference "K18")
 					(unit 1)
 				)
 			)
@@ -7992,14 +8069,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "55736118-6610-4407-a00b-66d6ee2d4859")
-		(property "Reference" "D28"
-			(at 246.38 138.43 90)
+		(property "Reference" "D23"
+			(at 243.84 140.3349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -8022,11 +8100,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 151.13 0)
+			(at 243.84 142.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -8119,7 +8198,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D28")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -8133,14 +8212,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "557dc09f-22df-4554-b2d0-b3ba808f930c")
-		(property "Reference" "D5"
-			(at 124.46 125.73 90)
+		(property "Reference" "D12"
+			(at 121.92 127.6349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -8163,11 +8243,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 138.43 0)
+			(at 121.92 129.54 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -8260,7 +8341,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D5")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -8274,9 +8355,10 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "562efeb9-a54c-471d-89f1-ae8c2f71aba2")
-		(property "Reference" "JP3"
-			(at 384.81 37.084 0)
+		(property "Reference" "JP6"
+			(at 384.81 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8284,7 +8366,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 384.81 39.624 0)
+			(at 384.81 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8381,7 +8463,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "JP3")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -8395,14 +8477,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "56cd9fd1-3197-4216-8eff-36639bf62727")
-		(property "Reference" "D37"
-			(at 83.82 151.13 90)
+		(property "Reference" "D45"
+			(at 81.28 153.0349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -8425,11 +8508,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 163.83 0)
+			(at 81.28 154.94 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -8522,7 +8606,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D37")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -8536,14 +8620,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "57c78a41-03e5-47f2-ad1c-e230f45c14b9")
-		(property "Reference" "D13"
-			(at 287.02 125.73 90)
+		(property "Reference" "D3"
+			(at 284.48 127.6349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -8566,11 +8651,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 287.02 138.43 0)
+			(at 284.48 129.54 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -8663,7 +8749,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D13")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8677,14 +8763,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5a869a8b-0eab-4f2e-8360-af2b1ef3b48c")
-		(property "Reference" "D53"
-			(at 66.04 163.83 90)
+		(property "Reference" "D56"
+			(at 63.5 165.7349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -8707,11 +8794,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 176.53 0)
+			(at 63.5 167.64 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -8804,7 +8892,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D53")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -8818,9 +8906,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "5b2e8e4f-5d7a-437d-a151-436fc01c5cbb")
 		(property "Reference" "K5"
-			(at 119.38 118.5418 0)
+			(at 119.38 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8939,14 +9028,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5c023697-1223-40a2-b876-41e44c3c9e5f")
 		(property "Reference" "D8"
-			(at 185.42 125.73 90)
+			(at 182.88 127.6349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -8969,11 +9059,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 138.43 0)
+			(at 182.88 129.54 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -9080,14 +9171,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5d77cf1d-4333-40d1-a341-d55454a51ba6")
-		(property "Reference" "D57"
-			(at 175.26 163.83 90)
+		(property "Reference" "D53"
+			(at 172.72 165.7349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -9110,11 +9202,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 176.53 0)
+			(at 172.72 167.64 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -9207,7 +9300,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D57")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -9221,9 +9314,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "5d876a67-a05e-4da0-9064-cbdb7972933a")
 		(property "Reference" "K10"
-			(at 220.98 118.5418 0)
+			(at 220.98 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9342,14 +9436,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5dbc6bf1-29ae-4542-9f14-3e7a28e6cef2")
-		(property "Reference" "D55"
-			(at 116.84 163.83 90)
+		(property "Reference" "D54"
+			(at 114.3 165.7349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -9372,11 +9467,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 176.53 0)
+			(at 114.3 167.64 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -9469,7 +9565,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D55")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -9483,9 +9579,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "5e098e33-239f-4876-a76f-74a0c4022d35")
-		(property "Reference" "K39"
-			(at 119.38 143.9418 0)
+		(property "Reference" "K37"
+			(at 119.38 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9590,7 +9687,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K39")
+					(reference "K37")
 					(unit 1)
 				)
 			)
@@ -9604,14 +9701,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5e89ae7a-ec69-4a20-8f2e-f161a94c06a2")
-		(property "Reference" "D41"
-			(at 165.1 151.13 90)
+		(property "Reference" "D33"
+			(at 162.56 153.0349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -9634,11 +9732,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 163.83 0)
+			(at 162.56 154.94 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -9731,7 +9830,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D41")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -9745,9 +9844,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "5efbefc6-177a-41c1-911a-f431d7d848f0")
-		(property "Reference" "K63"
-			(at 298.45 162.9918 0)
+		(property "Reference" "K60"
+			(at 298.45 163.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9852,7 +9952,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K63")
+					(reference "K60")
 					(unit 1)
 				)
 			)
@@ -9866,9 +9966,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "5fb42778-5bb2-4aea-8c43-df14890dbcdf")
 		(property "Reference" "K9"
-			(at 200.66 118.5418 0)
+			(at 200.66 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9987,14 +10088,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "637123e6-6391-411e-aef8-1f4e3a2d83ea")
-		(property "Reference" "D27"
-			(at 226.06 138.43 90)
+		(property "Reference" "D24"
+			(at 223.52 140.3349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -10017,11 +10119,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 151.13 0)
+			(at 223.52 142.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -10114,7 +10217,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D27")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -10128,9 +10231,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "65426190-1252-4369-bf10-7d533ed57827")
 		(property "Reference" "K15"
-			(at 346.71 118.5418 0)
+			(at 346.71 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10249,14 +10353,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "68c3ca18-b18d-4e81-aabf-88f988f4e73e")
-		(property "Reference" "D54"
-			(at 91.44 163.83 90)
+		(property "Reference" "D55"
+			(at 88.9 165.7349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -10279,11 +10384,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 176.53 0)
+			(at 88.9 167.64 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -10376,7 +10482,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D54")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -10390,9 +10496,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "6ad89719-7326-4f4c-944b-34501ae659ad")
 		(property "Reference" "K11"
-			(at 241.3 118.5418 0)
+			(at 241.3 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10511,9 +10618,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "6b8984d5-bb41-4306-ac99-d3f79c660fc1")
-		(property "Reference" "K32"
-			(at 346.71 131.2418 0)
+		(property "Reference" "K31"
+			(at 346.71 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10618,7 +10726,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K32")
+					(reference "K31")
 					(unit 1)
 				)
 			)
@@ -10632,14 +10740,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6c641fef-0f72-4908-8afe-795c47206b21")
-		(property "Reference" "D49"
-			(at 372.11 151.13 90)
+		(property "Reference" "D35"
+			(at 369.57 153.0349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -10662,11 +10771,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 372.11 163.83 0)
+			(at 369.57 154.94 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -10759,7 +10869,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D49")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -10773,8 +10883,9 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "6d7fe5ac-c06c-4cdc-972b-b28eefc5b672")
-		(property "Reference" "K61"
+		(property "Reference" "K58"
 			(at 367.03 157.48 0)
 			(effects
 				(font
@@ -10880,7 +10991,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K61")
+					(reference "K58")
 					(unit 1)
 				)
 			)
@@ -10894,9 +11005,10 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6d91f232-1f84-4861-9470-0f06890473d0")
-		(property "Reference" "JP2"
-			(at 384.81 26.924 0)
+		(property "Reference" "JP1"
+			(at 384.81 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10904,7 +11016,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 384.81 29.464 0)
+			(at 384.81 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11001,7 +11113,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "JP2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -11015,14 +11127,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7161e0d4-78a1-45a1-abc7-8493117d4784")
-		(property "Reference" "D4"
-			(at 104.14 125.73 90)
+		(property "Reference" "D14"
+			(at 101.6 127.6349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -11045,11 +11158,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 138.43 0)
+			(at 101.6 129.54 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -11142,7 +11256,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D4")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -11156,9 +11270,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "71dab44f-61e5-4a32-bb5d-e6912faf93f5")
 		(property "Reference" "K3"
-			(at 78.74 118.5418 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11277,9 +11392,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "72c5103f-dfcb-46ec-9c32-2c94646844b6")
-		(property "Reference" "K43"
-			(at 200.66 143.9418 0)
+		(property "Reference" "K41"
+			(at 200.66 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11384,7 +11500,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K43")
+					(reference "K41")
 					(unit 1)
 				)
 			)
@@ -11398,9 +11514,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "7307be19-936a-41e2-bb5c-b52c056eab40")
-		(property "Reference" "K64"
-			(at 318.77 162.9918 0)
+		(property "Reference" "K61"
+			(at 318.77 163.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11505,7 +11622,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K64")
+					(reference "K61")
 					(unit 1)
 				)
 			)
@@ -11519,14 +11636,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "73e9d2ba-faca-4e82-b473-6b6428e80bff")
-		(property "Reference" "D48"
-			(at 351.79 151.13 90)
+		(property "Reference" "D36"
+			(at 349.25 153.0349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -11549,11 +11667,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 163.83 0)
+			(at 349.25 154.94 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -11646,7 +11765,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D48")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -11660,14 +11779,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "74fe1024-36fb-47fe-902a-add5c0159090")
-		(property "Reference" "D23"
-			(at 144.78 138.43 90)
+		(property "Reference" "D28"
+			(at 142.24 140.3349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -11690,11 +11810,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 151.13 0)
+			(at 142.24 142.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -11787,7 +11908,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D23")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -11801,14 +11922,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "75508b30-5dcc-4f6c-95c0-1136781b0a8a")
-		(property "Reference" "D7"
-			(at 165.1 125.73 90)
+		(property "Reference" "D9"
+			(at 162.56 127.6349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -11831,11 +11953,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 138.43 0)
+			(at 162.56 129.54 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -11928,7 +12051,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D7")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -11942,9 +12065,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "7557e7f6-ada9-41e9-8424-668624b80a8b")
 		(property "Reference" "K7"
-			(at 160.02 118.5418 0)
+			(at 160.02 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12063,14 +12187,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "793cba5e-0167-4a11-959d-b998ed5f10b4")
-		(property "Reference" "D58"
-			(at 208.28 163.83 90)
+		(property "Reference" "D52"
+			(at 205.74 165.7349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -12093,11 +12218,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 176.53 0)
+			(at 205.74 167.64 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -12190,7 +12316,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D58")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -12204,9 +12330,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "7adcb09b-8fb8-4991-9dc1-9dc0eac5d6d6")
-		(property "Reference" "K36"
-			(at 58.42 143.9418 0)
+		(property "Reference" "K34"
+			(at 58.42 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12311,7 +12438,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K36")
+					(reference "K34")
 					(unit 1)
 				)
 			)
@@ -12325,9 +12452,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "7f54d1a6-ac8a-481b-9723-d3cc6243529a")
 		(property "Reference" "K8"
-			(at 180.34 118.5418 0)
+			(at 180.34 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12446,9 +12574,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "81c7272c-3ff8-4ebd-9895-62624229c834")
-		(property "Reference" "K21"
-			(at 99.06 131.2418 0)
+		(property "Reference" "K20"
+			(at 99.06 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12553,7 +12682,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K21")
+					(reference "K20")
 					(unit 1)
 				)
 			)
@@ -12567,14 +12696,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "84f74e31-e3d0-474a-a68f-b4bcf2337950")
-		(property "Reference" "D45"
-			(at 246.38 151.13 90)
+		(property "Reference" "D39"
+			(at 243.84 153.0349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -12597,11 +12727,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 163.83 0)
+			(at 243.84 154.94 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -12694,7 +12825,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D45")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -12708,9 +12839,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "8510995d-a3df-4d56-9787-3be6fd3be5e3")
-		(property "Reference" "K35"
-			(at 33.02 143.9418 0)
+		(property "Reference" "K33"
+			(at 33.02 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12815,7 +12947,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K35")
+					(reference "K33")
 					(unit 1)
 				)
 			)
@@ -12829,14 +12961,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8b53540a-b548-4f08-99c5-516152105a61")
-		(property "Reference" "D29"
-			(at 266.7 138.43 90)
+		(property "Reference" "D22"
+			(at 264.16 140.3349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -12859,11 +12992,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 151.13 0)
+			(at 264.16 142.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -12956,7 +13090,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D29")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -12970,9 +13104,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "8ce3c8bf-f41a-411f-87e1-09f4f06f5468")
-		(property "Reference" "K33"
-			(at 367.03 131.2418 0)
+		(property "Reference" "K32"
+			(at 367.03 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13077,7 +13212,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K33")
+					(reference "K32")
 					(unit 1)
 				)
 			)
@@ -13091,9 +13226,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "91571c08-add5-4d3e-b04a-6076d04c66ca")
-		(property "Reference" "K58"
-			(at 203.2 156.6418 0)
+		(property "Reference" "K55"
+			(at 203.2 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13198,7 +13334,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K58")
+					(reference "K55")
 					(unit 1)
 				)
 			)
@@ -13212,9 +13348,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "9285cadf-8739-48a4-9607-dc8dd1db5ec9")
-		(property "Reference" "K20"
-			(at 78.74 131.2418 0)
+		(property "Reference" "K19"
+			(at 78.74 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13319,7 +13456,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K20")
+					(reference "K19")
 					(unit 1)
 				)
 			)
@@ -13333,14 +13470,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "94a8b6dc-fee7-4c2e-8ae8-2c29c7dc1bce")
-		(property "Reference" "D14"
-			(at 330.2 125.73 90)
+		(property "Reference" "D2"
+			(at 327.66 127.6349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -13363,11 +13501,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 330.2 138.43 0)
+			(at 327.66 129.54 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -13460,7 +13599,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D14")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13474,9 +13613,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "957d5eb7-fd4e-491c-8ab0-88d03a905d0e")
 		(property "Reference" "K13"
-			(at 281.94 118.5418 0)
+			(at 281.94 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13595,14 +13735,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "95aff37c-ea93-4d16-8c00-6dfbb181d3f5")
-		(property "Reference" "D9"
-			(at 205.74 125.73 90)
+		(property "Reference" "D7"
+			(at 203.2 127.6349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -13625,11 +13766,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 138.43 0)
+			(at 203.2 129.54 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -13722,7 +13864,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D9")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -13736,8 +13878,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "962f313a-46ad-4172-9c34-47feb999dfa0")
-		(property "Reference" "K60"
+		(property "Reference" "K57"
 			(at 346.71 157.48 0)
 			(effects
 				(font
@@ -13843,7 +13986,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K60")
+					(reference "K57")
 					(unit 1)
 				)
 			)
@@ -13857,14 +14000,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "99628f11-b8f3-4c2b-af60-4d11991111ed")
-		(property "Reference" "D30"
-			(at 287.02 138.43 90)
+		(property "Reference" "D21"
+			(at 284.48 140.3349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -13887,11 +14031,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 287.02 151.13 0)
+			(at 284.48 142.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -13984,7 +14129,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D30")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -13998,9 +14143,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "99d57232-4ed7-454a-8cf9-d2558aeba0fa")
-		(property "Reference" "K25"
-			(at 180.34 131.2418 0)
+		(property "Reference" "K24"
+			(at 180.34 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14105,7 +14251,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K25")
+					(reference "K24")
 					(unit 1)
 				)
 			)
@@ -14119,9 +14265,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "9b039122-4986-4339-ad62-2651e0b2f9d9")
-		(property "Reference" "K52"
-			(at 33.02 156.6418 0)
+		(property "Reference" "K49"
+			(at 33.02 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14226,7 +14373,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K52")
+					(reference "K49")
 					(unit 1)
 				)
 			)
@@ -14240,9 +14387,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "9bc07083-a0c4-4a16-b2cc-257d56f953bf")
-		(property "Reference" "K54"
-			(at 86.36 156.6418 0)
+		(property "Reference" "K51"
+			(at 86.36 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14347,7 +14495,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K54")
+					(reference "K51")
 					(unit 1)
 				)
 			)
@@ -14361,14 +14509,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a182e383-b257-474d-af8b-c06e5e632630")
-		(property "Reference" "D1"
-			(at 38.1 125.73 90)
+		(property "Reference" "D15"
+			(at 35.56 127.6349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -14391,11 +14540,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 138.43 0)
+			(at 35.56 129.54 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -14488,7 +14638,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D1")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -14502,9 +14652,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "a23d00eb-67b2-4253-875c-1f222151e253")
-		(property "Reference" "K56"
-			(at 137.16 156.6418 0)
+		(property "Reference" "K53"
+			(at 137.16 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14609,7 +14760,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K56")
+					(reference "K53")
 					(unit 1)
 				)
 			)
@@ -14623,14 +14774,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ac9738c5-d679-4e83-856e-2093dabf6e0d")
-		(property "Reference" "D60"
-			(at 283.21 170.18 90)
+		(property "Reference" "D61"
+			(at 280.67 172.0849 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -14653,11 +14805,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 283.21 182.88 0)
+			(at 280.67 173.99 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -14750,7 +14903,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D60")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -14764,9 +14917,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "ad653a69-8081-46da-a2ac-c4e883af64df")
 		(property "Reference" "K6"
-			(at 139.7 118.5418 0)
+			(at 139.7 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14885,14 +15039,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ad66e85c-7cb3-4f56-9399-e6688f5dcb71")
-		(property "Reference" "D12"
-			(at 266.7 125.73 90)
+		(property "Reference" "D4"
+			(at 264.16 127.6349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -14915,11 +15070,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 138.43 0)
+			(at 264.16 129.54 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -15012,7 +15168,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D12")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -15026,14 +15182,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "adc55450-8aa6-4171-b18f-2805c9ab51d7")
-		(property "Reference" "D63"
-			(at 303.53 170.18 90)
+		(property "Reference" "D60"
+			(at 300.99 172.0849 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -15056,11 +15213,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 303.53 182.88 0)
+			(at 300.99 173.99 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -15153,7 +15311,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D63")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -15167,14 +15325,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "af2d10e6-4a14-4698-90a5-56720f7538f2")
-		(property "Reference" "D19"
-			(at 63.5 138.43 90)
+		(property "Reference" "D31"
+			(at 60.96 140.3349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -15197,11 +15356,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 151.13 0)
+			(at 60.96 142.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -15294,7 +15454,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D19")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -15308,14 +15468,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b05fc8dd-ae29-425b-bff8-7b20112efbda")
-		(property "Reference" "D10"
-			(at 226.06 125.73 90)
+		(property "Reference" "D6"
+			(at 223.52 127.6349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -15338,11 +15499,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 138.43 0)
+			(at 223.52 129.54 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -15435,7 +15597,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D10")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -15449,14 +15611,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b0e13cba-b5b9-4839-a135-acc0aeff7561")
-		(property "Reference" "D15"
-			(at 351.79 125.73 90)
+		(property "Reference" "D11"
+			(at 349.25 127.6349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -15479,11 +15642,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 138.43 0)
+			(at 349.25 129.54 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -15576,7 +15740,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D15")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -15590,14 +15754,15 @@
 		(in_bom no)
 		(on_board no)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "b13a709c-9d87-4599-936c-56f755782d59")
-		(property "Reference" "D51"
-			(at 360.68 238.76 90)
+		(property "Reference" "D63"
+			(at 358.14 240.6649 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "D"
@@ -15620,11 +15785,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 360.68 251.46 0)
+			(at 358.14 242.57 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -15717,7 +15883,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D51")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -15731,9 +15897,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "b5cab96f-0c38-45b9-8da0-f1a63da29fcf")
-		(property "Reference" "K45"
-			(at 241.3 143.9418 0)
+		(property "Reference" "K43"
+			(at 241.3 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15838,7 +16005,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K45")
+					(reference "K43")
 					(unit 1)
 				)
 			)
@@ -15852,14 +16019,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b7e13d33-f30a-4253-9681-b4a9619558c2")
-		(property "Reference" "D31"
-			(at 330.2 138.43 90)
+		(property "Reference" "D20"
+			(at 327.66 140.3349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -15882,11 +16050,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 330.2 151.13 0)
+			(at 327.66 142.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -15979,7 +16148,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D31")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -15993,9 +16162,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "b8c07651-ed8b-43c1-9702-61c2aa1b7fde")
-		(property "Reference" "K53"
-			(at 60.96 156.6418 0)
+		(property "Reference" "K50"
+			(at 60.96 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16100,7 +16270,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K53")
+					(reference "K50")
 					(unit 1)
 				)
 			)
@@ -16114,9 +16284,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "bb8c890f-9791-4f45-a188-a4b07c344b59")
-		(property "Reference" "K48"
-			(at 346.71 143.9418 0)
+		(property "Reference" "K46"
+			(at 346.71 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16221,7 +16392,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K48")
+					(reference "K46")
 					(unit 1)
 				)
 			)
@@ -16235,9 +16406,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "bbaff573-c765-456f-91b0-5e134b2c24e8")
-		(property "Reference" "K23"
-			(at 139.7 131.2418 0)
+		(property "Reference" "K22"
+			(at 139.7 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16342,7 +16514,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K23")
+					(reference "K22")
 					(unit 1)
 				)
 			)
@@ -16356,14 +16528,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bc70287b-8c13-4bee-bd1b-5723c36afcaa")
-		(property "Reference" "D47"
-			(at 330.2 151.13 90)
+		(property "Reference" "D37"
+			(at 327.66 153.0349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -16386,11 +16559,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 330.2 163.83 0)
+			(at 327.66 154.94 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -16483,7 +16657,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D47")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -16497,14 +16671,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bfcfdc4e-3eee-4fb3-8fef-4699befcd153")
-		(property "Reference" "D52"
-			(at 38.1 163.83 90)
+		(property "Reference" "D57"
+			(at 35.56 165.7349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -16527,11 +16702,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 176.53 0)
+			(at 35.56 167.64 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -16624,7 +16800,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D52")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -16638,14 +16814,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c1317ae9-dc7d-44ea-a07c-86ba3e277871")
-		(property "Reference" "D40"
-			(at 144.78 151.13 90)
+		(property "Reference" "D42"
+			(at 142.24 153.0349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -16668,11 +16845,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 163.83 0)
+			(at 142.24 154.94 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -16765,7 +16943,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D40")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -16779,14 +16957,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c1b82738-eb95-4a10-8f83-238d70994819")
-		(property "Reference" "D42"
-			(at 185.42 151.13 90)
+		(property "Reference" "D34"
+			(at 182.88 153.0349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -16809,11 +16988,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 163.83 0)
+			(at 182.88 154.94 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -16906,7 +17086,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D42")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -16920,14 +17100,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c4b53c14-cc76-4296-a006-6177ff62f865")
-		(property "Reference" "D33"
-			(at 372.11 138.43 90)
+		(property "Reference" "D18"
+			(at 369.57 140.3349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -16950,11 +17131,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 372.11 151.13 0)
+			(at 369.57 142.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -17047,7 +17229,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D33")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -17061,14 +17243,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c76367be-2da2-4bc5-92a1-8828ae7c365f")
-		(property "Reference" "D39"
-			(at 124.46 151.13 90)
+		(property "Reference" "D43"
+			(at 121.92 153.0349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -17091,11 +17274,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 163.83 0)
+			(at 121.92 154.94 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -17188,7 +17372,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D39")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -17202,14 +17386,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c76de1c2-f594-4fb9-9a7b-603d3de6a8e2")
-		(property "Reference" "D46"
-			(at 266.7 151.13 90)
+		(property "Reference" "D38"
+			(at 264.16 153.0349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -17232,11 +17417,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 163.83 0)
+			(at 264.16 154.94 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -17329,7 +17515,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D46")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -17343,14 +17529,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "cca23d25-deb5-49da-b31c-105997aaaaa2")
-		(property "Reference" "D61"
-			(at 351.79 163.83 90)
+		(property "Reference" "D50"
+			(at 349.25 165.7349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -17373,11 +17560,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 176.53 0)
+			(at 349.25 167.64 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -17470,7 +17658,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D61")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -17484,14 +17672,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "cd886224-f5f8-4e02-b4ad-d28c37a36df2")
-		(property "Reference" "D56"
-			(at 142.24 163.83 90)
+		(property "Reference" "D58"
+			(at 139.7 165.7349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -17514,11 +17703,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 176.53 0)
+			(at 139.7 167.64 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -17611,7 +17801,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D56")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -17625,9 +17815,10 @@
 		(in_bom no)
 		(on_board no)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "cf7fba77-9175-4fe5-a469-525a68cdb6b1")
-		(property "Reference" "K17"
-			(at 377.19 231.5718 0)
+		(property "Reference" "K64"
+			(at 377.19 232.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17732,7 +17923,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K17")
+					(reference "K64")
 					(unit 1)
 				)
 			)
@@ -17746,9 +17937,10 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d0bc0890-8800-40f9-be95-60ac236b8a98")
-		(property "Reference" "JP4"
-			(at 384.81 47.244 0)
+		(property "Reference" "JP8"
+			(at 384.81 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17756,7 +17948,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 384.81 49.784 0)
+			(at 384.81 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17853,7 +18045,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "JP4")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -17867,14 +18059,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d1543258-f67d-476a-a060-a32e1df6f939")
-		(property "Reference" "D3"
-			(at 83.82 125.73 90)
+		(property "Reference" "D17"
+			(at 81.28 127.6349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -17897,11 +18090,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 138.43 0)
+			(at 81.28 129.54 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -17994,7 +18188,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D3")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -18008,9 +18202,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "d6b67dd0-8bba-47ff-b090-4bb74a43a761")
 		(property "Reference" "K12"
-			(at 261.62 118.5418 0)
+			(at 261.62 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18129,14 +18324,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d9d48466-e667-41d5-9b79-479aa1a3235d")
-		(property "Reference" "D25"
-			(at 185.42 138.43 90)
+		(property "Reference" "D26"
+			(at 182.88 140.3349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -18159,11 +18355,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 151.13 0)
+			(at 182.88 142.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -18256,7 +18453,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D25")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -18270,9 +18467,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "d9ec3a4f-a508-4ecd-82d7-7d118c2fd385")
-		(property "Reference" "K29"
-			(at 261.62 131.2418 0)
+		(property "Reference" "K28"
+			(at 261.62 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18377,7 +18575,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K29")
+					(reference "K28")
 					(unit 1)
 				)
 			)
@@ -18391,9 +18589,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "dc52b169-65d6-4084-9062-f43f11ed6432")
-		(property "Reference" "K38"
-			(at 99.06 143.9418 0)
+		(property "Reference" "K36"
+			(at 99.06 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18498,7 +18697,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K38")
+					(reference "K36")
 					(unit 1)
 				)
 			)
@@ -18512,9 +18711,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "de50882e-570d-46af-86d0-b57750af9de6")
-		(property "Reference" "K44"
-			(at 220.98 143.9418 0)
+		(property "Reference" "K42"
+			(at 220.98 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18619,7 +18819,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K44")
+					(reference "K42")
 					(unit 1)
 				)
 			)
@@ -18633,9 +18833,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "de9d2592-adb7-4e03-adb5-c0d853ade831")
-		(property "Reference" "K57"
-			(at 170.18 157.9118 0)
+		(property "Reference" "K54"
+			(at 170.18 158.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18740,7 +18941,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K57")
+					(reference "K54")
 					(unit 1)
 				)
 			)
@@ -18754,9 +18955,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "e5b46068-5e20-4c19-b18e-22f8f568c292")
 		(property "Reference" "K2"
-			(at 58.42 118.5418 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18875,9 +19077,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "e70debb7-5ddc-42a2-a9d6-e8b0e8572972")
-		(property "Reference" "K24"
-			(at 160.02 131.2418 0)
+		(property "Reference" "K23"
+			(at 160.02 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18982,7 +19185,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K24")
+					(reference "K23")
 					(unit 1)
 				)
 			)
@@ -18996,14 +19199,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e797c1f3-41fe-4e6a-883f-9a32606a4c32")
-		(property "Reference" "D24"
-			(at 165.1 138.43 90)
+		(property "Reference" "D27"
+			(at 162.56 140.3349 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -19026,11 +19230,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 151.13 0)
+			(at 162.56 142.24 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -19123,7 +19328,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D24")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -19137,14 +19342,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e8db3214-af8c-47b8-afbd-ceaecc6ed149")
-		(property "Reference" "D64"
-			(at 323.85 170.18 90)
+		(property "Reference" "D59"
+			(at 321.31 172.0849 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4148W"
@@ -19167,11 +19373,12 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 323.85 182.88 0)
+			(at 321.31 173.99 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Description" "Diode"
@@ -19264,7 +19471,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "D64")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -19278,9 +19485,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "f07b893e-8b44-4f8f-89d2-82a17ccccf09")
-		(property "Reference" "K40"
-			(at 139.7 143.9418 0)
+		(property "Reference" "K38"
+			(at 139.7 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19385,7 +19593,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K40")
+					(reference "K38")
 					(unit 1)
 				)
 			)
@@ -19399,9 +19607,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "f1680169-69a0-4f13-afa1-feaa03b7227f")
-		(property "Reference" "K30"
-			(at 281.94 131.2418 0)
+		(property "Reference" "K29"
+			(at 281.94 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19506,7 +19715,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K30")
+					(reference "K29")
 					(unit 1)
 				)
 			)
@@ -19520,9 +19729,10 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f502c62a-9c80-4c20-af6b-a46f1123e307")
-		(property "Reference" "JP5"
-			(at 384.81 57.404 0)
+		(property "Reference" "JP10"
+			(at 384.81 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19530,7 +19740,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 384.81 59.944 0)
+			(at 384.81 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19627,7 +19837,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "JP5")
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -19641,9 +19851,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "f8f0d08b-ad40-415b-bb03-c85e5c358a02")
-		(property "Reference" "K46"
-			(at 261.62 143.9418 0)
+		(property "Reference" "K44"
+			(at 261.62 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19748,7 +19959,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K46")
+					(reference "K44")
 					(unit 1)
 				)
 			)
@@ -19762,9 +19973,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "f8fe8a3a-c551-43cc-b875-7d664771ec1f")
-		(property "Reference" "K41"
-			(at 160.02 143.9418 0)
+		(property "Reference" "K39"
+			(at 160.02 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19869,7 +20081,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K41")
+					(reference "K39")
 					(unit 1)
 				)
 			)
@@ -19883,9 +20095,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "f98fc94c-127f-425e-bce0-ab225e007b55")
-		(property "Reference" "K55"
-			(at 111.76 156.6418 0)
+		(property "Reference" "K52"
+			(at 111.76 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19990,7 +20203,7 @@
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95b40cef-f73d-45cf-b8f1-263a4482d549"
-					(reference "K55")
+					(reference "K52")
 					(unit 1)
 				)
 			)
