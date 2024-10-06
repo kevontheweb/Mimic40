@@ -45,3 +45,10 @@ These may be helpful for future in the design of a case
 - [ ] order pcbs to test
 - [ ] firmware
 - [ ] take it from there
+
+## how to order
+
+- upload gerbers
+- upload bom and pos files
+- confirm placements
+- order missing parts elsewhere (F1 and the sockets)

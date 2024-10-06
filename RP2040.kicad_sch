@@ -4057,7 +4057,7 @@
 				)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "15pF"
 			(at 97.79 212.09 90)
 			(effects
 				(font
@@ -4101,7 +4101,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86285"
+		(property "LCSC" "C1548"
 			(at 97.79 204.47 0)
 			(effects
 				(font
@@ -4110,7 +4110,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05C150JB5NNNC"
+		(property "MPN" "0402CG150J500NT"
 			(at 97.79 204.47 0)
 			(effects
 				(font
@@ -4119,7 +4119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" " FH (Guangdong Fenghua Advanced Tech)"
 			(at 97.79 204.47 0)
 			(effects
 				(font
@@ -4247,7 +4247,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 372.491 72.263 0)
 			(effects
 				(font
@@ -4310,7 +4310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 369.57 71.12 0)
 			(effects
 				(font
@@ -4644,7 +4644,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 326.771 72.263 0)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 323.85 71.12 0)
 			(effects
 				(font
@@ -4768,7 +4768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 383.921 105.283 0)
 			(effects
 				(font
@@ -4959,7 +4959,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 361.061 72.263 0)
 			(effects
 				(font
@@ -5022,7 +5022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 358.14 71.12 0)
 			(effects
 				(font
@@ -5083,7 +5083,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 315.341 72.263 0)
 			(effects
 				(font
@@ -5146,7 +5146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 312.42 71.12 0)
 			(effects
 				(font
@@ -5208,7 +5208,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 378.079 44.323 0)
 			(effects
 				(font
@@ -5271,7 +5271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 381 43.18 0)
 			(effects
 				(font
@@ -5400,7 +5400,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 342.519 44.323 0)
 			(effects
 				(font
@@ -5445,7 +5445,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14445"
+		(property "LCSC" "C52923"
 			(at 345.44 43.18 0)
 			(effects
 				(font
@@ -5454,7 +5454,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A105KP5NNNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 345.44 43.18 0)
 			(effects
 				(font
@@ -5463,7 +5463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " Samsung Electro-Mechanics "
+		(property "Manufacturer" " Samsung Electro-Mechanics"
 			(at 345.44 43.18 0)
 			(effects
 				(font
@@ -5524,7 +5524,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 349.631 72.263 0)
 			(effects
 				(font
@@ -5587,7 +5587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 346.71 71.12 0)
 			(effects
 				(font
@@ -5649,7 +5649,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 366.649 44.323 0)
 			(effects
 				(font
@@ -5712,7 +5712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 369.57 43.18 0)
 			(effects
 				(font
@@ -5773,7 +5773,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 301.371 44.323 0)
 			(effects
 				(font
@@ -5818,7 +5818,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14445"
+		(property "LCSC" "C52923"
 			(at 298.45 43.18 0)
 			(effects
 				(font
@@ -5827,7 +5827,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A105KP5NNNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 298.45 43.18 0)
 			(effects
 				(font
@@ -5836,7 +5836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " Samsung Electro-Mechanics "
+		(property "Manufacturer" " Samsung Electro-Mechanics"
 			(at 298.45 43.18 0)
 			(effects
 				(font
@@ -5897,7 +5897,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 338.201 72.263 0)
 			(effects
 				(font
@@ -5960,7 +5960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 335.28 71.12 0)
 			(effects
 				(font
@@ -6153,7 +6153,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 136.271 128.143 0)
 			(effects
 				(font
@@ -6216,7 +6216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 133.35 127 0)
 			(effects
 				(font
@@ -6330,7 +6330,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNP"
 			(at 63.5 138.43 0)
 			(effects
 				(font
@@ -7330,7 +7330,7 @@
 				)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "15pF"
 			(at 97.79 189.23 90)
 			(effects
 				(font
@@ -7374,7 +7374,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86285"
+		(property "LCSC" "C1548"
 			(at 97.79 194.31 0)
 			(effects
 				(font
@@ -7383,7 +7383,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05C150JB5NNNC"
+		(property "MPN" "0402CG150J500NT"
 			(at 97.79 194.31 0)
 			(effects
 				(font
@@ -7392,7 +7392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" " FH (Guangdong Fenghua Advanced Tech)"
 			(at 97.79 194.31 0)
 			(effects
 				(font
@@ -7585,7 +7585,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 383.921 72.263 0)
 			(effects
 				(font
@@ -7648,7 +7648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 381 71.12 0)
 			(effects
 				(font
@@ -7819,7 +7819,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25156"
+		(property "LCSC" "C25765"
 			(at 204.47 128.27 0)
 			(effects
 				(font
@@ -7828,7 +7828,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " 0402WGJ0270TCE"
+		(property "MPN" "0402WGF2002TCE"
 			(at 204.47 128.27 0)
 			(effects
 				(font
@@ -8148,7 +8148,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNP"
 			(at 95.25 127 0)
 			(effects
 				(font
@@ -8328,7 +8328,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25156"
+		(property "LCSC" "C25765"
 			(at 204.47 125.73 0)
 			(effects
 				(font
@@ -8337,7 +8337,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " 0402WGJ0270TCE"
+		(property "MPN" "0402WGF2002TCE"
 			(at 204.47 125.73 0)
 			(effects
 				(font

@@ -2600,7 +2600,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 38.1 153.67 0)
 			(effects
 				(font
@@ -2609,7 +2609,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 38.1 153.67 0)
 			(effects
 				(font
@@ -2618,7 +2618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 38.1 153.67 0)
 			(effects
 				(font
@@ -2667,7 +2667,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00c4b0b0-b66b-41cb-ae0a-661baca189bc")
 		(property "Reference" "JP2"
@@ -2731,7 +2731,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNP"
 			(at 356.87 35.56 0)
 			(effects
 				(font
@@ -2865,7 +2865,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 372.11 128.27 0)
 			(effects
 				(font
@@ -2874,7 +2874,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 372.11 128.27 0)
 			(effects
 				(font
@@ -2883,7 +2883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 372.11 128.27 0)
 			(effects
 				(font
@@ -2952,7 +2952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 330.2 237.49 0)
 			(effects
 				(font
@@ -2996,7 +2996,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 330.2 237.49 0)
 			(effects
 				(font
@@ -3074,7 +3074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 180.34 149.86 0)
 			(effects
 				(font
@@ -3118,7 +3118,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 180.34 149.86 0)
 			(effects
 				(font
@@ -3196,7 +3196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 241.3 137.16 0)
 			(effects
 				(font
@@ -3240,7 +3240,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 241.3 137.16 0)
 			(effects
 				(font
@@ -3318,7 +3318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 367.03 149.86 0)
 			(effects
 				(font
@@ -3362,7 +3362,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 367.03 149.86 0)
 			(effects
 				(font
@@ -3440,7 +3440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 119.38 137.16 0)
 			(effects
 				(font
@@ -3484,7 +3484,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 119.38 137.16 0)
 			(effects
 				(font
@@ -3562,7 +3562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 220.98 137.16 0)
 			(effects
 				(font
@@ -3606,7 +3606,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 220.98 137.16 0)
 			(effects
 				(font
@@ -3740,7 +3740,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 372.11 166.37 0)
 			(effects
 				(font
@@ -3749,7 +3749,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 372.11 166.37 0)
 			(effects
 				(font
@@ -3758,7 +3758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 372.11 166.37 0)
 			(effects
 				(font
@@ -3883,7 +3883,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 233.68 166.37 0)
 			(effects
 				(font
@@ -3892,7 +3892,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 233.68 166.37 0)
 			(effects
 				(font
@@ -3901,7 +3901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 233.68 166.37 0)
 			(effects
 				(font
@@ -3950,7 +3950,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "13e7149b-b70e-45fc-8824-200667d297eb")
 		(property "Reference" "JP3"
@@ -4014,7 +4014,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNP"
 			(at 356.87 25.4 0)
 			(effects
 				(font
@@ -4092,7 +4092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 325.12 124.46 0)
 			(effects
 				(font
@@ -4136,7 +4136,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 325.12 124.46 0)
 			(effects
 				(font
@@ -4214,7 +4214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 298.45 156.21 0)
 			(effects
 				(font
@@ -4258,7 +4258,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 298.45 156.21 0)
 			(effects
 				(font
@@ -4336,7 +4336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 325.12 137.16 0)
 			(effects
 				(font
@@ -4380,7 +4380,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 325.12 137.16 0)
 			(effects
 				(font
@@ -4458,7 +4458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 355.6 237.49 0)
 			(effects
 				(font
@@ -4502,7 +4502,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 355.6 237.49 0)
 			(effects
 				(font
@@ -4636,7 +4636,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 104.14 153.67 0)
 			(effects
 				(font
@@ -4645,7 +4645,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 104.14 153.67 0)
 			(effects
 				(font
@@ -4654,7 +4654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 104.14 153.67 0)
 			(effects
 				(font
@@ -4779,7 +4779,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 303.53 160.02 0)
 			(effects
 				(font
@@ -4788,7 +4788,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 303.53 160.02 0)
 			(effects
 				(font
@@ -4797,7 +4797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 303.53 160.02 0)
 			(effects
 				(font
@@ -4922,7 +4922,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 63.5 153.67 0)
 			(effects
 				(font
@@ -4931,7 +4931,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 63.5 153.67 0)
 			(effects
 				(font
@@ -4940,7 +4940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 63.5 153.67 0)
 			(effects
 				(font
@@ -5065,7 +5065,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 104.14 140.97 0)
 			(effects
 				(font
@@ -5074,7 +5074,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 104.14 140.97 0)
 			(effects
 				(font
@@ -5083,7 +5083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 104.14 140.97 0)
 			(effects
 				(font
@@ -5208,7 +5208,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 226.06 153.67 0)
 			(effects
 				(font
@@ -5217,7 +5217,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 226.06 153.67 0)
 			(effects
 				(font
@@ -5226,7 +5226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 226.06 153.67 0)
 			(effects
 				(font
@@ -5351,7 +5351,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 205.74 153.67 0)
 			(effects
 				(font
@@ -5360,7 +5360,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 205.74 153.67 0)
 			(effects
 				(font
@@ -5369,7 +5369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 205.74 153.67 0)
 			(effects
 				(font
@@ -5494,7 +5494,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 351.79 140.97 0)
 			(effects
 				(font
@@ -5503,7 +5503,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 351.79 140.97 0)
 			(effects
 				(font
@@ -5512,7 +5512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 351.79 140.97 0)
 			(effects
 				(font
@@ -5581,7 +5581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 278.13 168.91 0)
 			(effects
 				(font
@@ -5625,7 +5625,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 278.13 168.91 0)
 			(effects
 				(font
@@ -5759,7 +5759,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 124.46 140.97 0)
 			(effects
 				(font
@@ -5768,7 +5768,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 124.46 140.97 0)
 			(effects
 				(font
@@ -5777,7 +5777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 124.46 140.97 0)
 			(effects
 				(font
@@ -5846,7 +5846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 78.74 149.86 0)
 			(effects
 				(font
@@ -5890,7 +5890,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 78.74 149.86 0)
 			(effects
 				(font
@@ -6033,7 +6033,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNP"
 			(at 382.27 241.3 0)
 			(effects
 				(font
@@ -6111,7 +6111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.25u"
 			(at 228.6 162.56 0)
 			(effects
 				(font
@@ -6155,7 +6155,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 228.6 162.56 0)
 			(effects
 				(font
@@ -6233,7 +6233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 367.03 124.46 0)
 			(effects
 				(font
@@ -6277,7 +6277,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 367.03 124.46 0)
 			(effects
 				(font
@@ -6355,7 +6355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 325.12 149.86 0)
 			(effects
 				(font
@@ -6399,7 +6399,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 325.12 149.86 0)
 			(effects
 				(font
@@ -6533,7 +6533,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 246.38 128.27 0)
 			(effects
 				(font
@@ -6542,7 +6542,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 246.38 128.27 0)
 			(effects
 				(font
@@ -6551,7 +6551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 246.38 128.27 0)
 			(effects
 				(font
@@ -6685,7 +6685,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNP"
 			(at 335.28 241.3 0)
 			(effects
 				(font
@@ -6819,7 +6819,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 63.5 128.27 0)
 			(effects
 				(font
@@ -6828,7 +6828,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 63.5 128.27 0)
 			(effects
 				(font
@@ -6837,7 +6837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 63.5 128.27 0)
 			(effects
 				(font
@@ -6962,7 +6962,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 144.78 128.27 0)
 			(effects
 				(font
@@ -6971,7 +6971,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 144.78 128.27 0)
 			(effects
 				(font
@@ -6980,7 +6980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 144.78 128.27 0)
 			(effects
 				(font
@@ -7105,7 +7105,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 83.82 140.97 0)
 			(effects
 				(font
@@ -7114,7 +7114,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 83.82 140.97 0)
 			(effects
 				(font
@@ -7123,7 +7123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 83.82 140.97 0)
 			(effects
 				(font
@@ -7192,7 +7192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 99.06 124.46 0)
 			(effects
 				(font
@@ -7236,7 +7236,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 99.06 124.46 0)
 			(effects
 				(font
@@ -7314,7 +7314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 33.02 137.16 0)
 			(effects
 				(font
@@ -7358,7 +7358,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 33.02 137.16 0)
 			(effects
 				(font
@@ -7492,7 +7492,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 205.74 140.97 0)
 			(effects
 				(font
@@ -7501,7 +7501,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 205.74 140.97 0)
 			(effects
 				(font
@@ -7510,7 +7510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 205.74 140.97 0)
 			(effects
 				(font
@@ -7579,7 +7579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 33.02 124.46 0)
 			(effects
 				(font
@@ -7623,7 +7623,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 33.02 124.46 0)
 			(effects
 				(font
@@ -7701,7 +7701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 200.66 137.16 0)
 			(effects
 				(font
@@ -7745,7 +7745,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 200.66 137.16 0)
 			(effects
 				(font
@@ -7879,7 +7879,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 38.1 140.97 0)
 			(effects
 				(font
@@ -7888,7 +7888,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 38.1 140.97 0)
 			(effects
 				(font
@@ -7897,7 +7897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 38.1 140.97 0)
 			(effects
 				(font
@@ -7966,7 +7966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 58.42 137.16 0)
 			(effects
 				(font
@@ -8010,7 +8010,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 58.42 137.16 0)
 			(effects
 				(font
@@ -8144,7 +8144,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 246.38 140.97 0)
 			(effects
 				(font
@@ -8153,7 +8153,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 246.38 140.97 0)
 			(effects
 				(font
@@ -8162,7 +8162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 246.38 140.97 0)
 			(effects
 				(font
@@ -8287,7 +8287,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 124.46 128.27 0)
 			(effects
 				(font
@@ -8296,7 +8296,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 124.46 128.27 0)
 			(effects
 				(font
@@ -8305,7 +8305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 124.46 128.27 0)
 			(effects
 				(font
@@ -8354,7 +8354,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "562efeb9-a54c-471d-89f1-ae8c2f71aba2")
 		(property "Reference" "JP6"
@@ -8418,7 +8418,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNP"
 			(at 384.81 35.56 0)
 			(effects
 				(font
@@ -8552,7 +8552,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 83.82 153.67 0)
 			(effects
 				(font
@@ -8561,7 +8561,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 83.82 153.67 0)
 			(effects
 				(font
@@ -8570,7 +8570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 83.82 153.67 0)
 			(effects
 				(font
@@ -8695,7 +8695,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 287.02 128.27 0)
 			(effects
 				(font
@@ -8704,7 +8704,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 287.02 128.27 0)
 			(effects
 				(font
@@ -8713,7 +8713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 287.02 128.27 0)
 			(effects
 				(font
@@ -8838,7 +8838,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 66.04 166.37 0)
 			(effects
 				(font
@@ -8847,7 +8847,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 66.04 166.37 0)
 			(effects
 				(font
@@ -8856,7 +8856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 66.04 166.37 0)
 			(effects
 				(font
@@ -8925,7 +8925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 119.38 124.46 0)
 			(effects
 				(font
@@ -8969,7 +8969,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 119.38 124.46 0)
 			(effects
 				(font
@@ -9103,7 +9103,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 185.42 128.27 0)
 			(effects
 				(font
@@ -9112,7 +9112,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 185.42 128.27 0)
 			(effects
 				(font
@@ -9121,7 +9121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 185.42 128.27 0)
 			(effects
 				(font
@@ -9246,7 +9246,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 175.26 166.37 0)
 			(effects
 				(font
@@ -9255,7 +9255,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 175.26 166.37 0)
 			(effects
 				(font
@@ -9264,7 +9264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 175.26 166.37 0)
 			(effects
 				(font
@@ -9333,7 +9333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 220.98 124.46 0)
 			(effects
 				(font
@@ -9377,7 +9377,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 220.98 124.46 0)
 			(effects
 				(font
@@ -9511,7 +9511,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 116.84 166.37 0)
 			(effects
 				(font
@@ -9520,7 +9520,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 116.84 166.37 0)
 			(effects
 				(font
@@ -9529,7 +9529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 116.84 166.37 0)
 			(effects
 				(font
@@ -9598,7 +9598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 119.38 149.86 0)
 			(effects
 				(font
@@ -9642,7 +9642,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 119.38 149.86 0)
 			(effects
 				(font
@@ -9776,7 +9776,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 165.1 153.67 0)
 			(effects
 				(font
@@ -9785,7 +9785,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 165.1 153.67 0)
 			(effects
 				(font
@@ -9794,7 +9794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 165.1 153.67 0)
 			(effects
 				(font
@@ -9863,7 +9863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 298.45 168.91 0)
 			(effects
 				(font
@@ -9907,7 +9907,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 298.45 168.91 0)
 			(effects
 				(font
@@ -9985,7 +9985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 200.66 124.46 0)
 			(effects
 				(font
@@ -10029,7 +10029,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 200.66 124.46 0)
 			(effects
 				(font
@@ -10163,7 +10163,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 226.06 140.97 0)
 			(effects
 				(font
@@ -10172,7 +10172,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 226.06 140.97 0)
 			(effects
 				(font
@@ -10181,7 +10181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 226.06 140.97 0)
 			(effects
 				(font
@@ -10250,7 +10250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 346.71 124.46 0)
 			(effects
 				(font
@@ -10294,7 +10294,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 346.71 124.46 0)
 			(effects
 				(font
@@ -10428,7 +10428,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 91.44 166.37 0)
 			(effects
 				(font
@@ -10437,7 +10437,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 91.44 166.37 0)
 			(effects
 				(font
@@ -10446,7 +10446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 91.44 166.37 0)
 			(effects
 				(font
@@ -10515,7 +10515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 241.3 124.46 0)
 			(effects
 				(font
@@ -10559,7 +10559,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 241.3 124.46 0)
 			(effects
 				(font
@@ -10637,7 +10637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 346.71 137.16 0)
 			(effects
 				(font
@@ -10681,7 +10681,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 346.71 137.16 0)
 			(effects
 				(font
@@ -10815,7 +10815,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 372.11 153.67 0)
 			(effects
 				(font
@@ -10824,7 +10824,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 372.11 153.67 0)
 			(effects
 				(font
@@ -10833,7 +10833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 372.11 153.67 0)
 			(effects
 				(font
@@ -10902,7 +10902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 367.03 162.56 0)
 			(effects
 				(font
@@ -10946,7 +10946,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 367.03 162.56 0)
 			(effects
 				(font
@@ -11004,7 +11004,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6d91f232-1f84-4861-9470-0f06890473d0")
 		(property "Reference" "JP1"
@@ -11068,7 +11068,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNP"
 			(at 384.81 25.4 0)
 			(effects
 				(font
@@ -11202,7 +11202,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 104.14 128.27 0)
 			(effects
 				(font
@@ -11211,7 +11211,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 104.14 128.27 0)
 			(effects
 				(font
@@ -11220,7 +11220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 104.14 128.27 0)
 			(effects
 				(font
@@ -11289,7 +11289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 78.74 124.46 0)
 			(effects
 				(font
@@ -11333,7 +11333,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 78.74 124.46 0)
 			(effects
 				(font
@@ -11411,7 +11411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 200.66 149.86 0)
 			(effects
 				(font
@@ -11455,7 +11455,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 200.66 149.86 0)
 			(effects
 				(font
@@ -11533,7 +11533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 318.77 168.91 0)
 			(effects
 				(font
@@ -11577,7 +11577,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 318.77 168.91 0)
 			(effects
 				(font
@@ -11711,7 +11711,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 351.79 153.67 0)
 			(effects
 				(font
@@ -11720,7 +11720,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 351.79 153.67 0)
 			(effects
 				(font
@@ -11729,7 +11729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 351.79 153.67 0)
 			(effects
 				(font
@@ -11854,7 +11854,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 144.78 140.97 0)
 			(effects
 				(font
@@ -11863,7 +11863,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 144.78 140.97 0)
 			(effects
 				(font
@@ -11872,7 +11872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 144.78 140.97 0)
 			(effects
 				(font
@@ -11997,7 +11997,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 165.1 128.27 0)
 			(effects
 				(font
@@ -12006,7 +12006,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 165.1 128.27 0)
 			(effects
 				(font
@@ -12015,7 +12015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 165.1 128.27 0)
 			(effects
 				(font
@@ -12084,7 +12084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 160.02 124.46 0)
 			(effects
 				(font
@@ -12128,7 +12128,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 160.02 124.46 0)
 			(effects
 				(font
@@ -12262,7 +12262,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 208.28 166.37 0)
 			(effects
 				(font
@@ -12271,7 +12271,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 208.28 166.37 0)
 			(effects
 				(font
@@ -12280,7 +12280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 208.28 166.37 0)
 			(effects
 				(font
@@ -12349,7 +12349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 58.42 149.86 0)
 			(effects
 				(font
@@ -12393,7 +12393,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 58.42 149.86 0)
 			(effects
 				(font
@@ -12471,7 +12471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 180.34 124.46 0)
 			(effects
 				(font
@@ -12515,7 +12515,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 180.34 124.46 0)
 			(effects
 				(font
@@ -12593,7 +12593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 99.06 137.16 0)
 			(effects
 				(font
@@ -12637,7 +12637,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 99.06 137.16 0)
 			(effects
 				(font
@@ -12771,7 +12771,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 246.38 153.67 0)
 			(effects
 				(font
@@ -12780,7 +12780,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 246.38 153.67 0)
 			(effects
 				(font
@@ -12789,7 +12789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 246.38 153.67 0)
 			(effects
 				(font
@@ -12858,7 +12858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 33.02 149.86 0)
 			(effects
 				(font
@@ -12902,7 +12902,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 33.02 149.86 0)
 			(effects
 				(font
@@ -13036,7 +13036,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 266.7 140.97 0)
 			(effects
 				(font
@@ -13045,7 +13045,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 266.7 140.97 0)
 			(effects
 				(font
@@ -13054,7 +13054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 266.7 140.97 0)
 			(effects
 				(font
@@ -13123,7 +13123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 367.03 137.16 0)
 			(effects
 				(font
@@ -13167,7 +13167,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 367.03 137.16 0)
 			(effects
 				(font
@@ -13245,7 +13245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.25u"
 			(at 203.2 162.56 0)
 			(effects
 				(font
@@ -13289,7 +13289,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 203.2 162.56 0)
 			(effects
 				(font
@@ -13367,7 +13367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 78.74 137.16 0)
 			(effects
 				(font
@@ -13411,7 +13411,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 78.74 137.16 0)
 			(effects
 				(font
@@ -13545,7 +13545,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 330.2 128.27 0)
 			(effects
 				(font
@@ -13554,7 +13554,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 330.2 128.27 0)
 			(effects
 				(font
@@ -13563,7 +13563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 330.2 128.27 0)
 			(effects
 				(font
@@ -13632,7 +13632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 281.94 124.46 0)
 			(effects
 				(font
@@ -13676,7 +13676,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 281.94 124.46 0)
 			(effects
 				(font
@@ -13810,7 +13810,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 205.74 128.27 0)
 			(effects
 				(font
@@ -13819,7 +13819,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 205.74 128.27 0)
 			(effects
 				(font
@@ -13828,7 +13828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 205.74 128.27 0)
 			(effects
 				(font
@@ -13897,7 +13897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 346.71 162.56 0)
 			(effects
 				(font
@@ -13941,7 +13941,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 346.71 162.56 0)
 			(effects
 				(font
@@ -14075,7 +14075,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 287.02 140.97 0)
 			(effects
 				(font
@@ -14084,7 +14084,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 287.02 140.97 0)
 			(effects
 				(font
@@ -14093,7 +14093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 287.02 140.97 0)
 			(effects
 				(font
@@ -14162,7 +14162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 180.34 137.16 0)
 			(effects
 				(font
@@ -14206,7 +14206,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 180.34 137.16 0)
 			(effects
 				(font
@@ -14284,7 +14284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.25u"
 			(at 33.02 162.56 0)
 			(effects
 				(font
@@ -14328,7 +14328,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 33.02 162.56 0)
 			(effects
 				(font
@@ -14406,7 +14406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.25u"
 			(at 86.36 162.56 0)
 			(effects
 				(font
@@ -14450,7 +14450,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 86.36 162.56 0)
 			(effects
 				(font
@@ -14584,7 +14584,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 38.1 128.27 0)
 			(effects
 				(font
@@ -14593,7 +14593,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 38.1 128.27 0)
 			(effects
 				(font
@@ -14602,7 +14602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 38.1 128.27 0)
 			(effects
 				(font
@@ -14671,7 +14671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.25u"
 			(at 137.16 162.56 0)
 			(effects
 				(font
@@ -14715,7 +14715,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 137.16 162.56 0)
 			(effects
 				(font
@@ -14849,7 +14849,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 283.21 172.72 0)
 			(effects
 				(font
@@ -14858,7 +14858,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 283.21 172.72 0)
 			(effects
 				(font
@@ -14867,7 +14867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 283.21 172.72 0)
 			(effects
 				(font
@@ -14936,7 +14936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 139.7 124.46 0)
 			(effects
 				(font
@@ -14980,7 +14980,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 139.7 124.46 0)
 			(effects
 				(font
@@ -15114,7 +15114,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 266.7 128.27 0)
 			(effects
 				(font
@@ -15123,7 +15123,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 266.7 128.27 0)
 			(effects
 				(font
@@ -15132,7 +15132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 266.7 128.27 0)
 			(effects
 				(font
@@ -15257,7 +15257,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 303.53 172.72 0)
 			(effects
 				(font
@@ -15266,7 +15266,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 303.53 172.72 0)
 			(effects
 				(font
@@ -15275,7 +15275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 303.53 172.72 0)
 			(effects
 				(font
@@ -15400,7 +15400,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 63.5 140.97 0)
 			(effects
 				(font
@@ -15409,7 +15409,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 63.5 140.97 0)
 			(effects
 				(font
@@ -15418,7 +15418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 63.5 140.97 0)
 			(effects
 				(font
@@ -15543,7 +15543,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 226.06 128.27 0)
 			(effects
 				(font
@@ -15552,7 +15552,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 226.06 128.27 0)
 			(effects
 				(font
@@ -15561,7 +15561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 226.06 128.27 0)
 			(effects
 				(font
@@ -15686,7 +15686,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 351.79 128.27 0)
 			(effects
 				(font
@@ -15695,7 +15695,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 351.79 128.27 0)
 			(effects
 				(font
@@ -15704,7 +15704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 351.79 128.27 0)
 			(effects
 				(font
@@ -15838,7 +15838,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNP"
 			(at 360.68 241.3 0)
 			(effects
 				(font
@@ -15916,7 +15916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 241.3 149.86 0)
 			(effects
 				(font
@@ -15960,7 +15960,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 241.3 149.86 0)
 			(effects
 				(font
@@ -16094,7 +16094,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 330.2 140.97 0)
 			(effects
 				(font
@@ -16103,7 +16103,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 330.2 140.97 0)
 			(effects
 				(font
@@ -16112,7 +16112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 330.2 140.97 0)
 			(effects
 				(font
@@ -16181,7 +16181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.25u"
 			(at 60.96 162.56 0)
 			(effects
 				(font
@@ -16225,7 +16225,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 60.96 162.56 0)
 			(effects
 				(font
@@ -16303,7 +16303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 346.71 149.86 0)
 			(effects
 				(font
@@ -16347,7 +16347,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 346.71 149.86 0)
 			(effects
 				(font
@@ -16425,7 +16425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 139.7 137.16 0)
 			(effects
 				(font
@@ -16469,7 +16469,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 139.7 137.16 0)
 			(effects
 				(font
@@ -16603,7 +16603,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 330.2 153.67 0)
 			(effects
 				(font
@@ -16612,7 +16612,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 330.2 153.67 0)
 			(effects
 				(font
@@ -16621,7 +16621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 330.2 153.67 0)
 			(effects
 				(font
@@ -16746,7 +16746,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 38.1 166.37 0)
 			(effects
 				(font
@@ -16755,7 +16755,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 38.1 166.37 0)
 			(effects
 				(font
@@ -16764,7 +16764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 38.1 166.37 0)
 			(effects
 				(font
@@ -16889,7 +16889,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 144.78 153.67 0)
 			(effects
 				(font
@@ -16898,7 +16898,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 144.78 153.67 0)
 			(effects
 				(font
@@ -16907,7 +16907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 144.78 153.67 0)
 			(effects
 				(font
@@ -17032,7 +17032,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 185.42 153.67 0)
 			(effects
 				(font
@@ -17041,7 +17041,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 185.42 153.67 0)
 			(effects
 				(font
@@ -17050,7 +17050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 185.42 153.67 0)
 			(effects
 				(font
@@ -17175,7 +17175,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 372.11 140.97 0)
 			(effects
 				(font
@@ -17184,7 +17184,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 372.11 140.97 0)
 			(effects
 				(font
@@ -17193,7 +17193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 372.11 140.97 0)
 			(effects
 				(font
@@ -17318,7 +17318,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 124.46 153.67 0)
 			(effects
 				(font
@@ -17327,7 +17327,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 124.46 153.67 0)
 			(effects
 				(font
@@ -17336,7 +17336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 124.46 153.67 0)
 			(effects
 				(font
@@ -17461,7 +17461,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 266.7 153.67 0)
 			(effects
 				(font
@@ -17470,7 +17470,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 266.7 153.67 0)
 			(effects
 				(font
@@ -17479,7 +17479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 266.7 153.67 0)
 			(effects
 				(font
@@ -17604,7 +17604,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 351.79 166.37 0)
 			(effects
 				(font
@@ -17613,7 +17613,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 351.79 166.37 0)
 			(effects
 				(font
@@ -17622,7 +17622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 351.79 166.37 0)
 			(effects
 				(font
@@ -17747,7 +17747,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 142.24 166.37 0)
 			(effects
 				(font
@@ -17756,7 +17756,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 142.24 166.37 0)
 			(effects
 				(font
@@ -17765,7 +17765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 142.24 166.37 0)
 			(effects
 				(font
@@ -17834,7 +17834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 377.19 237.49 0)
 			(effects
 				(font
@@ -17878,7 +17878,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 377.19 237.49 0)
 			(effects
 				(font
@@ -17936,7 +17936,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d0bc0890-8800-40f9-be95-60ac236b8a98")
 		(property "Reference" "JP8"
@@ -18000,7 +18000,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNP"
 			(at 384.81 45.72 0)
 			(effects
 				(font
@@ -18134,7 +18134,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 83.82 128.27 0)
 			(effects
 				(font
@@ -18143,7 +18143,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 83.82 128.27 0)
 			(effects
 				(font
@@ -18152,7 +18152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 83.82 128.27 0)
 			(effects
 				(font
@@ -18221,7 +18221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 261.62 124.46 0)
 			(effects
 				(font
@@ -18265,7 +18265,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 261.62 124.46 0)
 			(effects
 				(font
@@ -18399,7 +18399,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 185.42 140.97 0)
 			(effects
 				(font
@@ -18408,7 +18408,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 185.42 140.97 0)
 			(effects
 				(font
@@ -18417,7 +18417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 185.42 140.97 0)
 			(effects
 				(font
@@ -18486,7 +18486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 261.62 137.16 0)
 			(effects
 				(font
@@ -18530,7 +18530,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 261.62 137.16 0)
 			(effects
 				(font
@@ -18608,7 +18608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 99.06 149.86 0)
 			(effects
 				(font
@@ -18652,7 +18652,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 99.06 149.86 0)
 			(effects
 				(font
@@ -18730,7 +18730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 220.98 149.86 0)
 			(effects
 				(font
@@ -18774,7 +18774,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 220.98 149.86 0)
 			(effects
 				(font
@@ -18852,7 +18852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_2.00u"
 			(at 170.18 163.83 0)
 			(effects
 				(font
@@ -18896,7 +18896,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 170.18 163.83 0)
 			(effects
 				(font
@@ -18974,7 +18974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 58.42 124.46 0)
 			(effects
 				(font
@@ -19018,7 +19018,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 58.42 124.46 0)
 			(effects
 				(font
@@ -19096,7 +19096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 160.02 137.16 0)
 			(effects
 				(font
@@ -19140,7 +19140,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 160.02 137.16 0)
 			(effects
 				(font
@@ -19274,7 +19274,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 165.1 140.97 0)
 			(effects
 				(font
@@ -19283,7 +19283,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 165.1 140.97 0)
 			(effects
 				(font
@@ -19292,7 +19292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 165.1 140.97 0)
 			(effects
 				(font
@@ -19417,7 +19417,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828417"
+		(property "LCSC" "C81598"
 			(at 323.85 172.72 0)
 			(effects
 				(font
@@ -19426,7 +19426,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148W"
 			(at 323.85 172.72 0)
 			(effects
 				(font
@@ -19435,7 +19435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "1N4148W"
+		(property "Manufacturer" " ST(Semtech)"
 			(at 323.85 172.72 0)
 			(effects
 				(font
@@ -19504,7 +19504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 139.7 149.86 0)
 			(effects
 				(font
@@ -19548,7 +19548,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 139.7 149.86 0)
 			(effects
 				(font
@@ -19626,7 +19626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 281.94 137.16 0)
 			(effects
 				(font
@@ -19670,7 +19670,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 281.94 137.16 0)
 			(effects
 				(font
@@ -19728,7 +19728,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f502c62a-9c80-4c20-af6b-a46f1123e307")
 		(property "Reference" "JP10"
@@ -19792,7 +19792,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNP"
 			(at 384.81 55.88 0)
 			(effects
 				(font
@@ -19870,7 +19870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 261.62 149.86 0)
 			(effects
 				(font
@@ -19914,7 +19914,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 261.62 149.86 0)
 			(effects
 				(font
@@ -19992,7 +19992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated"
 			(at 160.02 149.86 0)
 			(effects
 				(font
@@ -20036,7 +20036,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 160.02 149.86 0)
 			(effects
 				(font
@@ -20114,7 +20114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.25u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.25u"
 			(at 111.76 162.56 0)
 			(effects
 				(font
@@ -20158,7 +20158,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  4958"
+		(property "MPN" "4958"
 			(at 111.76 162.56 0)
 			(effects
 				(font

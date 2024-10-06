@@ -1082,12 +1082,6 @@
 		)
 	)
 	(junction
-		(at 161.29 361.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c89bf82-f090-41dc-a974-4bc24f4177fe")
-	)
-	(junction
 		(at 257.81 424.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1146,12 +1140,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b20215b-b2c0-47e6-b0c9-dc55797b0f5b")
-	)
-	(junction
-		(at 151.13 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b52c5c1-1598-4f3d-bf99-68899dec0a7a")
 	)
 	(junction
 		(at 148.59 262.89)
@@ -1338,12 +1326,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7a20041-9c87-4aca-86b0-93fe91778901")
-	)
-	(junction
-		(at 151.13 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7bd5e24-23a5-4264-a46a-3203362251b8")
 	)
 	(junction
 		(at 257.81 383.54)
@@ -2007,16 +1989,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 78.74) (xy 161.29 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "538627e2-83ef-4d0a-8b46-df41ccb9e2e6")
-	)
-	(wire
-		(pts
 			(xy 168.91 222.25) (xy 173.99 222.25)
 		)
 		(stroke
@@ -2084,16 +2056,6 @@
 			(type default)
 		)
 		(uuid "5d1eed4b-b07d-4871-b82c-7cdbb9b24a33")
-	)
-	(wire
-		(pts
-			(xy 151.13 119.38) (xy 161.29 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dd44bf9-c174-431c-a56a-fe9ee444e664")
 	)
 	(wire
 		(pts
@@ -2274,16 +2236,6 @@
 			(type default)
 		)
 		(uuid "72a9cf8c-55e4-477a-919e-4ed4632c7910")
-	)
-	(wire
-		(pts
-			(xy 148.59 78.74) (xy 151.13 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73169040-7d46-4d44-84d6-fd0b85f2c524")
 	)
 	(wire
 		(pts
@@ -2627,16 +2579,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 119.38) (xy 151.13 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97f9dfab-48b4-4b83-a21f-2d54efa183c9")
-	)
-	(wire
-		(pts
 			(xy 176.53 281.94) (xy 189.23 281.94)
 		)
 		(stroke
@@ -2897,6 +2839,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 119.38) (xy 161.29 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf809f86-5534-4d0d-bdcc-43fbe86d881b")
+	)
+	(wire
+		(pts
 			(xy 252.73 354.33) (xy 252.73 342.9)
 		)
 		(stroke
@@ -2904,16 +2856,6 @@
 			(type default)
 		)
 		(uuid "c0042322-f76b-4721-bb89-9ebcfe57c46a")
-	)
-	(wire
-		(pts
-			(xy 163.83 361.95) (xy 161.29 361.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c114a9b9-8d29-4c65-82be-9f5ee43e3c7c")
 	)
 	(wire
 		(pts
@@ -3117,6 +3059,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 78.74) (xy 161.29 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e42632c2-e354-45cd-8c3a-30703faf575c")
+	)
+	(wire
+		(pts
 			(xy 176.53 527.05) (xy 189.23 527.05)
 		)
 		(stroke
@@ -3298,6 +3250,17 @@
 		)
 		(uuid "515f92df-aed4-4962-8d7f-1c4f74232d35")
 	)
+	(text "https://learn.adafruit.com/led-tricks-gamma-correction"
+		(exclude_from_sim no)
+		(at 210.82 570.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://learn.adafruit.com/led-tricks-gamma-correction")
+		)
+		(uuid "acb1e791-ea5c-45e5-a09c-25cde96b336a")
+	)
 	(text "Use V_bus to power leds"
 		(exclude_from_sim no)
 		(at 115.57 55.88 0)
@@ -3308,6 +3271,28 @@
 			(justify left bottom)
 		)
 		(uuid "b77264a1-13ff-4ac5-b6d3-c4de9b08da96")
+	)
+	(text "https://learn.adafruit.com/sipping-power-with-neopixels"
+		(exclude_from_sim no)
+		(at 209.55 563.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://learn.adafruit.com/sipping-power-with-neopixels")
+		)
+		(uuid "c5fbafac-e968-47bb-b0f8-93a5ce088abe")
+	)
+	(text "https://learn.adafruit.com/adafruit-neopixel-uberguide/powering-neopixels"
+		(exclude_from_sim no)
+		(at 210.82 556.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://learn.adafruit.com/adafruit-neopixel-uberguide/powering-neopixels")
+		)
+		(uuid "f068910d-9d54-4f08-8fe6-def5964664ef")
 	)
 	(label "D_{in}_{e}"
 		(at 135.89 402.59 180)
@@ -3618,7 +3603,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 261.62 64.7699 0)
 			(effects
 				(font
@@ -3646,6 +3631,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 257.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 257.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 257.81 63.5 0)
 			(effects
 				(font
@@ -3950,7 +3962,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 205.74 429.2599 0)
 			(effects
 				(font
@@ -3978,6 +3990,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 201.93 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 201.93 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 201.93 427.99 0)
 			(effects
 				(font
@@ -4020,7 +4059,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 205.74 267.9699 0)
 			(effects
 				(font
@@ -4048,6 +4087,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 201.93 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 201.93 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 201.93 266.7 0)
 			(effects
 				(font
@@ -5078,7 +5144,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 205.74 64.7699 0)
 			(effects
 				(font
@@ -5106,6 +5172,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 201.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 201.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 201.93 63.5 0)
 			(effects
 				(font
@@ -5214,7 +5307,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 152.4 347.9799 0)
 			(effects
 				(font
@@ -5242,6 +5335,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 148.59 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 148.59 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 148.59 346.71 0)
 			(effects
 				(font
@@ -5482,7 +5602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 261.62 513.0799 0)
 			(effects
 				(font
@@ -5510,6 +5630,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 257.81 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 257.81 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 257.81 511.81 0)
 			(effects
 				(font
@@ -5552,7 +5699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 177.8 146.0499 0)
 			(effects
 				(font
@@ -5580,6 +5727,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 173.99 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 173.99 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 173.99 144.78 0)
 			(effects
 				(font
@@ -6085,7 +6259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 205.74 308.6099 0)
 			(effects
 				(font
@@ -6113,6 +6287,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 201.93 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 201.93 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 201.93 307.34 0)
 			(effects
 				(font
@@ -6287,7 +6488,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 261.62 471.1699 0)
 			(effects
 				(font
@@ -6315,6 +6516,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 257.81 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 257.81 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 257.81 469.9 0)
 			(effects
 				(font
@@ -6753,7 +6981,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 152.4 513.0799 0)
 			(effects
 				(font
@@ -6781,6 +7009,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 148.59 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 148.59 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 148.59 511.81 0)
 			(effects
 				(font
@@ -6823,7 +7078,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 233.68 105.4099 0)
 			(effects
 				(font
@@ -6851,6 +7106,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 229.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 229.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 229.87 104.14 0)
 			(effects
 				(font
@@ -7157,7 +7439,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 205.74 105.4099 0)
 			(effects
 				(font
@@ -7185,6 +7467,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 201.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 201.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 201.93 104.14 0)
 			(effects
 				(font
@@ -7611,7 +7920,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "230d6134-d0b8-40e5-b81d-5cd50be71f89")
 		(property "Reference" "JP9"
@@ -7675,7 +7984,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNP"
 			(at 269.24 443.23 0)
 			(effects
 				(font
@@ -8007,7 +8316,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 205.74 471.1699 0)
 			(effects
 				(font
@@ -8035,6 +8344,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 201.93 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 201.93 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 201.93 469.9 0)
 			(effects
 				(font
@@ -8405,7 +8741,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 152.4 146.0499 0)
 			(effects
 				(font
@@ -8433,6 +8769,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 148.59 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 148.59 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 148.59 144.78 0)
 			(effects
 				(font
@@ -8475,7 +8838,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 233.68 64.7699 0)
 			(effects
 				(font
@@ -8503,6 +8866,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 229.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 229.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 229.87 63.5 0)
 			(effects
 				(font
@@ -8809,7 +9199,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 233.68 227.3299 0)
 			(effects
 				(font
@@ -8837,6 +9227,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 229.87 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 229.87 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 229.87 226.06 0)
 			(effects
 				(font
@@ -8971,6 +9388,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF0000TCE"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL"
 			(at 128.27 78.74 0)
 			(effects
 				(font
@@ -9211,7 +9655,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 261.62 308.6099 0)
 			(effects
 				(font
@@ -9239,6 +9683,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 257.81 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 257.81 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 257.81 307.34 0)
 			(effects
 				(font
@@ -9413,7 +9884,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 289.56 513.0799 0)
 			(effects
 				(font
@@ -9441,6 +9912,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 285.75 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 285.75 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 285.75 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 285.75 511.81 0)
 			(effects
 				(font
@@ -9642,6 +10140,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 292.1 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 292.1 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF0000TCE"
+			(at 292.1 527.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL"
 			(at 292.1 527.05 0)
 			(effects
 				(font
@@ -10144,7 +10669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 233.68 146.0499 0)
 			(effects
 				(font
@@ -10172,6 +10697,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 229.87 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 229.87 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 229.87 144.78 0)
 			(effects
 				(font
@@ -10412,7 +10964,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 261.62 429.2599 0)
 			(effects
 				(font
@@ -10440,6 +10992,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 257.81 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 257.81 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 257.81 427.99 0)
 			(effects
 				(font
@@ -11274,7 +11853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 233.68 267.9699 0)
 			(effects
 				(font
@@ -11302,6 +11881,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 229.87 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 229.87 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 229.87 266.7 0)
 			(effects
 				(font
@@ -11542,7 +12148,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 152.4 227.3299 0)
 			(effects
 				(font
@@ -11570,6 +12176,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 148.59 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 148.59 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 148.59 226.06 0)
 			(effects
 				(font
@@ -11810,7 +12443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 261.62 105.4099 0)
 			(effects
 				(font
@@ -11838,6 +12471,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 257.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 257.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 257.81 104.14 0)
 			(effects
 				(font
@@ -12342,7 +13002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 152.4 105.4099 0)
 			(effects
 				(font
@@ -12370,6 +13030,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 148.59 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 148.59 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 148.59 104.14 0)
 			(effects
 				(font
@@ -13132,7 +13819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 152.4 186.6899 0)
 			(effects
 				(font
@@ -13160,6 +13847,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 148.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 148.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 148.59 185.42 0)
 			(effects
 				(font
@@ -13334,7 +14048,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 261.62 146.0499 0)
 			(effects
 				(font
@@ -13362,6 +14076,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 257.81 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 257.81 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 257.81 144.78 0)
 			(effects
 				(font
@@ -13470,7 +14211,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 152.4 429.2599 0)
 			(effects
 				(font
@@ -13498,6 +14239,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 148.59 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 148.59 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 148.59 427.99 0)
 			(effects
 				(font
@@ -13540,7 +14308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 233.68 186.6899 0)
 			(effects
 				(font
@@ -13568,6 +14336,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 229.87 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 229.87 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 229.87 185.42 0)
 			(effects
 				(font
@@ -14464,7 +15259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 177.8 105.4099 0)
 			(effects
 				(font
@@ -14492,6 +15287,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 173.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 173.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 173.99 104.14 0)
 			(effects
 				(font
@@ -14732,7 +15554,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 152.4 388.6199 0)
 			(effects
 				(font
@@ -14760,6 +15582,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 148.59 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 148.59 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 148.59 387.35 0)
 			(effects
 				(font
@@ -14802,7 +15651,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 177.8 429.2599 0)
 			(effects
 				(font
@@ -14830,6 +15679,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 173.99 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 173.99 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 173.99 427.99 0)
 			(effects
 				(font
@@ -14872,7 +15748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 177.8 186.6899 0)
 			(effects
 				(font
@@ -14900,6 +15776,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 173.99 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 173.99 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 173.99 185.42 0)
 			(effects
 				(font
@@ -15800,7 +16703,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 205.74 146.0499 0)
 			(effects
 				(font
@@ -15828,6 +16731,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 201.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 201.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 201.93 144.78 0)
 			(effects
 				(font
@@ -16332,7 +17262,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 233.68 429.2599 0)
 			(effects
 				(font
@@ -16360,6 +17290,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 229.87 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 229.87 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 229.87 427.99 0)
 			(effects
 				(font
@@ -16468,7 +17425,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 233.68 388.6199 0)
 			(effects
 				(font
@@ -16496,6 +17453,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 229.87 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 229.87 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 229.87 387.35 0)
 			(effects
 				(font
@@ -16604,7 +17588,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 177.8 513.0799 0)
 			(effects
 				(font
@@ -16632,6 +17616,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 173.99 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 173.99 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 173.99 511.81 0)
 			(effects
 				(font
@@ -16938,7 +17949,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 205.74 347.9799 0)
 			(effects
 				(font
@@ -16966,6 +17977,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 201.93 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 201.93 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 201.93 346.71 0)
 			(effects
 				(font
@@ -17206,7 +18244,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 177.8 388.6199 0)
 			(effects
 				(font
@@ -17234,6 +18272,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 173.99 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 173.99 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 173.99 387.35 0)
 			(effects
 				(font
@@ -17276,7 +18341,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 152.4 471.1699 0)
 			(effects
 				(font
@@ -17304,6 +18369,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 148.59 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 148.59 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 148.59 469.9 0)
 			(effects
 				(font
@@ -17478,7 +18570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 177.8 64.7699 0)
 			(effects
 				(font
@@ -17506,6 +18598,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 173.99 63.5 0)
 			(effects
 				(font
@@ -17548,7 +18667,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 233.68 471.1699 0)
 			(effects
 				(font
@@ -17576,6 +18695,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 229.87 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 229.87 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 229.87 469.9 0)
 			(effects
 				(font
@@ -18146,7 +19292,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 233.68 308.6099 0)
 			(effects
 				(font
@@ -18174,6 +19320,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 229.87 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 229.87 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 229.87 307.34 0)
 			(effects
 				(font
@@ -18348,7 +19521,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 152.4 308.6099 0)
 			(effects
 				(font
@@ -18376,6 +19549,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 148.59 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 148.59 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 148.59 307.34 0)
 			(effects
 				(font
@@ -18734,7 +19934,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "93dd9987-dcff-42c9-aa3f-6c6c7ec6d92b")
 		(property "Reference" "JP5"
@@ -18798,7 +19998,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNP"
 			(at 210.82 200.66 0)
 			(effects
 				(font
@@ -19066,7 +20266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 205.74 388.6199 0)
 			(effects
 				(font
@@ -19094,6 +20294,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 201.93 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 201.93 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 201.93 387.35 0)
 			(effects
 				(font
@@ -20390,7 +21617,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 152.4 267.9699 0)
 			(effects
 				(font
@@ -20418,6 +21645,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 148.59 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 148.59 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 148.59 266.7 0)
 			(effects
 				(font
@@ -20460,7 +21714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 205.74 227.3299 0)
 			(effects
 				(font
@@ -20488,6 +21742,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 201.93 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 201.93 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 201.93 226.06 0)
 			(effects
 				(font
@@ -22511,7 +23792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 177.8 267.9699 0)
 			(effects
 				(font
@@ -22539,6 +23820,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 173.99 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 173.99 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 173.99 266.7 0)
 			(effects
 				(font
@@ -22581,7 +23889,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 261.62 186.6899 0)
 			(effects
 				(font
@@ -22609,6 +23917,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 257.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 257.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 257.81 185.42 0)
 			(effects
 				(font
@@ -22651,7 +23986,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 205.74 513.0799 0)
 			(effects
 				(font
@@ -22679,6 +24014,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 201.93 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 201.93 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 201.93 511.81 0)
 			(effects
 				(font
@@ -22721,7 +24083,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 261.62 347.9799 0)
 			(effects
 				(font
@@ -22749,6 +24111,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 257.81 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 257.81 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 257.81 346.71 0)
 			(effects
 				(font
@@ -22857,7 +24246,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 233.68 513.0799 0)
 			(effects
 				(font
@@ -22885,6 +24274,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 229.87 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 229.87 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 229.87 511.81 0)
 			(effects
 				(font
@@ -23310,7 +24726,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNP"
 			(at 306.07 443.23 0)
 			(effects
 				(font
@@ -24442,7 +25858,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 261.62 267.9699 0)
 			(effects
 				(font
@@ -24470,6 +25886,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 257.81 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 257.81 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 257.81 266.7 0)
 			(effects
 				(font
@@ -24512,7 +25955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 261.62 388.6199 0)
 			(effects
 				(font
@@ -24540,6 +25983,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 257.81 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 257.81 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 257.81 387.35 0)
 			(effects
 				(font
@@ -24978,7 +26448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 177.8 227.3299 0)
 			(effects
 				(font
@@ -25006,6 +26476,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 173.99 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 173.99 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 173.99 226.06 0)
 			(effects
 				(font
@@ -25048,7 +26545,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 177.8 471.1699 0)
 			(effects
 				(font
@@ -25076,6 +26573,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 173.99 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 173.99 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 173.99 469.9 0)
 			(effects
 				(font
@@ -25908,7 +27432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 177.8 347.9799 0)
 			(effects
 				(font
@@ -25936,6 +27460,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 173.99 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 173.99 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 173.99 346.71 0)
 			(effects
 				(font
@@ -26230,7 +27781,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f000779d-e185-43bf-bec9-2204f5549196")
 		(property "Reference" "JP7"
@@ -26294,7 +27845,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNP"
 			(at 156.21 443.23 0)
 			(effects
 				(font
@@ -26562,7 +28113,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 233.68 347.9799 0)
 			(effects
 				(font
@@ -26590,6 +28141,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 229.87 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 229.87 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 229.87 346.71 0)
 			(effects
 				(font
@@ -26818,7 +28396,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f415e962-8d68-40cc-a1b6-94f0c0e82ada")
 		(property "Reference" "JP4"
@@ -26882,7 +28460,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNP"
 			(at 238.76 160.02 0)
 			(effects
 				(font
@@ -27282,7 +28860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 261.62 227.3299 0)
 			(effects
 				(font
@@ -27310,6 +28888,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 257.81 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 257.81 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 257.81 226.06 0)
 			(effects
 				(font
@@ -27880,7 +29485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 177.8 308.6099 0)
 			(effects
 				(font
@@ -27908,6 +29513,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 173.99 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 173.99 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 173.99 307.34 0)
 			(effects
 				(font
@@ -27950,7 +29582,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 205.74 186.6899 0)
 			(effects
 				(font
@@ -27978,6 +29610,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 201.93 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 201.93 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 201.93 185.42 0)
 			(effects
 				(font
@@ -28548,7 +30207,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 152.4 64.7699 0)
 			(effects
 				(font
@@ -28576,6 +30235,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 148.59 63.5 0)
 			(effects
 				(font
