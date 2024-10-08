@@ -63,6 +63,11 @@
         "lib_footprint_mismatch|211931250|140850000|925067ca-fe93-4465-b133-605d84ccd441|00000000-0000-0000-0000-000000000000",
         "silk_edge_clearance|100050000|78750000|94491b96-a555-45fa-b5da-cefb77620ca8|5c51a030-eaae-470a-ad79-c35d4c82391a",
         "silk_edge_clearance|109450000|78750000|94491b96-a555-45fa-b5da-cefb77620ca8|6b0c9e1e-448a-425f-a3b5-ae10a825c1eb",
+        "unconnected_items|340350000|119400000|9f96e55c-4196-421c-8a78-a14c42e1fbf7|985b305c-24cf-4246-8d04-e725f972b148",
+        "unconnected_items|340350001|116800000|1c8728a2-6b02-4e50-977e-32e40ef9b067|24319453-6b11-486b-a5ba-a9bc21978edc",
+        "unconnected_items|341649999|119400000|c6fe8bba-e683-44f5-aff9-892df3252db3|4710c2c5-dedc-4940-82e6-eae5f8e18986",
+        "unconnected_items|341649999|138600000|7f73206e-c384-47ae-a6ec-e855bf30a289|edc49054-5515-4cc2-aa3a-db719ed04f05",
+        "unconnected_items|341649999|97400000|16c1b266-5991-4b93-a7d2-4760b55f4ba4|ad57260b-75fa-4475-acc9-8d36703a2a8f",
         "unconnected_items|341650000|100000000|d39f4efe-3514-4a4d-9240-4a9e57d1357f|1976f349-6b9a-423c-8918-f52bda93618f"
       ],
       "meta": {
@@ -456,7 +461,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -533,8 +538,6 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/USB/V_{BUS_IN}": "2A",
-      "Net-(F1-Pad1)": "2A",
       "VBUS": "2A"
     },
     "netclass_patterns": [

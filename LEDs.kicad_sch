@@ -11,22 +11,22 @@
 		(comment 1 "Author: kevontheweb")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
+		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 1.27 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x02_Odd_Even"
-				(at 1.27 -5.08 0)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -51,7 +51,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -69,7 +69,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -78,7 +78,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x02_Odd_Even_1_1"
+			(symbol "Conn_01x03_1_1"
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -102,8 +102,19 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 3.81 -3.81)
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -112,30 +123,8 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -153,7 +142,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -181,24 +170,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -306,6 +277,164 @@
 				)
 			)
 			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -3237,6 +3366,17 @@
 		)
 		(uuid "fdb56a71-85d2-466a-90b5-9ac755eb8ba2")
 	)
+	(text "bulk cap for power filtering"
+		(exclude_from_sim no)
+		(at 95.25 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "07414b3e-98ba-4555-9c58-132414404667")
+	)
 	(text "LEDs"
 		(exclude_from_sim no)
 		(at 196.85 44.45 0)
@@ -3548,30 +3688,6 @@
 		)
 		(uuid "1879031a-cc0f-413e-a7ea-a680bf2f447f")
 	)
-	(hierarchical_label "D_IN"
-		(shape input)
-		(at 300.99 440.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "27cc45cf-39a9-43f4-8ae4-6b04ef381af1")
-	)
-	(hierarchical_label "D_OUT"
-		(shape input)
-		(at 313.69 443.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a91102af-5536-4854-9e5a-11782076f549")
-	)
 	(hierarchical_label "D_OUT"
 		(shape input)
 		(at 295.91 527.05 0)
@@ -3583,6 +3699,18 @@
 			(justify left)
 		)
 		(uuid "adb14f2b-414f-4525-b6d4-a3089af3a126")
+	)
+	(hierarchical_label "D_OUT"
+		(shape input)
+		(at 336.55 527.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d142ded3-7243-4acb-98fd-208b8f9291cf")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -5838,73 +5966,6 @@
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 300.99 443.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10b2b065-d6cf-4b6b-9c3b-d956b8d58551")
-		(property "Reference" "#PWR030"
-			(at 294.64 443.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 297.18 443.2299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 300.99 443.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 443.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 300.99 443.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b3bd61c-e705-47d7-910c-c57cd8b38a03")
-		)
-		(instances
-			(project "Mimic40"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9637,6 +9698,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 95.25 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "313ddb35-1067-4ae7-a2da-edb0481d39ae")
+		(property "Reference" "#PWR0227"
+			(at 95.25 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b275d79-136b-4617-af13-4b55dc4c237c")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "#PWR0227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 257.81 307.34 0)
 		(unit 1)
@@ -11571,6 +11698,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 95.25 402.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45a685d0-9a0c-4240-8beb-ffab7d4ff334")
+		(property "Reference" "C84"
+			(at 99.06 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 99.06 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.5"
+			(at 96.2152 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 95.25 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22388021"
+			(at 95.25 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EFVM025ADA101M0654"
+			(at 95.25 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOLLON"
+			(at 95.25 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "75cee23d-51c7-4b47-be76-18c46156970b")
+		)
+		(pin "1"
+			(uuid "508d9092-1d08-49ae-9eb4-cd17ff13dd3c")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 224.79 119.38 0)
 		(unit 1)
@@ -11697,6 +11920,102 @@
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 95.25 322.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48802bb2-b4ed-44e2-9a1a-8b90278ad8e3")
+		(property "Reference" "C83"
+			(at 99.06 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 99.06 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.5"
+			(at 96.2152 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 95.25 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22388021"
+			(at 95.25 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EFVM025ADA101M0654"
+			(at 95.25 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOLLON"
+			(at 95.25 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7bb262a-6136-47e0-a54e-14ea427757cb")
+		)
+		(pin "1"
+			(uuid "bf665917-4f52-438b-b49d-5fdad2f221e6")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -13343,6 +13662,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 336.55 524.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57c64a18-4693-4464-bdb6-1415ae1f7760")
+		(property "Reference" "#PWR046"
+			(at 340.36 524.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 332.74 524.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 524.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 524.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 336.55 524.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "343b1151-c277-42cd-9e7b-2a419d2f3ea2")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 534.67 0)
 		(unit 1)
@@ -13475,6 +13861,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 95.25 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58c0abba-91c8-4d54-b872-733c8f67517e")
+		(property "Reference" "C82"
+			(at 99.06 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 99.06 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.5"
+			(at 96.2152 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 95.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22388021"
+			(at 95.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EFVM025ADA101M0654"
+			(at 95.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOLLON"
+			(at 95.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "80bf6ecb-86c1-49a7-8dfe-d77377838a61")
+		)
+		(pin "1"
+			(uuid "64e509e6-a1b3-48a7-a7c8-cf876b8aa748")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "C82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 143.51 119.38 0)
 		(unit 1)
@@ -13599,6 +14081,72 @@
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "D_RGB11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 95.25 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a0edd82-8944-451c-b449-ade1afb47892")
+		(property "Reference" "#PWR0228"
+			(at 95.25 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 95.25 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 95.25 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80ee09ea-b66f-44ed-8b8e-320f09bbbdda")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -14716,6 +15264,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 95.25 406.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66392d4f-0788-4a94-a422-8741cf174415")
+		(property "Reference" "#PWR0233"
+			(at 95.25 412.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "592a420d-309c-49fc-9a87-f6456c254d34")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "#PWR0233")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 143.51 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14848,6 +15462,72 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
+		(at 95.25 398.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68e4d15e-a159-4a92-a0e3-ecabcce407ea")
+		(property "Reference" "#PWR0232"
+			(at 95.25 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 95.25 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 95.25 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1302eb8-85f7-477b-93c2-c86b2d19cc79")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "#PWR0232")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
 		(at 257.81 508 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14907,6 +15587,72 @@
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 95.25 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69a8ca8d-703d-45cc-9b31-2a793e646ddb")
+		(property "Reference" "#PWR0226"
+			(at 95.25 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 95.25 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 95.25 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "619a8406-89f0-44ff-ac89-3339087674db")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -16157,6 +16903,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 95.25 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7355f18b-db83-496c-8582-cb59050dae94")
+		(property "Reference" "C81"
+			(at 99.06 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 99.06 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.5"
+			(at 96.2152 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 95.25 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22388021"
+			(at 95.25 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EFVM025ADA101M0654"
+			(at 95.25 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOLLON"
+			(at 95.25 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f8e92a9-a4b7-4f94-af04-0beb305fb887")
+		)
+		(pin "1"
+			(uuid "e8ce5deb-fed7-4be6-a1f7-5b7708396071")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "C81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 168.91 248.92 0)
 		(unit 1)
@@ -16217,6 +17059,72 @@
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76441f70-7d89-420d-bf5f-885ced011bb8")
+		(property "Reference" "#PWR0229"
+			(at 95.25 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21c39212-4bce-4c26-86ab-3a98b64e9d0f")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -21138,6 +22046,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 336.55 529.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0596e8b-f211-406d-9980-2c31479df880")
+		(property "Reference" "#PWR030"
+			(at 330.2 529.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 332.74 529.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 529.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 529.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 336.55 529.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a381bb44-8dc6-4d56-81f9-08d344fb253b")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 229.87 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22645,73 +23620,6 @@
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR0179")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 313.69 440.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5bc9418-2c86-4d92-8388-fa657a6ca8e9")
-		(property "Reference" "#PWR046"
-			(at 309.88 440.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 317.5 440.6899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 313.69 440.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 440.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 313.69 440.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f318ee1-84c2-4eda-a326-acbfa97c3faa")
-		)
-		(instances
-			(project "Mimic40"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -24325,6 +25233,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 95.25 326.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd1467ef-554f-4a00-86be-20e35526d163")
+		(property "Reference" "#PWR0231"
+			(at 95.25 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76a6bedd-886d-4467-ab01-ba7224d11837")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "#PWR0231")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 257.81 466.09 0)
 		(unit 1)
@@ -24655,18 +25629,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 306.07 443.23 0)
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 341.63 527.05 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d006b3b6-1b66-48e4-aae5-64c341287b8b")
 		(property "Reference" "J4"
-			(at 307.34 434.34 0)
+			(at 341.63 518.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24674,15 +25648,15 @@
 			)
 		)
 		(property "Value" "Case Lighting"
-			(at 307.34 436.88 0)
+			(at 341.63 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 306.07 443.23 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 341.63 527.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24691,7 +25665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 306.07 443.23 0)
+			(at 341.63 527.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24699,8 +25673,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 306.07 443.23 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 341.63 527.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24709,7 +25683,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 306.07 443.23 0)
+			(at 341.63 527.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24718,7 +25692,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 306.07 443.23 0)
+			(at 341.63 527.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24727,7 +25701,7 @@
 			)
 		)
 		(property "MPN" "DNP"
-			(at 306.07 443.23 0)
+			(at 341.63 527.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24736,7 +25710,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 306.07 443.23 0)
+			(at 341.63 527.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24745,7 +25719,7 @@
 			)
 		)
 		(property "Type" "DNS"
-			(at 306.07 443.23 0)
+			(at 341.63 527.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24754,7 +25728,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 306.07 443.23 0)
+			(at 341.63 527.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24764,9 +25738,6 @@
 		)
 		(pin "3"
 			(uuid "6ff5e7ff-1bf7-4dd6-9c8e-b9cbd403ed8c")
-		)
-		(pin "4"
-			(uuid "a9141804-919b-4d48-a8b9-bc7c4770e663")
 		)
 		(pin "2"
 			(uuid "54802288-8993-4bc0-8ace-e60219d9132d")
@@ -29137,6 +30108,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 95.25 318.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8f26989-88e7-45e7-99e7-41f72ae6a9c8")
+		(property "Reference" "#PWR0230"
+			(at 95.25 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 95.25 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 95.25 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb2d6385-7e5e-4d94-8445-5a130b4114d7")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "#PWR0230")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 252.73 443.23 0)
 		(unit 1)
@@ -29335,6 +30372,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 95.25 483.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f94423ce-613d-4d93-a81f-7ee864cfb437")
+		(property "Reference" "C85"
+			(at 99.06 481.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 99.06 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.5"
+			(at 96.2152 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 95.25 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22388021"
+			(at 95.25 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EFVM025ADA101M0654"
+			(at 95.25 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOLLON"
+			(at 95.25 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a49bed1f-a109-4804-b4e1-3239e5e3956a")
+		)
+		(pin "1"
+			(uuid "2056200f-7ab5-41e2-96f6-28432329fb23")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "C85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 257.81 350.52 0)
 		(unit 1)
@@ -29395,6 +30528,72 @@
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 95.25 480.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9cde7c8-7f7d-41e0-a01b-1227dbaa3a53")
+		(property "Reference" "#PWR0234"
+			(at 95.25 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 95.25 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 95.25 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bbaf30f-1391-48de-b39b-4b94f05cf620")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "#PWR0234")
 					(unit 1)
 				)
 			)
@@ -29655,6 +30854,72 @@
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 487.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb998519-f21e-4771-9e79-07fe855e73b2")
+		(property "Reference" "#PWR0235"
+			(at 95.25 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 492.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d23e4a1-8078-4bcf-a81d-54172052bea7")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5f2f1560-842e-45c9-a564-a9e82e76687c"
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)
