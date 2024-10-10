@@ -376,6 +376,296 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:Housing"
 			(pin_names
 				(offset 1.016)
@@ -1171,7 +1461,7 @@
 		(uuid "425e2481-96c1-40f9-8522-ae65b63c5eee")
 	)
 	(no_connect
-		(at 172.72 154.94)
+		(at 160.02 154.94)
 		(uuid "57ebf332-13e1-4167-bb01-ec388ea1f3ce")
 	)
 	(no_connect
@@ -1180,7 +1470,7 @@
 	)
 	(no_connect
 		(at 203.2 140.97)
-		(uuid "bd761c3c-0a4e-4c2a-afc4-606c80a1678e")
+		(uuid "b0c07198-383d-4dcb-ae85-b20dbcb2e25f")
 	)
 	(no_connect
 		(at 250.19 153.67)
@@ -1191,12 +1481,38 @@
 		(uuid "cf6efb3b-bc02-4b75-aaf4-b3a68099c067")
 	)
 	(no_connect
-		(at 203.2 130.81)
-		(uuid "cff22270-6ddd-4b2f-b68d-9e801234aa84")
-	)
-	(no_connect
 		(at 203.2 138.43)
 		(uuid "f6e98e0f-163f-47b4-9615-5c0c7c4166a0")
+	)
+	(wire
+		(pts
+			(xy 203.2 130.81) (xy 194.31 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20075a14-21ad-42e4-893d-1fb2d9b7d01b")
+	)
+	(wire
+		(pts
+			(xy 186.69 130.81) (xy 179.07 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eeabc0d-10b0-42b1-a1ce-02daf9eec856")
+	)
+	(wire
+		(pts
+			(xy 179.07 130.81) (xy 179.07 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9000058a-3fec-4a05-940f-a5baf429ef2d")
 	)
 	(text "Debug header"
 		(exclude_from_sim no)
@@ -1223,7 +1539,7 @@
 	)
 	(text "& PWR"
 		(exclude_from_sim no)
-		(at 124.46 130.81 0)
+		(at 111.76 130.81 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1556,7 +1872,7 @@
 		(uuid "8bd62bc1-bdfb-42b5-b428-8cf9fcd33af6")
 	)
 	(label "USB_D+"
-		(at 114.3 139.7 180)
+		(at 101.6 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1655,7 +1971,7 @@
 		(uuid "a0957532-77aa-46d6-89c8-4567f2f09ef9")
 	)
 	(label "LED_DATA"
-		(at 152.4 123.19 180)
+		(at 139.7 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1732,7 +2048,7 @@
 		(uuid "ca466a8b-caf9-46ac-9d0a-604b4004c730")
 	)
 	(label "USB_D-"
-		(at 114.3 142.24 180)
+		(at 101.6 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1754,7 +2070,7 @@
 		(uuid "ce891bc4-c21b-4203-a840-749dde8caeaa")
 	)
 	(label "LED_DATA_HV"
-		(at 172.72 123.19 0)
+		(at 160.02 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1853,7 +2169,7 @@
 		(uuid "f7b3e80c-2a39-4c26-96b2-d715d9a80186")
 	)
 	(label "LED_DATA_HV"
-		(at 152.4 154.94 180)
+		(at 139.7 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1890,7 +2206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "kbd:MountingHole_5.3mm_M5"
 			(at 19.05 279.4 0)
 			(effects
 				(font
@@ -2007,7 +2323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "kbd:MountingHole_5.3mm_M5"
 			(at 19.05 267.97 0)
 			(effects
 				(font
@@ -2124,7 +2440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "kbd:MountingHole_5.3mm_M5"
 			(at 40.64 267.97 0)
 			(effects
 				(font
@@ -2241,7 +2557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "kbd:MountingHole_5.3mm_M5"
 			(at 40.64 279.4 0)
 			(effects
 				(font
@@ -2326,6 +2642,101 @@
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 190.5 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0534200f-d664-4f54-9bd9-145698b2479e")
+		(property "Reference" "D65"
+			(at 188.9125 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 188.9125 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 190.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 190.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20613596"
+			(at 190.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1005UWC"
+			(at 190.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 190.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "253842c9-a96d-4754-aa51-e8580936e8b5")
+		)
+		(pin "1"
+			(uuid "8f63eb44-624a-440f-82bc-3f554d573a79")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -2424,7 +2835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "kbd:MountingHole_5.3mm_M5"
 			(at 101.6 267.97 0)
 			(effects
 				(font
@@ -2515,6 +2926,170 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 179.07 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30916809-02b2-4d3c-b7e0-f98f581c1d84")
+		(property "Reference" "#PWR0240"
+			(at 179.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98c715d3-ffc9-4b22-90ec-ec46e05e9f0a")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0240")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a6b9617-4b58-49bf-8bf3-4806907de18e")
+		(property "Reference" "R14"
+			(at 181.61 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 181.61 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 177.292 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25076"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1000TCE"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNIROYAL"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8e08b5d-5954-46d9-b665-7fb30f493fb7")
+		)
+		(pin "2"
+			(uuid "c36d926b-b187-48a0-85a5-16913eb6df0a")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 60.96 279.4 0)
 		(unit 1)
@@ -2541,7 +3116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "kbd:MountingHole_5.3mm_M5"
 			(at 60.96 279.4 0)
 			(effects
 				(font
@@ -2658,7 +3233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "kbd:MountingHole_5.3mm_M5"
 			(at 81.28 267.97 0)
 			(effects
 				(font
@@ -2907,7 +3482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "kbd:MountingHole_5.3mm_M5"
 			(at 81.28 279.4 0)
 			(effects
 				(font
@@ -3209,7 +3784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "kbd:MountingHole_5.3mm_M5"
 			(at 60.96 267.97 0)
 			(effects
 				(font
@@ -3621,7 +4196,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 132.08)
+		(at 101.6 132.08)
 		(size 20.32 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -3633,7 +4208,7 @@
 		)
 		(uuid "1724e3de-5077-41d9-a56f-45ff6b5a6dd5")
 		(property "Sheetname" "USB"
-			(at 114.3 130.7334 0)
+			(at 101.6 130.7334 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -3643,7 +4218,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 114.3 150.4446 0)
+			(at 101.6 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +4227,7 @@
 			)
 		)
 		(pin "USB_D-" input
-			(at 114.3 142.24 180)
+			(at 101.6 142.24 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +4237,7 @@
 			(uuid "4c959707-ae28-4825-b64d-c94a220e5610")
 		)
 		(pin "USB_D+" input
-			(at 114.3 139.7 180)
+			(at 101.6 139.7 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +4255,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 146.05)
+		(at 139.7 146.05)
 		(size 20.32 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -3692,7 +4267,7 @@
 		)
 		(uuid "5f2f1560-842e-45c9-a564-a9e82e76687c")
 		(property "Sheetname" "LEDs"
-			(at 152.4 144.7034 0)
+			(at 139.7 144.7034 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -3702,7 +4277,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDs.kicad_sch"
-			(at 152.4 164.4146 0)
+			(at 139.7 164.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +4286,7 @@
 			)
 		)
 		(pin "D_IN" input
-			(at 152.4 154.94 180)
+			(at 139.7 154.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +4296,7 @@
 			(uuid "1cf75b2c-2c82-483d-893a-04994e277c65")
 		)
 		(pin "D_OUT" input
-			(at 172.72 154.94 0)
+			(at 160.02 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +4314,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 114.3)
+		(at 139.7 114.3)
 		(size 20.32 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -3751,7 +4326,7 @@
 		)
 		(uuid "60602d95-64a6-4ece-a28a-418d0bcf5629")
 		(property "Sheetname" "Logic level shifter"
-			(at 152.4 112.9534 0)
+			(at 139.7 112.9534 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -3761,7 +4336,7 @@
 			)
 		)
 		(property "Sheetfile" "Level Shifter.kicad_sch"
-			(at 152.4 132.6646 0)
+			(at 139.7 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,7 +4345,7 @@
 			)
 		)
 		(pin "IN_{3.3V}" bidirectional
-			(at 152.4 123.19 180)
+			(at 139.7 123.19 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,7 +4355,7 @@
 			(uuid "bc3ef1b6-a470-4c22-a48d-db23b9bb26ea")
 		)
 		(pin "OUT_{5V}" bidirectional
-			(at 172.72 123.19 0)
+			(at 160.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

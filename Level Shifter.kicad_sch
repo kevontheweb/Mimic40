@@ -1061,6 +1061,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52895"
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BSS138"
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ONSEMI"
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d941cfd0-67ad-4a11-b3c9-abd01e25f341")
 		)
@@ -1132,7 +1159,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25765"
+		(property "LCSC" "C25100"
 			(at 107.95 95.25 0)
 			(effects
 				(font
@@ -1141,7 +1168,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF2002TCE"
+		(property "MPN" "0402WGF270JTCE"
 			(at 107.95 95.25 0)
 			(effects
 				(font
@@ -1227,7 +1254,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25765"
+		(property "LCSC" "C25100"
 			(at 158.75 95.25 0)
 			(effects
 				(font
@@ -1236,7 +1263,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF2002TCE"
+		(property "MPN" "0402WGF270JTCE"
 			(at 158.75 95.25 0)
 			(effects
 				(font

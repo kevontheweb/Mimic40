@@ -2517,7 +2517,7 @@
 	)
 	(text "bulk capacitor/power smoothing"
 		(exclude_from_sim no)
-		(at 54.61 87.63 0)
+		(at 44.45 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2811,6 +2811,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 38.1 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02ec643d-ddd0-4dd1-8020-3a90060ad174")
+		(property "Reference" "C79"
+			(at 40.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 40.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 39.0652 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 38.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 38.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL31A107MQHNNNE"
+			(at 38.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 38.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25ca13b0-b20a-4757-9527-ed7ddc3fe16d")
+		)
+		(pin "1"
+			(uuid "0505c579-6252-41ae-b2f9-ac3bc83e0706")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
+					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 157.48 85.09 270)
 		(unit 1)
@@ -2877,7 +2973,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 105.41 0)
+		(at 38.1 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2886,6 +2982,72 @@
 		(fields_autoplaced yes)
 		(uuid "08e3af3b-f992-4ed6-bd4d-dcff1d1510d5")
 		(property "Reference" "#PWR060"
+			(at 38.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4de247a-b489-41fb-a1f6-432a402eaf9b")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b369e4e-757b-4d08-b1eb-3ebb2714dac8")
+		(property "Reference" "#PWR0239"
 			(at 63.5 111.76 0)
 			(effects
 				(font
@@ -2930,12 +3092,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4de247a-b489-41fb-a1f6-432a402eaf9b")
+			(uuid "b0330947-3e47-4600-a2fe-db3aa2b58b41")
 		)
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
-					(reference "#PWR060")
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -3206,7 +3368,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 105.41 0)
+		(at 25.4 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3215,7 +3377,7 @@
 		(fields_autoplaced yes)
 		(uuid "47f26a72-1912-4a71-a947-263e0dc16071")
 		(property "Reference" "#PWR0225"
-			(at 44.45 111.76 0)
+			(at 25.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +3386,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 110.49 0)
+			(at 25.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +3394,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 105.41 0)
+			(at 25.4 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,7 +3403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 105.41 0)
+			(at 25.4 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,7 +3412,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 105.41 0)
+			(at 25.4 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,6 +3522,138 @@
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 50.8 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79613b80-fb4a-456c-9c3c-07e61d35d817")
+		(property "Reference" "#PWR0236"
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 50.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "939f82c1-3147-4a49-82c5-1e4e84bf696d")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
+					(reference "#PWR0236")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 63.5 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d9e9fd9-fc27-4250-b2f6-6485e8d1e34b")
+		(property "Reference" "#PWR0238"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 63.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 63.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b000c96-d303-49fd-933c-692d46f95161")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
@@ -3492,7 +3786,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 63.5 97.79 0)
+		(at 38.1 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3501,7 +3795,7 @@
 		(fields_autoplaced yes)
 		(uuid "900c582a-3adb-4f05-8a61-1c698b43028b")
 		(property "Reference" "#PWR061"
-			(at 63.5 101.6 0)
+			(at 38.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +3804,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 63.5 92.71 0)
+			(at 38.1 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +3812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 97.79 0)
+			(at 38.1 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 97.79 0)
+			(at 38.1 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +3830,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 63.5 97.79 0)
+			(at 38.1 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,6 +3845,72 @@
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98f3b2a2-6ac3-41e4-ab65-ffbdc122d14b")
+		(property "Reference" "#PWR0237"
+			(at 50.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bbb28a9-2293-4018-97ac-c9b85b74d6e8")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -4121,15 +4481,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 63.5 101.6 0)
+		(at 50.8 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bad27f0c-2eac-4451-b985-5eb45bfb4607")
-		(property "Reference" "C79"
-			(at 67.31 99.06 0)
+		(uuid "b8cc723d-a41e-4b6f-8058-543c66333eec")
+		(property "Reference" "C86"
+			(at 53.34 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,8 +4497,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
-			(at 67.31 101.6 0)
+		(property "Value" "100uF"
+			(at 53.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,8 +4506,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
-			(at 64.4652 105.41 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 51.7652 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4156,7 +4516,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 101.6 0)
+			(at 50.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +4525,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 63.5 101.6 0)
+			(at 50.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4173,8 +4533,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C134739"
-			(at 63.5 101.6 0)
+		(property "LCSC" "C15008"
+			(at 50.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,8 +4542,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "VE-471M0JTR-0810"
-			(at 63.5 101.6 0)
+		(property "MPN" "CL31A107MQHNNNE"
+			(at 50.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,8 +4551,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Lelon"
-			(at 63.5 101.6 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 50.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,15 +4561,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3ee2e943-b03f-438c-bda5-196e25350248")
+			(uuid "9e4b4c68-ed37-4364-818e-fa6f2470ada6")
 		)
 		(pin "1"
-			(uuid "335d8889-a148-454f-a8d9-4bb96331bb15")
+			(uuid "43e5776b-f6fc-4f68-9de7-5e230d131114")
 		)
 		(instances
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
-					(reference "C79")
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -4284,7 +4644,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 44.45 101.6 0)
+		(at 25.4 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4292,7 +4652,7 @@
 		(dnp no)
 		(uuid "c36a4847-2ba8-4842-88b8-be2290a57795")
 		(property "Reference" "C80"
-			(at 48.26 99.06 0)
+			(at 27.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4661,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 48.26 101.6 0)
+			(at 27.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,8 +4669,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.5"
-			(at 45.4152 105.41 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 26.3652 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +4679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 101.6 0)
+			(at 25.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +4688,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 44.45 101.6 0)
+			(at 25.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,8 +4696,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22388021"
-			(at 44.45 101.6 0)
+		(property "LCSC" "C15008"
+			(at 25.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,8 +4705,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "EFVM025ADA101M0654"
-			(at 44.45 101.6 0)
+		(property "MPN" "CL31A107MQHNNNE"
+			(at 25.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,8 +4714,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FOLLON"
-			(at 44.45 101.6 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 25.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4740,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 44.45 97.79 0)
+		(at 25.4 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4389,7 +4749,7 @@
 		(fields_autoplaced yes)
 		(uuid "caf31fe6-1538-4f35-9ee8-a479eda916f5")
 		(property "Reference" "#PWR0224"
-			(at 44.45 101.6 0)
+			(at 25.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,7 +4758,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 44.45 92.71 0)
+			(at 25.4 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +4766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 97.79 0)
+			(at 25.4 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,7 +4775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 97.79 0)
+			(at 25.4 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +4784,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 44.45 97.79 0)
+			(at 25.4 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,6 +4799,102 @@
 			(project "Mimic40"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
 					(reference "#PWR0224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 63.5 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7a8a24f-d645-46e2-b325-8b7ec6cf7555")
+		(property "Reference" "C87"
+			(at 66.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 64.4652 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL31A107MQHNNNE"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 63.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ec5608c-bb89-4f8b-b41c-7f0a1d6c6fc9")
+		)
+		(pin "1"
+			(uuid "36924c3e-d598-47d3-bd43-d57dff3a785c")
+		)
+		(instances
+			(project "Mimic40"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1724e3de-5077-41d9-a56f-45ff6b5a6dd5"
+					(reference "C87")
 					(unit 1)
 				)
 			)

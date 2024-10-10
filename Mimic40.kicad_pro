@@ -60,15 +60,19 @@
         }
       ],
       "drc_exclusions": [
+        "courtyards_overlap|85831249|139094655|174ecb27-b859-4191-a588-096bc101d346|c35e417c-496e-4303-b5c4-321c3cede22a",
+        "courtyards_overlap|88000001|133884752|174ecb27-b859-4191-a588-096bc101d346|834d0192-2f8f-45da-a664-ea874d4070f9",
         "lib_footprint_mismatch|211931250|140850000|925067ca-fe93-4465-b133-605d84ccd441|00000000-0000-0000-0000-000000000000",
         "silk_edge_clearance|100050000|78750000|94491b96-a555-45fa-b5da-cefb77620ca8|5c51a030-eaae-470a-ad79-c35d4c82391a",
         "silk_edge_clearance|109450000|78750000|94491b96-a555-45fa-b5da-cefb77620ca8|6b0c9e1e-448a-425f-a3b5-ae10a825c1eb",
+        "silk_over_copper|88136321|134130395|4e8f9edb-d173-47ec-97da-36197164ab3a|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|88136321|134130395|ba492d25-4590-4f1b-ac25-18c14adc2ffb|00000000-0000-0000-0000-000000000000",
+        "unconnected_items|340350000|100000000|1976f349-6b9a-423c-8918-f52bda93618f|d39f4efe-3514-4a4d-9240-4a9e57d1357f",
         "unconnected_items|340350000|119400000|9f96e55c-4196-421c-8a78-a14c42e1fbf7|985b305c-24cf-4246-8d04-e725f972b148",
-        "unconnected_items|340350001|116800000|1c8728a2-6b02-4e50-977e-32e40ef9b067|24319453-6b11-486b-a5ba-a9bc21978edc",
-        "unconnected_items|341649999|119400000|c6fe8bba-e683-44f5-aff9-892df3252db3|4710c2c5-dedc-4940-82e6-eae5f8e18986",
-        "unconnected_items|341649999|138600000|7f73206e-c384-47ae-a6ec-e855bf30a289|edc49054-5515-4cc2-aa3a-db719ed04f05",
-        "unconnected_items|341649999|97400000|16c1b266-5991-4b93-a7d2-4760b55f4ba4|ad57260b-75fa-4475-acc9-8d36703a2a8f",
-        "unconnected_items|341650000|100000000|d39f4efe-3514-4a4d-9240-4a9e57d1357f|1976f349-6b9a-423c-8918-f52bda93618f"
+        "unconnected_items|340350001|97400000|b99c6b81-61ab-49e8-8b28-8ac6003479e9|e01b3619-a564-4172-a2e3-6a8991f0e9c4",
+        "unconnected_items|341649999|116800000|24319453-6b11-486b-a5ba-a9bc21978edc|1c8728a2-6b02-4e50-977e-32e40ef9b067",
+        "unconnected_items|341649999|119400000|05ffa36d-b2d6-4932-a1ca-ba6651cd357e|0e56ea88-7bc4-4afc-a6d7-2044942cb1b0",
+        "unconnected_items|341649999|138600000|17b5dd5a-fc7c-4b64-bcab-55a74a7e1c53|edc49054-5515-4cc2-aa3a-db719ed04f05"
       ],
       "meta": {
         "version": 2
@@ -79,7 +83,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -241,6 +245,10 @@
         {
           "diameter": 0.6,
           "drill": 0.35
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false,
@@ -538,6 +546,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/USB/V_{BUS_IN}": "2A",
       "VBUS": "2A"
     },
     "netclass_patterns": [

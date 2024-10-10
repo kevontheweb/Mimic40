@@ -2618,7 +2618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 38.1 153.67 0)
 			(effects
 				(font
@@ -2883,7 +2883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 372.11 128.27 0)
 			(effects
 				(font
@@ -3758,7 +3758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 372.11 166.37 0)
 			(effects
 				(font
@@ -3901,7 +3901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 233.68 166.37 0)
 			(effects
 				(font
@@ -4654,7 +4654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 104.14 153.67 0)
 			(effects
 				(font
@@ -4797,7 +4797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 303.53 160.02 0)
 			(effects
 				(font
@@ -4940,7 +4940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 63.5 153.67 0)
 			(effects
 				(font
@@ -5083,7 +5083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 104.14 140.97 0)
 			(effects
 				(font
@@ -5226,7 +5226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 226.06 153.67 0)
 			(effects
 				(font
@@ -5369,7 +5369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 205.74 153.67 0)
 			(effects
 				(font
@@ -5512,7 +5512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 351.79 140.97 0)
 			(effects
 				(font
@@ -5777,7 +5777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 124.46 140.97 0)
 			(effects
 				(font
@@ -6551,7 +6551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 246.38 128.27 0)
 			(effects
 				(font
@@ -6837,7 +6837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 63.5 128.27 0)
 			(effects
 				(font
@@ -6980,7 +6980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 144.78 128.27 0)
 			(effects
 				(font
@@ -7123,7 +7123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 83.82 140.97 0)
 			(effects
 				(font
@@ -7510,7 +7510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 205.74 140.97 0)
 			(effects
 				(font
@@ -7897,7 +7897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 38.1 140.97 0)
 			(effects
 				(font
@@ -8162,7 +8162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 246.38 140.97 0)
 			(effects
 				(font
@@ -8305,7 +8305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 124.46 128.27 0)
 			(effects
 				(font
@@ -8570,7 +8570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 83.82 153.67 0)
 			(effects
 				(font
@@ -8713,7 +8713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 287.02 128.27 0)
 			(effects
 				(font
@@ -8856,7 +8856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 66.04 166.37 0)
 			(effects
 				(font
@@ -9121,7 +9121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 185.42 128.27 0)
 			(effects
 				(font
@@ -9264,7 +9264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 175.26 166.37 0)
 			(effects
 				(font
@@ -9529,7 +9529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 116.84 166.37 0)
 			(effects
 				(font
@@ -9794,7 +9794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 165.1 153.67 0)
 			(effects
 				(font
@@ -10181,7 +10181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 226.06 140.97 0)
 			(effects
 				(font
@@ -10446,7 +10446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 91.44 166.37 0)
 			(effects
 				(font
@@ -10833,7 +10833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 372.11 153.67 0)
 			(effects
 				(font
@@ -11220,7 +11220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 104.14 128.27 0)
 			(effects
 				(font
@@ -11729,7 +11729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 351.79 153.67 0)
 			(effects
 				(font
@@ -11872,7 +11872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 144.78 140.97 0)
 			(effects
 				(font
@@ -12015,7 +12015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 165.1 128.27 0)
 			(effects
 				(font
@@ -12280,7 +12280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 208.28 166.37 0)
 			(effects
 				(font
@@ -12789,7 +12789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 246.38 153.67 0)
 			(effects
 				(font
@@ -13054,7 +13054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 266.7 140.97 0)
 			(effects
 				(font
@@ -13563,7 +13563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 330.2 128.27 0)
 			(effects
 				(font
@@ -13828,7 +13828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 205.74 128.27 0)
 			(effects
 				(font
@@ -14093,7 +14093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 287.02 140.97 0)
 			(effects
 				(font
@@ -14602,7 +14602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 38.1 128.27 0)
 			(effects
 				(font
@@ -14867,7 +14867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 283.21 172.72 0)
 			(effects
 				(font
@@ -15132,7 +15132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 266.7 128.27 0)
 			(effects
 				(font
@@ -15275,7 +15275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 303.53 172.72 0)
 			(effects
 				(font
@@ -15418,7 +15418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 63.5 140.97 0)
 			(effects
 				(font
@@ -15561,7 +15561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 226.06 128.27 0)
 			(effects
 				(font
@@ -15704,7 +15704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 351.79 128.27 0)
 			(effects
 				(font
@@ -16112,7 +16112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 330.2 140.97 0)
 			(effects
 				(font
@@ -16621,7 +16621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 330.2 153.67 0)
 			(effects
 				(font
@@ -16764,7 +16764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 38.1 166.37 0)
 			(effects
 				(font
@@ -16907,7 +16907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 144.78 153.67 0)
 			(effects
 				(font
@@ -17050,7 +17050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 185.42 153.67 0)
 			(effects
 				(font
@@ -17193,7 +17193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 372.11 140.97 0)
 			(effects
 				(font
@@ -17336,7 +17336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 124.46 153.67 0)
 			(effects
 				(font
@@ -17479,7 +17479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 266.7 153.67 0)
 			(effects
 				(font
@@ -17622,7 +17622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 351.79 166.37 0)
 			(effects
 				(font
@@ -17765,7 +17765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 142.24 166.37 0)
 			(effects
 				(font
@@ -18152,7 +18152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 83.82 128.27 0)
 			(effects
 				(font
@@ -18417,7 +18417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 185.42 140.97 0)
 			(effects
 				(font
@@ -19292,7 +19292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 165.1 140.97 0)
 			(effects
 				(font
@@ -19435,7 +19435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " ST(Semtech)"
+		(property "Manufacturer" "ST(Semtech)"
 			(at 323.85 172.72 0)
 			(effects
 				(font

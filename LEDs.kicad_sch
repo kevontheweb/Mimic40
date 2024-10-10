@@ -9422,7 +9422,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "470"
 			(at 128.27 85.09 90)
 			(effects
 				(font
@@ -9457,7 +9457,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17168"
+		(property "LCSC" "C25117"
 			(at 128.27 78.74 0)
 			(effects
 				(font
@@ -9466,7 +9466,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF0000TCE"
+		(property "MPN" "0402WGF4700TCE"
 			(at 128.27 78.74 0)
 			(effects
 				(font
@@ -10240,7 +10240,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "470"
 			(at 292.1 523.24 90)
 			(effects
 				(font
@@ -10275,7 +10275,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17168"
+		(property "LCSC" "C25117"
 			(at 292.1 527.05 0)
 			(effects
 				(font
@@ -10284,7 +10284,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF0000TCE"
+		(property "MPN" "0402WGF4700TCE"
 			(at 292.1 527.05 0)
 			(effects
 				(font
@@ -11724,7 +11724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.5"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 96.2152 406.4 0)
 			(effects
 				(font
@@ -11751,7 +11751,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22388021"
+		(property "LCSC" "C15008"
 			(at 95.25 402.59 0)
 			(effects
 				(font
@@ -11760,7 +11760,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "EFVM025ADA101M0654"
+		(property "MPN" "CL31A107MQHNNNE"
 			(at 95.25 402.59 0)
 			(effects
 				(font
@@ -11769,7 +11769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FOLLON"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 95.25 402.59 0)
 			(effects
 				(font
@@ -11952,7 +11952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.5"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 96.2152 326.39 0)
 			(effects
 				(font
@@ -11979,7 +11979,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22388021"
+		(property "LCSC" "C15008"
 			(at 95.25 322.58 0)
 			(effects
 				(font
@@ -11988,7 +11988,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "EFVM025ADA101M0654"
+		(property "MPN" "CL31A107MQHNNNE"
 			(at 95.25 322.58 0)
 			(effects
 				(font
@@ -11997,7 +11997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FOLLON"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 95.25 322.58 0)
 			(effects
 				(font
@@ -13887,7 +13887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.5"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 96.2152 245.11 0)
 			(effects
 				(font
@@ -13914,7 +13914,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22388021"
+		(property "LCSC" "C15008"
 			(at 95.25 241.3 0)
 			(effects
 				(font
@@ -13923,7 +13923,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "EFVM025ADA101M0654"
+		(property "MPN" "CL31A107MQHNNNE"
 			(at 95.25 241.3 0)
 			(effects
 				(font
@@ -13932,7 +13932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FOLLON"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 95.25 241.3 0)
 			(effects
 				(font
@@ -16929,7 +16929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.5"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 96.2152 163.83 0)
 			(effects
 				(font
@@ -16956,7 +16956,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22388021"
+		(property "LCSC" "C15008"
 			(at 95.25 160.02 0)
 			(effects
 				(font
@@ -16965,7 +16965,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "EFVM025ADA101M0654"
+		(property "MPN" "CL31A107MQHNNNE"
 			(at 95.25 160.02 0)
 			(effects
 				(font
@@ -16974,7 +16974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FOLLON"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 95.25 160.02 0)
 			(effects
 				(font
@@ -30398,7 +30398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.5"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 96.2152 487.68 0)
 			(effects
 				(font
@@ -30425,7 +30425,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22388021"
+		(property "LCSC" "C15008"
 			(at 95.25 483.87 0)
 			(effects
 				(font
@@ -30434,7 +30434,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "EFVM025ADA101M0654"
+		(property "MPN" "CL31A107MQHNNNE"
 			(at 95.25 483.87 0)
 			(effects
 				(font
@@ -30443,7 +30443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "FOLLON"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 95.25 483.87 0)
 			(effects
 				(font

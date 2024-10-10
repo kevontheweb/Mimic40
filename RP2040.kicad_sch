@@ -4119,7 +4119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " FH (Guangdong Fenghua Advanced Tech)"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 97.79 204.47 0)
 			(effects
 				(font
@@ -5463,7 +5463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " Samsung Electro-Mechanics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 345.44 43.18 0)
 			(effects
 				(font
@@ -5836,7 +5836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " Samsung Electro-Mechanics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 298.45 43.18 0)
 			(effects
 				(font
@@ -7392,7 +7392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" " FH (Guangdong Fenghua Advanced Tech)"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 97.79 194.31 0)
 			(effects
 				(font
@@ -7819,7 +7819,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25765"
+		(property "LCSC" "C25100"
 			(at 204.47 128.27 0)
 			(effects
 				(font
@@ -7828,7 +7828,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF2002TCE"
+		(property "MPN" "0402WGF270JTCE"
 			(at 204.47 128.27 0)
 			(effects
 				(font
@@ -8328,7 +8328,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25765"
+		(property "LCSC" "C25100"
 			(at 204.47 125.73 0)
 			(effects
 				(font
@@ -8337,7 +8337,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF2002TCE"
+		(property "MPN" "0402WGF270JTCE"
 			(at 204.47 125.73 0)
 			(effects
 				(font
