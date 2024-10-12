@@ -1,0 +1,27 @@
+(version 1)
+
+# --- fixes for the switch foot prints basically ---
+# need to set these to 0 in board constraints so that thte custom rules con override (board constraints are absolute minimums)
+(rule "Hole to hole clearance"
+	#(severity ignore)
+	(constraint hole_to_hole (min 0.2mm))
+)
+
+(rule "Copper to hole clearance"
+	#(severity ignore)
+	(constraint hole_clearance (min 0.254mm))
+)
+
+(rule "Ignore Hole Clearance for switches"
+	#(severity ignore)
+	(condition "A.memberOfFootprint('K*')")
+	(constraint hole_to_hole (min 0mm))
+	(constraint hole_clearance (min 0mm))
+)
+
+(rule "Hole to pour clearance for switches"
+	#(severity ignore)
+	(condition "A.memberOfFootprint('K*') && B.Type == 'Zone'")
+	(constraint hole_clearance (min 0.254mm))
+)
+
