@@ -926,6 +926,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08202f6e-0f25-4d98-a00f-9f059aa48a67")
 		)
@@ -1088,6 +1097,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d941cfd0-67ad-4a11-b3c9-abd01e25f341")
 		)
@@ -1178,6 +1196,15 @@
 			)
 		)
 		(property "Manufacturer" "UNIROYAL"
+			(at 107.95 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 107.95 95.25 0)
 			(effects
 				(font
@@ -1281,6 +1308,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2cbe0480-23af-4795-a854-47d08527ed1c")
 		)
@@ -1370,6 +1406,15 @@
 			)
 		)
 		(property "Manufacturer" "UNIROYAL"
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 146.05 88.9 0)
 			(effects
 				(font

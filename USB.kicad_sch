@@ -2891,6 +2891,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 64.77 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "25ca13b0-b20a-4757-9527-ed7ddc3fe16d")
 		)
@@ -3505,6 +3514,15 @@
 		)
 		(property "Manufacturer" "TECHFUSE"
 			(at 165.1 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 165.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4560,6 +4578,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9e4b4c68-ed37-4364-818e-fa6f2470ada6")
 		)
@@ -4723,6 +4750,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 52.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80cc8c9c-5f6a-4cea-bda3-0209e646fb6b")
 		)
@@ -4877,6 +4913,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 90.17 100.33 0)
 			(effects
 				(font

@@ -2727,6 +2727,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 190.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "253842c9-a96d-4754-aa51-e8580936e8b5")
 		)
@@ -3066,6 +3075,15 @@
 			)
 		)
 		(property "Manufacturer" "UNIROYAL"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 179.07 138.43 0)
 			(effects
 				(font
@@ -4031,7 +4049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "DNS"
+		(property "Type" "THT"
 			(at 229.87 203.2 0)
 			(effects
 				(font
@@ -4156,7 +4174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "DNS"
+		(property "Type" "THT"
 			(at 165.1 203.2 0)
 			(effects
 				(font

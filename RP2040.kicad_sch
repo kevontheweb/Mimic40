@@ -6348,7 +6348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "DNS"
+		(property "Type" "THT"
 			(at 63.5 138.43 0)
 			(effects
 				(font

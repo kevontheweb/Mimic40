@@ -3817,6 +3817,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "970955bc-bc41-4296-9abf-c0d4dc3aa7d1")
 		)
@@ -4176,6 +4185,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 207.01 415.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a94946f-1905-4792-a383-b9329aeffc91")
 		)
@@ -4265,6 +4283,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 207.01 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 207.01 254 0)
 			(effects
 				(font
@@ -5358,6 +5385,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 207.01 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e5a7a4f-5aa0-4591-bb37-ae81f86e732b")
 		)
@@ -5513,6 +5549,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 153.67 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 153.67 334.01 0)
 			(effects
 				(font
@@ -5816,6 +5861,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 262.89 499.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "51faf164-05af-42ef-9fd6-f8a0e4a88554")
 		)
@@ -5905,6 +5959,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 179.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -6406,6 +6469,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 207.01 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d954e71-2a9f-4b2f-bd24-305726e76fa8")
 		)
@@ -6627,6 +6699,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 262.89 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 262.89 457.2 0)
 			(effects
 				(font
@@ -7128,6 +7209,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 153.67 499.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7a01095a-d9a6-4811-80b5-e055848debe0")
 		)
@@ -7217,6 +7307,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 234.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 234.95 91.44 0)
 			(effects
 				(font
@@ -7578,6 +7677,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 207.01 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 207.01 91.44 0)
 			(effects
 				(font
@@ -8463,6 +8571,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 207.01 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5db16c7-7b3c-4f40-b6a0-3caa46088ca0")
 		)
@@ -8888,6 +9005,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 153.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c41bd6eb-d44c-4c3a-8d82-9fae18567796")
 		)
@@ -8977,6 +9103,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 234.95 50.8 0)
 			(effects
 				(font
@@ -9346,6 +9481,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 234.95 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ca2d266d-2595-4d54-bbab-c205a2a35e10")
 		)
@@ -9499,6 +9643,15 @@
 			)
 		)
 		(property "Manufacturer" "UNIROYAL"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 133.35 66.04 0)
 			(effects
 				(font
@@ -9868,6 +10021,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 262.89 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5de9262f-2ea3-4953-8b32-b419780e03d9")
 		)
@@ -10097,6 +10259,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 290.83 499.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "108fe14c-ab7d-4b5e-9772-8545b0cc1f20")
 		)
@@ -10317,6 +10488,15 @@
 			)
 		)
 		(property "Manufacturer" "UNIROYAL"
+			(at 297.18 514.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 297.18 514.35 0)
 			(effects
 				(font
@@ -10882,6 +11062,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 234.95 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "caae67a0-6cb6-44f8-bda1-fad57cbbd6a7")
 		)
@@ -11169,6 +11358,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 262.89 415.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 262.89 415.29 0)
 			(effects
 				(font
@@ -11801,6 +11999,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 100.33 389.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "75cee23d-51c7-4b47-be76-18c46156970b")
 		)
@@ -12021,6 +12228,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 100.33 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 100.33 309.88 0)
 			(effects
 				(font
@@ -12250,6 +12466,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 234.95 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 234.95 254 0)
 			(effects
 				(font
@@ -12553,6 +12778,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 153.67 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c7af1f3e-4a32-45d1-ac45-914b718d9a57")
 		)
@@ -12840,6 +13074,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 262.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 262.89 91.44 0)
 			(effects
 				(font
@@ -13407,6 +13650,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5387b486-68c0-4aee-87f4-e7fce42705a4")
 		)
@@ -13964,6 +14216,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 100.33 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80bf6ecb-86c1-49a7-8dfe-d77377838a61")
 		)
@@ -14453,6 +14714,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 153.67 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ce314c1d-b3f4-447b-b525-d35284af34b7")
 		)
@@ -14682,6 +14952,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 262.89 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7678ef47-df79-4dea-8f57-58045a75d42c")
 		)
@@ -14845,6 +15124,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 153.67 415.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8e8cf42b-ac87-4c82-b6a0-1cd9595ba058")
 		)
@@ -14934,6 +15222,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 234.95 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 234.95 172.72 0)
 			(effects
 				(font
@@ -16091,6 +16388,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 179.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1b37bb9c-713a-4e31-918c-08f4d9fd9d95")
 		)
@@ -16386,6 +16692,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 153.67 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7b9b3884-9c78-4340-89d8-555bd1816bcf")
 		)
@@ -16483,6 +16798,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 179.07 415.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e75ed413-a726-4017-b8f3-ef741d9e2f6d")
 		)
@@ -16572,6 +16896,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 179.07 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 179.07 172.72 0)
 			(effects
 				(font
@@ -16998,6 +17331,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 100.33 147.32 0)
 			(effects
 				(font
@@ -17697,6 +18039,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 207.01 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "68ef5e0d-e858-4b5b-bd11-8e27151b726c")
 		)
@@ -18256,6 +18607,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 234.95 415.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "07074205-7142-4281-b98b-bf0a8502567a")
 		)
@@ -18419,6 +18779,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 234.95 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ecf21a9d-a33c-4d33-96a3-59bbe6afffde")
 		)
@@ -18574,6 +18943,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 179.07 499.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 179.07 499.11 0)
 			(effects
 				(font
@@ -18943,6 +19321,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 207.01 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d439a86b-63a9-4635-abbb-1418c8e023d6")
 		)
@@ -19238,6 +19625,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 179.07 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "acc8a109-48de-43ea-8e6c-f3f5519ef5e4")
 		)
@@ -19327,6 +19723,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 153.67 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 153.67 457.2 0)
 			(effects
 				(font
@@ -19564,6 +19969,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 179.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "444e1850-4b53-4929-b044-8ea7729525d8")
 		)
@@ -19653,6 +20067,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 234.95 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 234.95 457.2 0)
 			(effects
 				(font
@@ -20286,6 +20709,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 234.95 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d34d5fa0-66c0-48b4-9c19-f26ec9a4465b")
 		)
@@ -20507,6 +20939,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 153.67 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 153.67 294.64 0)
 			(effects
 				(font
@@ -21252,6 +21693,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 207.01 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 207.01 374.65 0)
 			(effects
 				(font
@@ -22678,6 +23128,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 153.67 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2bbbba80-857c-4c2a-9422-b13ec09ada83")
 		)
@@ -22767,6 +23226,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 207.01 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 207.01 213.36 0)
 			(effects
 				(font
@@ -24786,6 +25254,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 179.07 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "01ae8d89-20ae-463b-b2a0-19f3039e3065")
 		)
@@ -24875,6 +25352,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 262.89 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 262.89 172.72 0)
 			(effects
 				(font
@@ -24980,6 +25466,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 207.01 499.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1c30998d-75b4-4918-94d2-d8ffb7b548c1")
 		)
@@ -25069,6 +25564,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 262.89 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 262.89 334.01 0)
 			(effects
 				(font
@@ -25232,6 +25736,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 234.95 499.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 234.95 499.11 0)
 			(effects
 				(font
@@ -25741,7 +26254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "DNS"
+		(property "Type" "THT"
 			(at 346.71 514.35 0)
 			(effects
 				(font
@@ -26915,6 +27428,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 262.89 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "188a25b0-c758-464a-8131-aca59a24d904")
 		)
@@ -27004,6 +27526,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 262.89 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 262.89 374.65 0)
 			(effects
 				(font
@@ -27505,6 +28036,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 179.07 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6a35f394-b0be-4f6d-8f70-5801bff82bc5")
 		)
@@ -27594,6 +28134,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 179.07 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 179.07 457.2 0)
 			(effects
 				(font
@@ -28489,6 +29038,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 179.07 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4bdf63fc-cfda-42e1-87ad-8cd5563139c9")
 		)
@@ -29162,6 +29720,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 234.95 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 234.95 334.01 0)
 			(effects
 				(font
@@ -29917,6 +30484,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 262.89 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "de5b3b86-35bb-45f9-bf11-92b61cb9270b")
 		)
@@ -30475,6 +31051,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 100.33 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a49bed1f-a109-4804-b4e1-3239e5e3956a")
 		)
@@ -30770,6 +31355,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" "SMD"
+			(at 179.07 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cf78deb6-812a-4ef0-9f8d-11218869cb5c")
 		)
@@ -30859,6 +31453,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 207.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 207.01 172.72 0)
 			(effects
 				(font
@@ -31550,6 +32153,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 153.67 50.8 0)
 			(effects
 				(font
